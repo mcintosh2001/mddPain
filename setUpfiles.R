@@ -36,7 +36,9 @@ dataframe <- merge(dataframe, MDDldpred, by.x="id", by.y="IID")
 # dataframe<-dataframe[-miss_ped]
 
 dataframe$id<-factor(dataframe$id)
-# Remove empty factor levels
+dataframe$famid<-factor(dataframe$famid)
+# Remove empty factor levels in id and
+# make famid a factor variable instead of integer
 
 # Remove totaldata obejct, now replaced by dataframe
 rm(totaldata)
