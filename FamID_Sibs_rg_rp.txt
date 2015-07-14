@@ -1,0 +1,87 @@
+[1] "fixed=cbind( dep_status , CPGquant ) ~trait + trait:sex + trait:age + trait:I(age^2)"
+[1] "fixed=cbind( dep_status , CPGquant ) ~trait + trait:sex + trait:age + trait:I(age^2)"
+[1] "fixed=cbind( dep_status , CPGquant ) ~trait + trait:sex + trait:age + trait:I(age^2)"
+[1] "fixed=cbind( dep_status , CPGquant ) ~trait + trait:sex + trait:age + trait:I(age^2)"
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+US variance structures were modified in 2 instances to make them positive definite
+[1] "fixed=cbind( dep_status , CPG2cases ) ~trait + trait:sex + trait:age + trait:I(age^2)"
+ US matrix updates modified 2 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 2 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+US variance structures were modified in 8 instances to make them positive definite
+[1] "fixed=cbind( CPGquant , CPG2cases ) ~trait + trait:sex + trait:age + trait:I(age^2)"
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 2 times to remain positive definite.
+ US matrix updates modified 2 times to remain positive definite.
+ US matrix updates modified 2 times to remain positive definite.
+1 singularities inAverage Information Matrix
+US variance structures were modified in 30 instances to make them positive definite
+[1] "fixed=cbind( dep_status , CPGquant ) ~trait + trait:sex + trait:age + trait:I(age^2)"
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+US variance structures were modified in 2 instances to make them positive definite
+[1] "fixed=cbind( dep_status , CPGquant ) ~trait + trait:sex + trait:age + trait:I(age^2)"
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+US variance structures were modified in 2 instances to make them positive definite
+[1] "fixed=cbind( dep_status , CPGquant ) ~trait + trait:sex + trait:age + trait:I(age^2)"
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+[1] "fixed=cbind( dep_status , CPGquant ) ~trait + trait:sex + trait:age + trait:I(age^2)"
+[1] "fixed=cbind( dep_status , CPGquant ) ~trait + trait:sex + trait:age + trait:I(age^2)"
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+US variance structures were modified in 2 instances to make them positive definite
+1 singularities inAverage Information Matrix
+Exit status: -1 - Singularity in Average Information Matrix                                       
+                                               gamma  component std.error z.ratio constraint
+trait:ped(id)!trait.dep_status:dep_status 2.2019e-02 2.2019e-02 0.0021381 10.2981   Positive
+trait:ped(id)!trait.CPGquant:dep_status   3.8200e-02 3.8200e-02 0.0042585  8.9703   Positive
+trait:ped(id)!trait.CPGquant:CPGquant     2.7220e-01 2.7220e-01 0.0163745 16.6233   Positive
+trait:famid!trait.dep_status:dep_status   8.1897e-11 8.1897e-11        NA      NA   Boundary
+trait:famid!trait.CPGquant:dep_status     2.5124e-11 2.5124e-11        NA      NA   Boundary
+trait:famid!trait.CPGquant:CPGquant       2.1396e-11 2.1396e-11        NA      NA   Boundary
+R!variance                                1.0000e+00 1.0000e+00        NA      NA      Fixed
+R!trait.dep_status:dep_status             1.1579e-01 1.1579e-01 0.0022720 50.9650   Positive
+R!trait.CPGquant:dep_status               5.3490e-03 5.3490e-03 0.0043636  1.2258   Positive
+R!trait.CPGquant:CPGquant                 6.8340e-01 6.8340e-01 0.0157509 43.3882   Positive
+[1] TRUE
+[1] FALSE
+[1] "fixed=cbind( dep_status , CPG2cases ) ~trait + trait:sex + trait:age + trait:I(age^2)"
+ US matrix updates modified 2 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 2 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+US variance structures were modified in 8 instances to make them positive definite
+ US matrix updates modified 1 times to remain positive definite.
+1 singularities inAverage Information Matrix
+US variance structures were modified in 1 instances to make them positive definite
+Exit status: -1 - Singularity in Average Information Matrix                                       
+                                               gamma  component std.error z.ratio constraint
+trait:ped(id)!trait.dep_status:dep_status 2.1972e-02 2.1972e-02 0.0021397 10.2689   Positive
+trait:ped(id)!trait.CPG2cases:dep_status  1.5166e-02 1.5166e-02 0.0019024  7.9722   Positive
+trait:ped(id)!trait.CPG2cases:CPG2cases   5.1251e-02 5.1251e-02 0.0032466 15.7859   Positive
+trait:famid!trait.dep_status:dep_status   5.8716e-11 5.8716e-11        NA      NA   Boundary
+trait:famid!trait.CPG2cases:dep_status    2.1476e-11 2.1476e-11        NA      NA   Boundary
+trait:famid!trait.CPG2cases:CPG2cases     3.9058e-11 3.9058e-11        NA      NA   Boundary
+R!variance                                1.0000e+00 1.0000e+00        NA      NA      Fixed
+R!trait.dep_status:dep_status             1.1583e-01 1.1583e-01 0.0022738 50.9398   Positive
+R!trait.CPG2cases:dep_status              2.8291e-03 2.8291e-03 0.0019713  1.4352   Positive
+R!trait.CPG2cases:CPG2cases               1.0482e-01 1.0482e-01 0.0030644 34.2046   Positive
+[1] TRUE
+[1] FALSE
+[1] "fixed=cbind( CPGquant , CPG2cases ) ~trait + trait:sex + trait:age + trait:I(age^2)"
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 2 times to remain positive definite.
+ US matrix updates modified 2 times to remain positive definite.
+ US matrix updates modified 2 times to remain positive definite.

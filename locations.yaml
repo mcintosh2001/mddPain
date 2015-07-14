@@ -1,0 +1,7 @@
+paindata : /sdata/images/projects/GENSCOT/1/masterDB/sourceData/GWAS2_phenotypes/CPGquant.pheno
+
+pedfile : /sdata/images/projects/GENSCOT/1/masterDB/sourceData/GWAS2_phenotypes/PEDIGREES/July_10_2015/PedigreeReka+Age_150710.csv
+
+phenotypes : /sdata/images/projects/GENSCOT/1/masterDB/sourceData/GWAS2_phenotypes/masterDB.Rdata
+
+MDDpgrs : /sdata/images/projects/GENSCOT/1/masterDB/sourceData/PGRS_20K/LDPRED_MDD/MDD.TEST.profile
