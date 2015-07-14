@@ -23,10 +23,12 @@ painData$id<-factor(painData$id)
 
 # Read in MDD LDPred scores
 MDDldpred <- read.table(locations$MDDpgrs, header=TRUE, na.strings=-9)
+MDDldpred$ldscore<-MDDldpred$SCORE; MDDldpred$SCORE<-NULL 
 
 #Merge painData with totaldata
 
 dataframe <- merge(painData, totaldata, by="id")
+dataframe <- merge(dataframe, MDDldpred, by.x="id", by.y="IID") 
 
 # Some levels of id in the dataframe are not in the pedigree?
 # miss_ped <- which(!(dataframe$id %in% pedigree$id))
