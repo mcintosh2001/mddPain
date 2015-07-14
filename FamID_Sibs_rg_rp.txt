@@ -85,3 +85,13 @@ R!trait.CPG2cases:CPG2cases               1.0482e-01 1.0482e-01 0.0030644 34.204
  US matrix updates modified 2 times to remain positive definite.
  US matrix updates modified 2 times to remain positive definite.
  US matrix updates modified 2 times to remain positive definite.
+1 singularities inAverage Information Matrix
+US variance structures were modified in 30 instances to make them positive definite
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 2 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
