@@ -1,0 +1,7 @@
+[1] "fixed= CPGquant  ~1 + sex + age + I(age^2)"
+              gamma component std.error z.ratio constraint
+ped(id)!ped 0.40235   0.27423  0.016457  16.663   Positive
+R!variance  1.00000   0.68157  0.015793  43.156   Positive
+[1] "Heritability of CPGquant  = 0.286912426538974"
+    Estimate       SE
+hsw  0.28691 0.019376

@@ -5,3 +5,6 @@ pedfile : /sdata/images/projects/GENSCOT/1/masterDB/sourceData/GWAS2_phenotypes/
 phenotypes : /sdata/images/projects/GENSCOT/1/masterDB/sourceData/GWAS2_phenotypes/masterDB.Rdata
 
 MDDpgrs : /sdata/images/projects/GENSCOT/1/masterDB/sourceData/PGRS_20K/LDPRED_MDD/MDD.TEST.profile
+
+results : /sdata/images/projects/GENSCOT/1/andrew/painMDD/results
+ 
