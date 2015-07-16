@@ -7829,3 +7829,8 @@ Pedigree  order (P2): Individual "90915" moved to record 2
 > 
 > # Run genetic covariance estimation with family id's included
 > source("scripts/calc_h2_biv_with_famid.R")
+Warning message:
+Abnormal termination
+Convergence failed
+Results may be erroneous 
+> source("scripts/calc_h2_biv_with_sib.R")

@@ -917,3 +917,125 @@ R!trait.eysenck_N:eysenck_N                     Positive
 [1] "Phenotypic correlation of  likert_total  and  eysenck_N is =  0.513106367524489"
 [1] " p =  6.89005881372451e-24"
 [1] "fixed=cbind( likert_total , gfactor ) ~trait + trait:sex + trait:age + trait:I(age^2)"
+                                                  gamma
+trait:ped(id)!trait.likert_total:likert_total 11.392827
+trait:ped(id)!trait.gfactor:likert_total      -0.082653
+trait:ped(id)!trait.gfactor:gfactor            0.316372
+trait:famid!trait.likert_total:likert_total    4.249179
+trait:famid!trait.gfactor:likert_total        -0.428970
+trait:famid!trait.gfactor:gfactor              0.193855
+R!variance                                     1.000000
+R!trait.likert_total:likert_total             61.175030
+R!trait.gfactor:likert_total                  -0.498803
+R!trait.gfactor:gfactor                        0.447326
+                                              component
+trait:ped(id)!trait.likert_total:likert_total 11.392827
+trait:ped(id)!trait.gfactor:likert_total      -0.082653
+trait:ped(id)!trait.gfactor:gfactor            0.316372
+trait:famid!trait.likert_total:likert_total    4.249179
+trait:famid!trait.gfactor:likert_total        -0.428970
+trait:famid!trait.gfactor:gfactor              0.193855
+R!variance                                     1.000000
+R!trait.likert_total:likert_total             61.175030
+R!trait.gfactor:likert_total                  -0.498803
+R!trait.gfactor:gfactor                        0.447326
+                                              std.error  z.ratio
+trait:ped(id)!trait.likert_total:likert_total  2.338804  4.87122
+trait:ped(id)!trait.gfactor:likert_total       0.173753 -0.47569
+trait:ped(id)!trait.gfactor:gfactor            0.025329 12.49068
+trait:famid!trait.likert_total:likert_total    1.036592  4.09918
+trait:famid!trait.gfactor:likert_total         0.085680 -5.00666
+trait:famid!trait.gfactor:gfactor              0.014108 13.74042
+R!variance                                           NA       NA
+R!trait.likert_total:likert_total              1.658352 36.88906
+R!trait.gfactor:likert_total                   0.116977 -4.26413
+R!trait.gfactor:gfactor                        0.016131 27.73061
+                                              constraint
+trait:ped(id)!trait.likert_total:likert_total   Positive
+trait:ped(id)!trait.gfactor:likert_total        Positive
+trait:ped(id)!trait.gfactor:gfactor             Positive
+trait:famid!trait.likert_total:likert_total     Positive
+trait:famid!trait.gfactor:likert_total          Positive
+trait:famid!trait.gfactor:gfactor               Positive
+R!variance                                         Fixed
+R!trait.likert_total:likert_total               Positive
+R!trait.gfactor:likert_total                    Positive
+R!trait.gfactor:gfactor                         Positive
+[1] "Did full model converge TRUE"
+[1] "Did null-genetic model converge TRUE"
+[1] "Did null-environment model converge TRUE"
+[1] "Genetic Chi2 = 0.208394201734336, p = 0.648028933965783"
+[1] "Environment Chi2 = 22.2759793470323, p = 2.36142139997675e-06"
+[1] "rg and its standard error"
+  Estimate       SE
+ -0.043536 0.090549
+[1] "re and its standard error"
+ Estimate       SE
+ -0.47265 0.096445
+[1] "r and its standard error"
+ Estimate        SE
+ -0.11781 0.0075751
+[1] "Correlation checks"
+[1] "Genetic correlation of  likert_total  and  gfactor is =  -0.0435357371750756"
+[1] "Environmental correlation of  likert_total  and  gfactor is =  -0.472645877227995"
+[1] "Phenotypic correlation of  likert_total  and  gfactor is =  -0.117813388493319"
+[1] " p =  0.00726646526862565"
+[1] "fixed=cbind( eysenck_N , gfactor ) ~trait + trait:sex + trait:age + trait:I(age^2)"
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+US variance structures were modified in 2 instances to make them positive definite
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+US variance structures were modified in 2 instances to make them positive definite
+                                            gamma component
+trait:ped(id)!trait.eysenck_N:eysenck_N  2.548503  2.548503
+trait:ped(id)!trait.gfactor:eysenck_N   -0.036987 -0.036987
+trait:ped(id)!trait.gfactor:gfactor      0.315521  0.315521
+trait:famid!trait.eysenck_N:eysenck_N    0.192516  0.192516
+trait:famid!trait.gfactor:eysenck_N     -0.161618 -0.161618
+trait:famid!trait.gfactor:gfactor        0.194221  0.194221
+R!variance                               1.000000  1.000000
+R!trait.eysenck_N:eysenck_N              6.898948  6.898948
+R!trait.gfactor:eysenck_N               -0.135435 -0.135435
+R!trait.gfactor:gfactor                  0.447762  0.447762
+                                        std.error  z.ratio
+trait:ped(id)!trait.eysenck_N:eysenck_N  0.278223  9.15994
+trait:ped(id)!trait.gfactor:eysenck_N    0.060429 -0.61208
+trait:ped(id)!trait.gfactor:gfactor      0.025279 12.48178
+trait:famid!trait.eysenck_N:eysenck_N    0.115925  1.66069
+trait:famid!trait.gfactor:eysenck_N      0.029237 -5.52786
+trait:famid!trait.gfactor:gfactor        0.014084 13.78996
+R!variance                                     NA       NA
+R!trait.eysenck_N:eysenck_N              0.196278 35.14881
+R!trait.gfactor:eysenck_N                0.040261 -3.36394
+R!trait.gfactor:gfactor                  0.016113 27.78836
+                                        constraint
+trait:ped(id)!trait.eysenck_N:eysenck_N   Positive
+trait:ped(id)!trait.gfactor:eysenck_N     Positive
+trait:ped(id)!trait.gfactor:gfactor       Positive
+trait:famid!trait.eysenck_N:eysenck_N     Positive
+trait:famid!trait.gfactor:eysenck_N       Positive
+trait:famid!trait.gfactor:gfactor         Positive
+R!variance                                   Fixed
+R!trait.eysenck_N:eysenck_N               Positive
+R!trait.gfactor:eysenck_N                 Positive
+R!trait.gfactor:gfactor                   Positive
+[1] "Did full model converge TRUE"
+[1] "Did null-genetic model converge TRUE"
+[1] "Did null-environment model converge TRUE"
+[1] "Genetic Chi2 = 0.369520232008654, p = 0.543265898983543"
+[1] "Environment Chi2 = 29.5349849644263, p = 5.49164361762777e-08"
+[1] "rg and its standard error"
+  Estimate       SE
+ -0.041247 0.066829
+[1] "re and its standard error"
+ Estimate      SE
+ -0.83581 0.25619
+[1] "r and its standard error"
+ Estimate        SE
+ -0.10995 0.0075858
+[1] "Correlation checks"
+[1] "Genetic correlation of  eysenck_N  and  gfactor is =  -0.0412471721575368"
+[1] "Environmental correlation of  eysenck_N  and  gfactor is =  -0.835813487758569"
+[1] "Phenotypic correlation of  eysenck_N  and  gfactor is =  -0.109948795486188"
+[1] " p =  0.0101407743642112"
