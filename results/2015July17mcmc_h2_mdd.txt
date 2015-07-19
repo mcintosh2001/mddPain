@@ -1,0 +1,332 @@
+
+                      MCMC iteration = 0
+
+  Acceptance ratio for latent scores = 0.000655
+ Acceptance ratio for cutpoint set 1 = 0.001000
+
+                      MCMC iteration = 1000
+
+  Acceptance ratio for latent scores = 0.436122
+ Acceptance ratio for cutpoint set 1 = 0.437000
+
+                      MCMC iteration = 2000
+
+  Acceptance ratio for latent scores = 0.432587
+ Acceptance ratio for cutpoint set 1 = 0.438000
+
+                      MCMC iteration = 3000
+
+  Acceptance ratio for latent scores = 0.435557
+ Acceptance ratio for cutpoint set 1 = 0.440000
+
+                      MCMC iteration = 4000
+
+  Acceptance ratio for latent scores = 0.427003
+ Acceptance ratio for cutpoint set 1 = 0.441000
+
+                      MCMC iteration = 5000
+
+  Acceptance ratio for latent scores = 0.428105
+ Acceptance ratio for cutpoint set 1 = 0.439000
+
+                      MCMC iteration = 6000
+
+  Acceptance ratio for latent scores = 0.430819
+ Acceptance ratio for cutpoint set 1 = 0.443000
+
+                      MCMC iteration = 7000
+
+  Acceptance ratio for latent scores = 0.429029
+ Acceptance ratio for cutpoint set 1 = 0.439000
+
+                      MCMC iteration = 8000
+
+  Acceptance ratio for latent scores = 0.428738
+ Acceptance ratio for cutpoint set 1 = 0.439000
+
+                      MCMC iteration = 9000
+
+  Acceptance ratio for latent scores = 0.420780
+ Acceptance ratio for cutpoint set 1 = 0.441000
+
+                      MCMC iteration = 10000
+
+  Acceptance ratio for latent scores = 0.422862
+ Acceptance ratio for cutpoint set 1 = 0.440000
+
+                      MCMC iteration = 11000
+
+  Acceptance ratio for latent scores = 0.431201
+ Acceptance ratio for cutpoint set 1 = 0.439000
+
+                      MCMC iteration = 12000
+
+  Acceptance ratio for latent scores = 0.434679
+ Acceptance ratio for cutpoint set 1 = 0.441000
+
+                      MCMC iteration = 13000
+
+  Acceptance ratio for latent scores = 0.427610
+ Acceptance ratio for cutpoint set 1 = 0.439000
+
+                      MCMC iteration = 14000
+
+  Acceptance ratio for latent scores = 0.426524
+ Acceptance ratio for cutpoint set 1 = 0.440000
+
+                      MCMC iteration = 15000
+
+  Acceptance ratio for latent scores = 0.436358
+ Acceptance ratio for cutpoint set 1 = 0.439000
+
+                      MCMC iteration = 16000
+
+  Acceptance ratio for latent scores = 0.500330
+ Acceptance ratio for cutpoint set 1 = 0.636000
+
+                      MCMC iteration = 17000
+
+  Acceptance ratio for latent scores = 0.499960
+ Acceptance ratio for cutpoint set 1 = 0.590000
+
+                      MCMC iteration = 18000
+
+  Acceptance ratio for latent scores = 0.500431
+ Acceptance ratio for cutpoint set 1 = 0.619000
+
+                      MCMC iteration = 19000
+
+  Acceptance ratio for latent scores = 0.499956
+ Acceptance ratio for cutpoint set 1 = 0.637000
+
+                      MCMC iteration = 20000
+
+  Acceptance ratio for latent scores = 0.500106
+ Acceptance ratio for cutpoint set 1 = 0.621000
+
+                      MCMC iteration = 21000
+
+  Acceptance ratio for latent scores = 0.499747
+ Acceptance ratio for cutpoint set 1 = 0.603000
+
+                      MCMC iteration = 22000
+
+  Acceptance ratio for latent scores = 0.499578
+ Acceptance ratio for cutpoint set 1 = 0.603000
+
+                      MCMC iteration = 23000
+
+  Acceptance ratio for latent scores = 0.500641
+ Acceptance ratio for cutpoint set 1 = 0.594000
+
+                      MCMC iteration = 24000
+
+  Acceptance ratio for latent scores = 0.500554
+ Acceptance ratio for cutpoint set 1 = 0.587000
+
+                      MCMC iteration = 25000
+
+  Acceptance ratio for latent scores = 0.501302
+ Acceptance ratio for cutpoint set 1 = 0.619000
+
+                      MCMC iteration = 26000
+
+  Acceptance ratio for latent scores = 0.502063
+ Acceptance ratio for cutpoint set 1 = 0.646000
+
+                      MCMC iteration = 27000
+
+  Acceptance ratio for latent scores = 0.502067
+ Acceptance ratio for cutpoint set 1 = 0.608000
+
+                      MCMC iteration = 28000
+
+  Acceptance ratio for latent scores = 0.501316
+ Acceptance ratio for cutpoint set 1 = 0.622000
+
+                      MCMC iteration = 29000
+
+  Acceptance ratio for latent scores = 0.502001
+ Acceptance ratio for cutpoint set 1 = 0.630000
+
+                      MCMC iteration = 30000
+
+  Acceptance ratio for latent scores = 0.501645
+ Acceptance ratio for cutpoint set 1 = 0.638000
+
+                      MCMC iteration = 31000
+
+  Acceptance ratio for latent scores = 0.500654
+ Acceptance ratio for cutpoint set 1 = 0.605000
+
+                      MCMC iteration = 32000
+
+  Acceptance ratio for latent scores = 0.500629
+ Acceptance ratio for cutpoint set 1 = 0.606000
+
+                      MCMC iteration = 33000
+
+  Acceptance ratio for latent scores = 0.499610
+ Acceptance ratio for cutpoint set 1 = 0.619000
+
+                      MCMC iteration = 34000
+
+  Acceptance ratio for latent scores = 0.500105
+ Acceptance ratio for cutpoint set 1 = 0.611000
+
+                      MCMC iteration = 35000
+
+  Acceptance ratio for latent scores = 0.500194
+ Acceptance ratio for cutpoint set 1 = 0.599000
+
+                      MCMC iteration = 36000
+
+  Acceptance ratio for latent scores = 0.499951
+ Acceptance ratio for cutpoint set 1 = 0.602000
+
+                      MCMC iteration = 37000
+
+  Acceptance ratio for latent scores = 0.500349
+ Acceptance ratio for cutpoint set 1 = 0.606000
+
+                      MCMC iteration = 38000
+
+  Acceptance ratio for latent scores = 0.500604
+ Acceptance ratio for cutpoint set 1 = 0.631000
+
+                      MCMC iteration = 39000
+
+  Acceptance ratio for latent scores = 0.501650
+ Acceptance ratio for cutpoint set 1 = 0.627000
+
+                      MCMC iteration = 40000
+
+  Acceptance ratio for latent scores = 0.502567
+ Acceptance ratio for cutpoint set 1 = 0.637000
+
+                      MCMC iteration = 41000
+
+  Acceptance ratio for latent scores = 0.500385
+ Acceptance ratio for cutpoint set 1 = 0.598000
+
+                      MCMC iteration = 42000
+
+  Acceptance ratio for latent scores = 0.500996
+ Acceptance ratio for cutpoint set 1 = 0.624000
+
+                      MCMC iteration = 43000
+
+  Acceptance ratio for latent scores = 0.500638
+ Acceptance ratio for cutpoint set 1 = 0.620000
+
+                      MCMC iteration = 44000
+
+  Acceptance ratio for latent scores = 0.500224
+ Acceptance ratio for cutpoint set 1 = 0.602000
+
+                      MCMC iteration = 45000
+
+  Acceptance ratio for latent scores = 0.500261
+ Acceptance ratio for cutpoint set 1 = 0.576000
+
+                      MCMC iteration = 46000
+
+  Acceptance ratio for latent scores = 0.499987
+ Acceptance ratio for cutpoint set 1 = 0.633000
+
+                      MCMC iteration = 47000
+
+  Acceptance ratio for latent scores = 0.499993
+ Acceptance ratio for cutpoint set 1 = 0.603000
+
+                      MCMC iteration = 48000
+
+  Acceptance ratio for latent scores = 0.499926
+ Acceptance ratio for cutpoint set 1 = 0.628000
+
+                      MCMC iteration = 49000
+
+  Acceptance ratio for latent scores = 0.500193
+ Acceptance ratio for cutpoint set 1 = 0.613000
+
+                      MCMC iteration = 50000
+
+  Acceptance ratio for latent scores = 0.501372
+ Acceptance ratio for cutpoint set 1 = 0.628000
+
+                      MCMC iteration = 51000
+
+  Acceptance ratio for latent scores = 0.500452
+ Acceptance ratio for cutpoint set 1 = 0.592000
+
+                      MCMC iteration = 52000
+
+  Acceptance ratio for latent scores = 0.499695
+ Acceptance ratio for cutpoint set 1 = 0.575000
+
+                      MCMC iteration = 53000
+
+  Acceptance ratio for latent scores = 0.500060
+ Acceptance ratio for cutpoint set 1 = 0.614000
+
+                      MCMC iteration = 54000
+
+  Acceptance ratio for latent scores = 0.498368
+ Acceptance ratio for cutpoint set 1 = 0.606000
+
+                      MCMC iteration = 55000
+
+  Acceptance ratio for latent scores = 0.498120
+ Acceptance ratio for cutpoint set 1 = 0.607000
+
+                      MCMC iteration = 56000
+
+  Acceptance ratio for latent scores = 0.498432
+ Acceptance ratio for cutpoint set 1 = 0.619000
+
+                      MCMC iteration = 57000
+
+  Acceptance ratio for latent scores = 0.499168
+ Acceptance ratio for cutpoint set 1 = 0.611000
+
+                      MCMC iteration = 58000
+
+  Acceptance ratio for latent scores = 0.499415
+ Acceptance ratio for cutpoint set 1 = 0.594000
+
+                      MCMC iteration = 59000
+
+  Acceptance ratio for latent scores = 0.499405
+ Acceptance ratio for cutpoint set 1 = 0.628000
+
+                      MCMC iteration = 60000
+
+  Acceptance ratio for latent scores = 0.499920
+ Acceptance ratio for cutpoint set 1 = 0.618000
+
+                      MCMC iteration = 61000
+
+  Acceptance ratio for latent scores = 0.500417
+ Acceptance ratio for cutpoint set 1 = 0.615000
+
+                      MCMC iteration = 62000
+
+  Acceptance ratio for latent scores = 0.499704
+ Acceptance ratio for cutpoint set 1 = 0.572000
+
+                      MCMC iteration = 63000
+
+  Acceptance ratio for latent scores = 0.500189
+ Acceptance ratio for cutpoint set 1 = 0.607000
+
+                      MCMC iteration = 64000
+
+  Acceptance ratio for latent scores = 0.500934
+ Acceptance ratio for cutpoint set 1 = 0.608000
+
+                      MCMC iteration = 65000
+
+  Acceptance ratio for latent scores = 0.500754
+ Acceptance ratio for cutpoint set 1 = 0.606000
+[1] "h2MDD= 0.389313057993498"
+[1] "95%CI=0.334645788847351" "95%CI=0.50485602722533" 

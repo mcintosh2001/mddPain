@@ -7834,3 +7834,10 @@ Abnormal termination
 Convergence failed
 Results may be erroneous 
 > source("scripts/calc_h2_biv_with_sib.R")
+> 
+
+   Goodbye!
+ 
+> proc.time()
+     user    system   elapsed 
+15527.054    99.359 15639.211 

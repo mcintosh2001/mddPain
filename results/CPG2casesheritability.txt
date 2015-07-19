@@ -1,7 +1,0 @@
-[1] "fixed= CPG2cases  ~1 + sex + age + I(age^2)"
-              gamma component std.error z.ratio constraint
-ped(id)!ped 0.50695   0.05254 0.0032697  16.069   Positive
-R!variance  1.00000   0.10364 0.0030669  33.793   Positive
-[1] "Heritability of CPG2cases  = 0.336405802672327"
-    Estimate       SE
-hsw  0.33641 0.020447

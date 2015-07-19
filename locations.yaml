@@ -4,7 +4,11 @@ pedfile : /sdata/images/projects/GENSCOT/1/masterDB/sourceData/GWAS2_phenotypes/
 
 phenotypes : /sdata/images/projects/GENSCOT/1/masterDB/sourceData/GWAS2_phenotypes/masterDB.Rdata
 
-MDDpgrs : /sdata/images/projects/GENSCOT/1/masterDB/sourceData/PGRS_20K/LDPRED_MDD/MDD.TEST.profile
+MDDpgrs : /sdata/images/projects/GENSCOT/1/masterDB/sourceData/PGRS_20K/LDPRED_MDD/MDD.profile
+
+SCZpgrs : /sdata/images/projects/GENSCOT/1/masterDB/sourceData/PGRS_20K/LDPRED_SCZ/SCZ2.profile
+
+BDpgrs : /sdata/images/projects/GENSCOT/1/masterDB/sourceData/PGRS_20K/LDPRED_Crossdisorder/Crossdisorder_BPD.TEST.profile
 
 results : /sdata/images/projects/GENSCOT/1/andrew/painMDD/results
  
