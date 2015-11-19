@@ -2,13 +2,19 @@ paindata : /sdata/images/projects/GENSCOT/1/masterDB/sourceData/GWAS2_phenotypes
 
 pedfile : /sdata/images/projects/GENSCOT/1/masterDB/sourceData/GWAS2_phenotypes/PEDIGREES/July_10_2015/PedigreeReka+Age_150710.csv
 
+familyData : /sdata/images/projects/GENSCOT/1/masterDB/sourceData/ENV_RELATIONSHIP_MATRICES/asreml_format_pedigree_variables/relationships.rds
+
 phenotypes : /sdata/images/projects/GENSCOT/1/masterDB/sourceData/GWAS2_phenotypes/masterDB.Rdata
 
-MDDpgrs : /sdata/images/projects/GENSCOT/1/masterDB/sourceData/PGRS_20K/LDPRED_MDD/MDD.profile
+MDDpgrs : /sdata/images/projects/GENSCOT/1/masterDB/sourceData/GS_20K_RiskScores/PRSice/MDD_PGC1/MDD_PGC1_PRSice_SCORES_AT_ALL_THRESHOLDS.txt
 
-SCZpgrs : /sdata/images/projects/GENSCOT/1/masterDB/sourceData/PGRS_20K/LDPRED_SCZ/SCZ2.profile
+PAINpgrs : /sdata/images/projects/GENSCOT/1/masterDB/sourceData/GS_20K_RiskScores/PRSice/Pain/PRSice_SCORES_AT_ALL_THRESHOLDS.txt
 
-BDpgrs : /sdata/images/projects/GENSCOT/1/masterDB/sourceData/PGRS_20K/LDPRED_Crossdisorder/Crossdisorder_BPD.TEST.profile
+#PAIN_2or3or4_ldpred : /sdata/images/projects/GENSCOT/1/masterDB/sourceData/PGRS_20K/PAIN_23ME/LDPRED/Grades2or3or4.profile
+#PAIN_3or4_ldpred : /sdata/images/projects/GENSCOT/1/masterDB/sourceData/PGRS_20K/PAIN_23ME/LDPRED/Grades3or4.profile
+#PAIN_vonkorff_ldpred : /sdata/images/projects/GENSCOT/1/masterDB/sourceData/PGRS_20K/PAIN_23ME/LDPRED/vonkorff.profile
 
 results : /sdata/images/projects/GENSCOT/1/andrew/painMDD/results
+
+mds : /sdata/images/projects/GENSCOT/1/masterDB/sourceData/GS20K/GS20K_GCTA_basic/pca/QCdGS20K.eigenvec
  
