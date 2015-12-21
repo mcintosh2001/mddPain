@@ -6,9 +6,9 @@ familyData : /sdata/images/projects/GENSCOT/1/masterDB/sourceData/ENV_RELATIONSH
 
 phenotypes : /sdata/images/projects/GENSCOT/1/masterDB/sourceData/GWAS2_phenotypes/masterDB.Rdata
 
-MDDpgrs : /sdata/images/projects/GENSCOT/1/masterDB/sourceData/GS_20K_RiskScores/PRSice/MDD_PGC1/MDD_PGC1_PRSice_SCORES_AT_ALL_THRESHOLDS.txt
+MDDpgrs : /sdata/images/projects/GENSCOT/1/masterDB/sourceData/GS_20K_RiskScores/PRSice/MDD_PGC1/MDD-PGRS.rds
 
-PAINpgrs : /sdata/images/projects/GENSCOT/1/masterDB/sourceData/GS_20K_RiskScores/PRSice/Pain/PRSice_SCORES_AT_ALL_THRESHOLDS.txt
+PAINpgrs : /sdata/images/projects/GENSCOT/1/masterDB/sourceData/GS_20K_RiskScores/PRSice/Pain/Pain-PGRS.rds
 
 #PAIN_2or3or4_ldpred : /sdata/images/projects/GENSCOT/1/masterDB/sourceData/PGRS_20K/PAIN_23ME/LDPRED/Grades2or3or4.profile
 #PAIN_3or4_ldpred : /sdata/images/projects/GENSCOT/1/masterDB/sourceData/PGRS_20K/PAIN_23ME/LDPRED/Grades3or4.profile
