@@ -1,0 +1,196 @@
+$formula
+likert_total ~ sex + age + I(age^2) + C1 + C2 + C3 + C4 + Pain_pT_0.1
+
+
+ Iterations = 15001:249951
+ Thinning interval  = 50
+ Sample size  = 4700 
+
+ DIC: 145270 
+
+ G-structure:  ~animal
+
+       post.mean l-95% CI u-95% CI eff.samp
+animal  0.000847 0.000192  0.00175     25.5
+
+ R-structure:  ~units
+
+      post.mean l-95% CI u-95% CI eff.samp
+units         1        1        1        0
+
+ Location effects: likert_total ~ sex + age + I(age^2) + C1 + C2 + C3 + C4 + Pain_pT_0.1 
+
+            post.mean  l-95% CI  u-95% CI eff.samp  pMCMC
+(Intercept)  3.360258  3.193480  3.527786      796 <2e-04
+sexM        -0.189234 -0.230534 -0.148733     3468 <2e-04
+age          0.017008  0.009754  0.024499     4700 <2e-04
+I(age^2)    -0.000208 -0.000284 -0.000129     4700 <2e-04
+C1           1.614154 -1.285506  4.352696     4268   0.27
+C2          -1.034554 -3.897269  1.649572     4700   0.46
+C3          -0.399424 -3.192271  2.376328     4700   0.77
+C4           0.428619 -2.305907  3.406114     4619   0.76
+Pain_pT_0.1  0.009253 -0.009788  0.030304     4700   0.36
+
+ Cutpoints: 
+                              post.mean l-95% CI u-95% CI
+cutpoint.traitlikert_total.1      0.490    0.485    0.497
+cutpoint.traitlikert_total.2      0.651    0.646    0.657
+cutpoint.traitlikert_total.3      0.829    0.812    0.847
+cutpoint.traitlikert_total.4      1.050    1.038    1.063
+cutpoint.traitlikert_total.5      1.345    1.336    1.355
+cutpoint.traitlikert_total.6      1.646    1.629    1.665
+cutpoint.traitlikert_total.7      2.007    1.984    2.037
+cutpoint.traitlikert_total.8      2.545    2.510    2.580
+cutpoint.traitlikert_total.9      2.922    2.877    2.959
+cutpoint.traitlikert_total.10     3.201    3.161    3.240
+cutpoint.traitlikert_total.11     3.423    3.387    3.458
+cutpoint.traitlikert_total.12     3.605    3.576    3.637
+cutpoint.traitlikert_total.13     3.754    3.726    3.785
+cutpoint.traitlikert_total.14     3.872    3.845    3.900
+cutpoint.traitlikert_total.15     3.973    3.952    4.001
+cutpoint.traitlikert_total.16     4.062    4.044    4.086
+cutpoint.traitlikert_total.17     4.137    4.119    4.158
+cutpoint.traitlikert_total.18     4.204    4.188    4.221
+cutpoint.traitlikert_total.19     4.257    4.244    4.270
+cutpoint.traitlikert_total.20     4.308    4.296    4.318
+cutpoint.traitlikert_total.21     4.350    4.341    4.361
+cutpoint.traitlikert_total.22     4.386    4.376    4.395
+cutpoint.traitlikert_total.23     4.418    4.409    4.426
+cutpoint.traitlikert_total.24     4.447    4.440    4.454
+cutpoint.traitlikert_total.25     4.474    4.467    4.480
+cutpoint.traitlikert_total.26     4.494    4.489    4.501
+cutpoint.traitlikert_total.27     4.515    4.510    4.522
+cutpoint.traitlikert_total.28     4.532    4.526    4.537
+cutpoint.traitlikert_total.29     4.548    4.543    4.553
+cutpoint.traitlikert_total.30     4.560    4.556    4.565
+cutpoint.traitlikert_total.31     4.573    4.570    4.577
+cutpoint.traitlikert_total.32     4.583    4.580    4.587
+cutpoint.traitlikert_total.33     4.593    4.590    4.596
+cutpoint.traitlikert_total.34     4.601    4.598    4.604
+cutpoint.traitlikert_total.35     4.610    4.607    4.613
+cutpoint.traitlikert_total.36     4.618    4.615    4.621
+cutpoint.traitlikert_total.37     4.623    4.620    4.627
+cutpoint.traitlikert_total.38     4.628    4.625    4.633
+cutpoint.traitlikert_total.39     4.633    4.629    4.637
+cutpoint.traitlikert_total.40     4.637    4.634    4.642
+cutpoint.traitlikert_total.41     4.642    4.638    4.647
+cutpoint.traitlikert_total.42     4.644    4.641    4.651
+cutpoint.traitlikert_total.43     4.648    4.644    4.655
+cutpoint.traitlikert_total.44     4.650    4.646    4.658
+cutpoint.traitlikert_total.45     4.653    4.648    4.661
+cutpoint.traitlikert_total.46     4.656    4.650    4.665
+cutpoint.traitlikert_total.47     4.658    4.651    4.667
+cutpoint.traitlikert_total.48     4.660    4.653    4.670
+cutpoint.traitlikert_total.49     4.662    4.654    4.672
+cutpoint.traitlikert_total.50     4.664    4.656    4.675
+cutpoint.traitlikert_total.51     4.666    4.657    4.677
+cutpoint.traitlikert_total.52     4.667    4.658    4.678
+cutpoint.traitlikert_total.53     4.668    4.659    4.680
+cutpoint.traitlikert_total.54     4.670    4.661    4.683
+cutpoint.traitlikert_total.55     4.672    4.662    4.684
+cutpoint.traitlikert_total.56     4.673    4.663    4.687
+cutpoint.traitlikert_total.57     4.674    4.664    4.688
+cutpoint.traitlikert_total.58     4.676    4.665    4.690
+cutpoint.traitlikert_total.59     4.677    4.665    4.690
+cutpoint.traitlikert_total.60     4.677    4.666    4.691
+cutpoint.traitlikert_total.61     4.679    4.666    4.693
+cutpoint.traitlikert_total.62     4.679    4.667    4.694
+cutpoint.traitlikert_total.63     4.680    4.667    4.694
+cutpoint.traitlikert_total.64     4.681    4.668    4.696
+cutpoint.traitlikert_total.65     4.682    4.668    4.696
+cutpoint.traitlikert_total.66     4.682    4.668    4.697
+cutpoint.traitlikert_total.67     4.683    4.669    4.698
+cutpoint.traitlikert_total.68     4.684    4.669    4.698
+cutpoint.traitlikert_total.69     4.684    4.669    4.699
+cutpoint.traitlikert_total.70     4.685    4.670    4.700
+cutpoint.traitlikert_total.71     4.686    4.671    4.702
+cutpoint.traitlikert_total.72     4.688    4.672    4.704
+cutpoint.traitlikert_total.73     4.689    4.673    4.704
+cutpoint.traitlikert_total.74     4.689    4.674    4.705
+cutpoint.traitlikert_total.75     4.692    4.675    4.708
+cutpoint.traitlikert_total.76     4.693    4.676    4.709
+cutpoint.traitlikert_total.77     4.695    4.677    4.712
+cutpoint.traitlikert_total.78     4.697    4.678    4.714
+cutpoint.traitlikert_total.79     4.701    4.678    4.722
+                              eff.samp
+cutpoint.traitlikert_total.1      5.35
+cutpoint.traitlikert_total.2      6.35
+cutpoint.traitlikert_total.3      1.41
+cutpoint.traitlikert_total.4      1.48
+cutpoint.traitlikert_total.5      3.06
+cutpoint.traitlikert_total.6      2.28
+cutpoint.traitlikert_total.7      1.90
+cutpoint.traitlikert_total.8      1.12
+cutpoint.traitlikert_total.9      1.66
+cutpoint.traitlikert_total.10     1.55
+cutpoint.traitlikert_total.11     1.23
+cutpoint.traitlikert_total.12     1.08
+cutpoint.traitlikert_total.13     1.64
+cutpoint.traitlikert_total.14     1.36
+cutpoint.traitlikert_total.15     1.56
+cutpoint.traitlikert_total.16     1.46
+cutpoint.traitlikert_total.17     1.71
+cutpoint.traitlikert_total.18     2.27
+cutpoint.traitlikert_total.19     3.24
+cutpoint.traitlikert_total.20     3.28
+cutpoint.traitlikert_total.21     3.23
+cutpoint.traitlikert_total.22     2.98
+cutpoint.traitlikert_total.23     3.06
+cutpoint.traitlikert_total.24     2.62
+cutpoint.traitlikert_total.25     3.35
+cutpoint.traitlikert_total.26     3.39
+cutpoint.traitlikert_total.27     3.88
+cutpoint.traitlikert_total.28     4.10
+cutpoint.traitlikert_total.29     5.20
+cutpoint.traitlikert_total.30     5.88
+cutpoint.traitlikert_total.31     7.42
+cutpoint.traitlikert_total.32    10.44
+cutpoint.traitlikert_total.33    15.84
+cutpoint.traitlikert_total.34    14.89
+cutpoint.traitlikert_total.35    16.13
+cutpoint.traitlikert_total.36    10.62
+cutpoint.traitlikert_total.37    10.46
+cutpoint.traitlikert_total.38     7.69
+cutpoint.traitlikert_total.39     6.91
+cutpoint.traitlikert_total.40     5.47
+cutpoint.traitlikert_total.41     4.96
+cutpoint.traitlikert_total.42     4.70
+cutpoint.traitlikert_total.43     3.26
+cutpoint.traitlikert_total.44     2.98
+cutpoint.traitlikert_total.45     2.79
+cutpoint.traitlikert_total.46     2.10
+cutpoint.traitlikert_total.47     1.91
+cutpoint.traitlikert_total.48     1.92
+cutpoint.traitlikert_total.49     1.43
+cutpoint.traitlikert_total.50     1.58
+cutpoint.traitlikert_total.51     1.51
+cutpoint.traitlikert_total.52     1.37
+cutpoint.traitlikert_total.53     1.69
+cutpoint.traitlikert_total.54     1.43
+cutpoint.traitlikert_total.55     1.50
+cutpoint.traitlikert_total.56     1.65
+cutpoint.traitlikert_total.57     1.53
+cutpoint.traitlikert_total.58     1.61
+cutpoint.traitlikert_total.59     1.62
+cutpoint.traitlikert_total.60     1.65
+cutpoint.traitlikert_total.61     1.65
+cutpoint.traitlikert_total.62     1.63
+cutpoint.traitlikert_total.63     1.51
+cutpoint.traitlikert_total.64     1.57
+cutpoint.traitlikert_total.65     1.45
+cutpoint.traitlikert_total.66     1.38
+cutpoint.traitlikert_total.67     1.41
+cutpoint.traitlikert_total.68     1.45
+cutpoint.traitlikert_total.69     1.56
+cutpoint.traitlikert_total.70     1.68
+cutpoint.traitlikert_total.71     1.70
+cutpoint.traitlikert_total.72     1.88
+cutpoint.traitlikert_total.73     1.77
+cutpoint.traitlikert_total.74     1.95
+cutpoint.traitlikert_total.75     1.92
+cutpoint.traitlikert_total.76     1.85
+cutpoint.traitlikert_total.77     1.79
+cutpoint.traitlikert_total.78     1.72
+cutpoint.traitlikert_total.79     1.82
+[1] "effect of Pain_pT_0.1 on likert_total = 0.0112233534195489"
+[1] "95%CI= -0.00978813575784443" "95%CI= 0.0303039351565531"  

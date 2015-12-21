@@ -1,0 +1,48 @@
+$formula
+eysenck_N ~ sex + age + I(age^2) + C1 + C2 + C3 + C4 + Pain_pT_0.1
+
+
+ Iterations = 15001:249951
+ Thinning interval  = 50
+ Sample size  = 4700 
+
+ DIC: 84433 
+
+ G-structure:  ~animal
+
+       post.mean l-95% CI u-95% CI eff.samp
+animal     0.895    0.694     1.07     10.6
+
+ R-structure:  ~units
+
+      post.mean l-95% CI u-95% CI eff.samp
+units         1        1        1        0
+
+ Location effects: eysenck_N ~ sex + age + I(age^2) + C1 + C2 + C3 + C4 + Pain_pT_0.1 
+
+            post.mean  l-95% CI  u-95% CI eff.samp  pMCMC
+(Intercept)  2.461134  2.228743  2.677356     92.6 <2e-04
+sexM        -0.623363 -0.677219 -0.572012    166.6 <2e-04
+age         -0.001929 -0.010650  0.006803   4700.0 0.6728
+I(age^2)    -0.000135 -0.000219 -0.000034   4700.0 0.0021
+C1           2.458579 -1.161671  6.100348   4164.7 0.1872
+C2          -6.156513 -9.871169 -2.518105   4700.0 0.0017
+C3          -1.138940 -4.942482  2.450544   4902.0 0.5626
+C4          -1.338307 -5.043327  2.529869   4700.0 0.4872
+Pain_pT_0.1  0.024837 -0.001177  0.049865   4700.0 0.0566
+
+ Cutpoints: 
+                           post.mean l-95% CI u-95% CI eff.samp
+cutpoint.traiteysenck_N.1      0.797    0.754    0.845     31.4
+cutpoint.traiteysenck_N.2      1.394    1.336    1.460     18.4
+cutpoint.traiteysenck_N.3      1.898    1.826    1.979     11.6
+cutpoint.traiteysenck_N.4      2.352    2.259    2.443     14.0
+cutpoint.traiteysenck_N.5      2.775    2.668    2.876     13.8
+cutpoint.traiteysenck_N.6      3.178    3.056    3.295     12.2
+cutpoint.traiteysenck_N.7      3.581    3.450    3.706     13.7
+cutpoint.traiteysenck_N.8      3.973    3.828    4.108     12.6
+cutpoint.traiteysenck_N.9      4.391    4.223    4.534     13.0
+cutpoint.traiteysenck_N.10     4.826    4.648    4.976     12.8
+cutpoint.traiteysenck_N.11     5.505    5.343    5.678     18.1
+[1] "effect of Pain_pT_0.1 on eysenck_N = 0.0268143282037545"
+[1] "95%CI= -0.00117732149374206" "95%CI= 0.0498650381778134"  

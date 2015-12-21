@@ -1,0 +1,1 @@
+[1] "model DIC for CPGquant with spouse+ household =28822.0160245766"

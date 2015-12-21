@@ -1,0 +1,1 @@
+[1] "model DIC for CPG2cases with animal household  =9683.85746213954"

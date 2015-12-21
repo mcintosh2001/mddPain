@@ -1,0 +1,1338 @@
+[1] "fixed=cbind( dep_status , CPGquant ) ~trait + trait:sex + trait:age + trait:I(age^2)"
+ US matrix updates modified 2 times to remain positive definite.
+ US matrix updates modified 3 times to remain positive definite.
+ US matrix updates modified 2 times to remain positive definite.
+ US matrix updates modified 2 times to remain positive definite.
+US variance structures were modified in 754 instances to make them positive definite
+ US matrix updates modified 2 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+US variance structures were modified in 1548 instances to make them positive definite
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+US variance structures were modified in 166 instances to make them positive definite
+                                                gamma
+trait:ped(id)!trait.dep_status:dep_status  0.02180131
+trait:ped(id)!trait.CPGquant:dep_status    0.03963020
+trait:ped(id)!trait.CPGquant:CPGquant      0.22849992
+trait:sib!trait.dep_status:dep_status      0.00076879
+trait:sib!trait.CPGquant:dep_status       -0.00056933
+trait:sib!trait.CPGquant:CPGquant          0.04513006
+R!variance                                 1.00000000
+R!trait.dep_status:dep_status              0.09132164
+R!trait.CPGquant:dep_status                0.00544274
+R!trait.CPGquant:CPGquant                  0.69676062
+                                            component
+trait:ped(id)!trait.dep_status:dep_status  0.02180131
+trait:ped(id)!trait.CPGquant:dep_status    0.03963020
+trait:ped(id)!trait.CPGquant:CPGquant      0.22849992
+trait:sib!trait.dep_status:dep_status      0.00076879
+trait:sib!trait.CPGquant:dep_status       -0.00056933
+trait:sib!trait.CPGquant:CPGquant          0.04513006
+R!variance                                 1.00000000
+R!trait.dep_status:dep_status              0.09132164
+R!trait.CPGquant:dep_status                0.00544274
+R!trait.CPGquant:CPGquant                  0.69676062
+                                          std.error
+trait:ped(id)!trait.dep_status:dep_status 0.0023366
+trait:ped(id)!trait.CPGquant:dep_status   0.0052547
+trait:ped(id)!trait.CPGquant:CPGquant     0.0230222
+trait:sib!trait.dep_status:dep_status     0.0015278
+trait:sib!trait.CPGquant:dep_status       0.0034217
+trait:sib!trait.CPGquant:CPGquant         0.0150677
+R!variance                                       NA
+R!trait.dep_status:dep_status             0.0019910
+R!trait.CPGquant:dep_status               0.0044159
+R!trait.CPGquant:CPGquant                 0.0188855
+                                           z.ratio
+trait:ped(id)!trait.dep_status:dep_status  9.33036
+trait:ped(id)!trait.CPGquant:dep_status    7.54192
+trait:ped(id)!trait.CPGquant:CPGquant      9.92520
+trait:sib!trait.dep_status:dep_status      0.50320
+trait:sib!trait.CPGquant:dep_status       -0.16639
+trait:sib!trait.CPGquant:CPGquant          2.99516
+R!variance                                      NA
+R!trait.dep_status:dep_status             45.86788
+R!trait.CPGquant:dep_status                1.23253
+R!trait.CPGquant:CPGquant                 36.89391
+                                          constraint
+trait:ped(id)!trait.dep_status:dep_status   Positive
+trait:ped(id)!trait.CPGquant:dep_status     Positive
+trait:ped(id)!trait.CPGquant:CPGquant       Positive
+trait:sib!trait.dep_status:dep_status              ?
+trait:sib!trait.CPGquant:dep_status                ?
+trait:sib!trait.CPGquant:CPGquant                  ?
+R!variance                                     Fixed
+R!trait.dep_status:dep_status               Positive
+R!trait.CPGquant:dep_status                 Positive
+R!trait.CPGquant:CPGquant                   Positive
+[1] "Did full model converge: TRUE"
+[1] "Did null-genetic model converge: TRUE"
+[1] "Did null-environment model converge: TRUE"
+[1] "Genetic Chi2 = 65.8651069981206, p = 4.44089209850063e-16"
+[1] "Environment Chi2 = -0.742398609647353, p = 1"
+[1] "rg and its standard error"
+ Estimate       SE
+  0.56149 0.074772
+[1] "re and its standard error"
+  Estimate      SE
+ -0.096656 0.60387
+[1] "r and its standard error"
+ Estimate        SE
+  0.13387 0.0076602
+[1] "Correlation checks"
+[1] "Genetic correlation of  dep_status  and  CPGquant is =  0.561489851999904"
+[1] "Environmental correlation of  dep_status  and  CPGquant is =  -0.0966558515973943"
+[1] "Phenotypic correlation of  dep_status  and  CPGquant is =  0.133867677659129"
+[1] " p =  0.000675746794276326"
+[1] "fixed=cbind( dep_status , CPG2cases ) ~trait + trait:sex + trait:age + trait:I(age^2)"
+ US matrix updates modified 2 times to remain positive definite.
+ US matrix updates modified 2 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 2 times to remain positive definite.
+ US matrix updates modified 2 times to remain positive definite.
+US variance structures were modified in 687 instances to make them positive definite
+ US matrix updates modified 2 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+US variance structures were modified in 1395 instances to make them positive definite
+ US matrix updates modified 2 times to remain positive definite.
+ US matrix updates modified 2 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 2 times to remain positive definite.
+ US matrix updates modified 2 times to remain positive definite.
+US variance structures were modified in 54 instances to make them positive definite
+                                               gamma
+trait:ped(id)!trait.dep_status:dep_status  0.0209750
+trait:ped(id)!trait.CPG2cases:dep_status   0.0168193
+trait:ped(id)!trait.CPG2cases:CPG2cases    0.0451097
+trait:sib!trait.dep_status:dep_status      0.0016356
+trait:sib!trait.CPG2cases:dep_status      -0.0003229
+trait:sib!trait.CPG2cases:CPG2cases        0.0099068
+R!variance                                 1.0000000
+R!trait.dep_status:dep_status              0.0912979
+R!trait.CPG2cases:dep_status               0.0023315
+R!trait.CPG2cases:CPG2cases                0.1057554
+                                           component
+trait:ped(id)!trait.dep_status:dep_status  0.0209750
+trait:ped(id)!trait.CPG2cases:dep_status   0.0168193
+trait:ped(id)!trait.CPG2cases:CPG2cases    0.0451097
+trait:sib!trait.dep_status:dep_status      0.0016356
+trait:sib!trait.CPG2cases:dep_status      -0.0003229
+trait:sib!trait.CPG2cases:CPG2cases        0.0099068
+R!variance                                 1.0000000
+R!trait.dep_status:dep_status              0.0912979
+R!trait.CPG2cases:dep_status               0.0023315
+R!trait.CPG2cases:CPG2cases                0.1057554
+                                          std.error
+trait:ped(id)!trait.dep_status:dep_status 0.0023501
+trait:ped(id)!trait.CPG2cases:dep_status  0.0023910
+trait:ped(id)!trait.CPG2cases:CPG2cases   0.0047237
+trait:sib!trait.dep_status:dep_status     0.0015448
+trait:sib!trait.CPG2cases:dep_status      0.0015655
+trait:sib!trait.CPG2cases:CPG2cases       0.0030964
+R!variance                                       NA
+R!trait.dep_status:dep_status             0.0019917
+R!trait.CPG2cases:dep_status              0.0020084
+R!trait.CPG2cases:CPG2cases               0.0037366
+                                           z.ratio
+trait:ped(id)!trait.dep_status:dep_status  8.92503
+trait:ped(id)!trait.CPG2cases:dep_status   7.03455
+trait:ped(id)!trait.CPG2cases:CPG2cases    9.54975
+trait:sib!trait.dep_status:dep_status      1.05872
+trait:sib!trait.CPG2cases:dep_status      -0.20626
+trait:sib!trait.CPG2cases:CPG2cases        3.19951
+R!variance                                      NA
+R!trait.dep_status:dep_status             45.83854
+R!trait.CPG2cases:dep_status               1.16084
+R!trait.CPG2cases:CPG2cases               28.30286
+                                          constraint
+trait:ped(id)!trait.dep_status:dep_status   Positive
+trait:ped(id)!trait.CPG2cases:dep_status    Positive
+trait:ped(id)!trait.CPG2cases:CPG2cases     Positive
+trait:sib!trait.dep_status:dep_status              ?
+trait:sib!trait.CPG2cases:dep_status               ?
+trait:sib!trait.CPG2cases:CPG2cases                ?
+R!variance                                     Fixed
+R!trait.dep_status:dep_status               Positive
+R!trait.CPG2cases:dep_status                Positive
+R!trait.CPG2cases:CPG2cases                 Positive
+[1] "Did full model converge: TRUE"
+[1] "Did null-genetic model converge: TRUE"
+[1] "Did null-environment model converge: TRUE"
+[1] "Genetic Chi2 = 52.8110669751914, p = 3.67261776546002e-13"
+[1] "Environment Chi2 = -2.06240861502738, p = 1"
+[1] "rg and its standard error"
+ Estimate       SE
+  0.54679 0.078418
+[1] "re and its standard error"
+  Estimate      SE
+ -0.080217 0.39712
+[1] "r and its standard error"
+ Estimate        SE
+  0.13913 0.0085745
+[1] "Correlation checks"
+[1] "Genetic correlation of  dep_status  and  CPG2cases is =  0.546791159771083"
+[1] "Environmental correlation of  dep_status  and  CPG2cases is =  -0.080217053804243"
+[1] "Phenotypic correlation of  dep_status  and  CPG2cases is =  0.139129181550768"
+[1] " p =  0.00159691544721401"
+[1] "fixed=cbind( dep_status , likert_total ) ~trait + trait:sex + trait:age + trait:I(age^2)"
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 2 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 2 times to remain positive definite.
+US variance structures were modified in 10645 instances to make them positive definite
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+US variance structures were modified in 1580 instances to make them positive definite
+ US matrix updates modified 2 times to remain positive definite.
+ Notice: NonPosDef US matrix modified
+US variance structures were modified in 2 instances to make them positive definite
+                                                   gamma
+trait:ped(id)!trait.dep_status:dep_status     2.1973e-02
+trait:ped(id)!trait.likert_total:dep_status   4.2618e-01
+trait:ped(id)!trait.likert_total:likert_total 1.7320e+01
+trait:sib!trait.dep_status:dep_status         6.6927e-04
+trait:sib!trait.likert_total:dep_status       3.1240e-02
+trait:sib!trait.likert_total:likert_total     2.3716e+00
+R!variance                                    1.0000e+00
+R!trait.dep_status:dep_status                 9.1346e-02
+R!trait.likert_total:dep_status               4.0529e-01
+R!trait.likert_total:likert_total             5.7019e+01
+                                               component
+trait:ped(id)!trait.dep_status:dep_status     2.1973e-02
+trait:ped(id)!trait.likert_total:dep_status   4.2618e-01
+trait:ped(id)!trait.likert_total:likert_total 1.7320e+01
+trait:sib!trait.dep_status:dep_status         6.6927e-04
+trait:sib!trait.likert_total:dep_status       3.1240e-02
+trait:sib!trait.likert_total:likert_total     2.3716e+00
+R!variance                                    1.0000e+00
+R!trait.dep_status:dep_status                 9.1346e-02
+R!trait.likert_total:dep_status               4.0529e-01
+R!trait.likert_total:likert_total             5.7019e+01
+                                              std.error
+trait:ped(id)!trait.dep_status:dep_status     0.0023365
+trait:ped(id)!trait.likert_total:dep_status   0.0454328
+trait:ped(id)!trait.likert_total:likert_total 1.6098502
+trait:sib!trait.dep_status:dep_status         0.0015250
+trait:sib!trait.likert_total:dep_status       0.0291993
+trait:sib!trait.likert_total:likert_total     1.0452610
+R!variance                                           NA
+R!trait.dep_status:dep_status                 0.0019902
+R!trait.likert_total:dep_status               0.0377896
+R!trait.likert_total:likert_total             1.3361822
+                                               z.ratio
+trait:ped(id)!trait.dep_status:dep_status      9.40418
+trait:ped(id)!trait.likert_total:dep_status    9.38050
+trait:ped(id)!trait.likert_total:likert_total 10.75899
+trait:sib!trait.dep_status:dep_status          0.43887
+trait:sib!trait.likert_total:dep_status        1.06990
+trait:sib!trait.likert_total:likert_total      2.26892
+R!variance                                          NA
+R!trait.dep_status:dep_status                 45.89762
+R!trait.likert_total:dep_status               10.72480
+R!trait.likert_total:likert_total             42.67341
+                                              constraint
+trait:ped(id)!trait.dep_status:dep_status       Positive
+trait:ped(id)!trait.likert_total:dep_status     Positive
+trait:ped(id)!trait.likert_total:likert_total   Positive
+trait:sib!trait.dep_status:dep_status                  ?
+trait:sib!trait.likert_total:dep_status                ?
+trait:sib!trait.likert_total:likert_total              ?
+R!variance                                         Fixed
+R!trait.dep_status:dep_status                   Positive
+R!trait.likert_total:dep_status                 Positive
+R!trait.likert_total:likert_total               Positive
+[1] "Did full model converge: TRUE"
+[1] "Did null-genetic model converge: TRUE"
+[1] "Did null-environment model converge: TRUE"
+[1] "Genetic Chi2 = 104.0358983763, p = 0"
+[1] "Environment Chi2 = 0.335304507781984, p = 0.562552170396752"
+[1] "rg and its standard error"
+ Estimate       SE
+  0.69084 0.061046
+[1] "re and its standard error"
+ Estimate      SE
+  0.78414 0.90098
+[1] "r and its standard error"
+ Estimate        SE
+  0.29175 0.0067077
+[1] "Correlation checks"
+[1] "Genetic correlation of  dep_status  and  likert_total is =  0.690836176213916"
+[1] "Environmental correlation of  dep_status  and  likert_total is =  0.784136874745201"
+[1] "Phenotypic correlation of  dep_status  and  likert_total is =  0.291745281204761"
+[1] " p =  1.66897857528585e-14"
+[1] "fixed=cbind( dep_status , eysenck_N ) ~trait + trait:sex + trait:age + trait:I(age^2)"
+ US matrix updates modified 2 times to remain positive definite.
+ US matrix updates modified 2 times to remain positive definite.
+ US matrix updates modified 2 times to remain positive definite.
+ US matrix updates modified 2 times to remain positive definite.
+US variance structures were modified in 3933 instances to make them positive definite
+ US matrix updates modified 2 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+US variance structures were modified in 1670 instances to make them positive definite
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+US variance structures were modified in 81 instances to make them positive definite
+                                               gamma
+trait:ped(id)!trait.dep_status:dep_status 0.26995310
+trait:ped(id)!trait.eysenck_N:dep_status  0.52623896
+trait:ped(id)!trait.eysenck_N:eysenck_N   3.31652037
+trait:sib!trait.dep_status:dep_status     0.00036979
+trait:sib!trait.eysenck_N:dep_status      0.00611173
+trait:sib!trait.eysenck_N:eysenck_N       0.14735380
+R!variance                                1.00000000
+R!trait.dep_status:dep_status             0.00720713
+R!trait.eysenck_N:dep_status              0.00633008
+R!trait.eysenck_N:eysenck_N               6.37455759
+                                           component
+trait:ped(id)!trait.dep_status:dep_status 0.26995310
+trait:ped(id)!trait.eysenck_N:dep_status  0.52623896
+trait:ped(id)!trait.eysenck_N:eysenck_N   3.31652037
+trait:sib!trait.dep_status:dep_status     0.00036979
+trait:sib!trait.eysenck_N:dep_status      0.00611173
+trait:sib!trait.eysenck_N:eysenck_N       0.14735380
+R!variance                                1.00000000
+R!trait.dep_status:dep_status             0.00720713
+R!trait.eysenck_N:dep_status              0.00633008
+R!trait.eysenck_N:eysenck_N               6.37455759
+                                          std.error
+trait:ped(id)!trait.dep_status:dep_status 0.0079376
+trait:ped(id)!trait.eysenck_N:dep_status  0.0276497
+trait:ped(id)!trait.eysenck_N:eysenck_N   0.2002236
+trait:sib!trait.dep_status:dep_status     0.0021173
+trait:sib!trait.eysenck_N:dep_status      0.0113985
+trait:sib!trait.eysenck_N:eysenck_N       0.1205191
+R!variance                                       NA
+R!trait.dep_status:dep_status             0.0042932
+R!trait.eysenck_N:dep_status              0.0184446
+R!trait.eysenck_N:eysenck_N               0.1616441
+                                           z.ratio
+trait:ped(id)!trait.dep_status:dep_status 34.00942
+trait:ped(id)!trait.eysenck_N:dep_status  19.03233
+trait:ped(id)!trait.eysenck_N:eysenck_N   16.56408
+trait:sib!trait.dep_status:dep_status      0.17465
+trait:sib!trait.eysenck_N:dep_status       0.53619
+trait:sib!trait.eysenck_N:eysenck_N        1.22266
+R!variance                                      NA
+R!trait.dep_status:dep_status              1.67874
+R!trait.eysenck_N:dep_status               0.34320
+R!trait.eysenck_N:eysenck_N               39.43576
+                                          constraint
+trait:ped(id)!trait.dep_status:dep_status          ?
+trait:ped(id)!trait.eysenck_N:dep_status           ?
+trait:ped(id)!trait.eysenck_N:eysenck_N     Positive
+trait:sib!trait.dep_status:dep_status              ?
+trait:sib!trait.eysenck_N:dep_status               ?
+trait:sib!trait.eysenck_N:eysenck_N                ?
+R!variance                                     Fixed
+R!trait.dep_status:dep_status                      ?
+R!trait.eysenck_N:dep_status                       ?
+R!trait.eysenck_N:eysenck_N                 Positive
+[1] "Did full model converge: TRUE"
+[1] "Did null-genetic model converge: TRUE"
+[1] "Did null-environment model converge: TRUE"
+[1] "Genetic Chi2 = -5131.74053449106, p = 1"
+[1] "Environment Chi2 = -5224.11545678655, p = 1"
+[1] "rg and its standard error"
+ Estimate      SE
+  0.55616 0.02445
+[1] "re and its standard error"
+ Estimate     SE
+  0.82795 2.3803
+[1] "r and its standard error"
+ Estimate        SE
+    0.326 0.0082753
+[1] "Correlation checks"
+[1] "Genetic correlation of  dep_status  and  eysenck_N is =  0.556157126449883"
+[1] "Environmental correlation of  dep_status  and  eysenck_N is =  0.82795125933495"
+[1] "Phenotypic correlation of  dep_status  and  eysenck_N is =  0.32599696618976"
+[1] " p =  7.28536775057913e-21"
+[1] "fixed=cbind( dep_status , gfactor ) ~trait + trait:sex + trait:age + trait:I(age^2)"
+ US matrix updates modified 3 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+US variance structures were modified in 23 instances to make them positive definite
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+US variance structures were modified in 695 instances to make them positive definite
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+US variance structures were modified in 5 instances to make them positive definite
+                                                gamma
+trait:ped(id)!trait.dep_status:dep_status  0.02198686
+trait:ped(id)!trait.gfactor:dep_status    -0.00444301
+trait:ped(id)!trait.gfactor:gfactor        0.58524095
+trait:sib!trait.dep_status:dep_status      0.00053751
+trait:sib!trait.gfactor:dep_status        -0.00372187
+trait:sib!trait.gfactor:gfactor            0.05707037
+R!variance                                 1.00000000
+R!trait.dep_status:dep_status              0.09135530
+R!trait.gfactor:dep_status                 0.00334006
+R!trait.gfactor:gfactor                    0.29914894
+                                            component
+trait:ped(id)!trait.dep_status:dep_status  0.02198686
+trait:ped(id)!trait.gfactor:dep_status    -0.00444301
+trait:ped(id)!trait.gfactor:gfactor        0.58524095
+trait:sib!trait.dep_status:dep_status      0.00053751
+trait:sib!trait.gfactor:dep_status        -0.00372187
+trait:sib!trait.gfactor:gfactor            0.05707037
+R!variance                                 1.00000000
+R!trait.dep_status:dep_status              0.09135530
+R!trait.gfactor:dep_status                 0.00334006
+R!trait.gfactor:gfactor                    0.29914894
+                                          std.error
+trait:ped(id)!trait.dep_status:dep_status 0.0023434
+trait:ped(id)!trait.gfactor:dep_status    0.0047565
+trait:ped(id)!trait.gfactor:gfactor       0.0194875
+trait:sib!trait.dep_status:dep_status     0.0015301
+trait:sib!trait.gfactor:dep_status        0.0028316
+trait:sib!trait.gfactor:gfactor           0.0103672
+R!variance                                       NA
+R!trait.dep_status:dep_status             0.0019977
+R!trait.gfactor:dep_status                0.0037228
+R!trait.gfactor:gfactor                   0.0138328
+                                           z.ratio
+trait:ped(id)!trait.dep_status:dep_status  9.38234
+trait:ped(id)!trait.gfactor:dep_status    -0.93410
+trait:ped(id)!trait.gfactor:gfactor       30.03154
+trait:sib!trait.dep_status:dep_status      0.35130
+trait:sib!trait.gfactor:dep_status        -1.31440
+trait:sib!trait.gfactor:gfactor            5.50490
+R!variance                                      NA
+R!trait.dep_status:dep_status             45.72973
+R!trait.gfactor:dep_status                 0.89719
+R!trait.gfactor:gfactor                   21.62599
+                                          constraint
+trait:ped(id)!trait.dep_status:dep_status   Positive
+trait:ped(id)!trait.gfactor:dep_status      Positive
+trait:ped(id)!trait.gfactor:gfactor         Positive
+trait:sib!trait.dep_status:dep_status              ?
+trait:sib!trait.gfactor:dep_status                 ?
+trait:sib!trait.gfactor:gfactor                    ?
+R!variance                                     Fixed
+R!trait.dep_status:dep_status               Positive
+R!trait.gfactor:dep_status                  Positive
+R!trait.gfactor:gfactor                     Positive
+[1] "Did full model converge: TRUE"
+[1] "Did null-genetic model converge: TRUE"
+[1] "Did null-environment model converge: TRUE"
+[1] "Genetic Chi2 = 3.78686720741098, p = 0.0516562455577114"
+[1] "Environment Chi2 = -0.147532668699569, p = 1"
+[1] "rg and its standard error"
+  Estimate       SE
+ -0.039168 0.041884
+[1] "re and its standard error"
+ Estimate     SE
+ -0.67199 1.0721
+[1] "r and its standard error"
+  Estimate        SE
+ -0.014735 0.0074681
+[1] "Correlation checks"
+[1] "Genetic correlation of  dep_status  and  gfactor is =  -0.0391677283481925"
+[1] "Environmental correlation of  dep_status  and  gfactor is =  -0.671989767585677"
+[1] "Phenotypic correlation of  dep_status  and  gfactor is =  -0.014735256937443"
+[1] " p =  0.669695536576602"
+[1] "fixed=cbind( CPGquant , CPG2cases ) ~trait + trait:sex + trait:age + trait:I(age^2)"
+ US matrix updates modified 2 times to remain positive definite.
+ US matrix updates modified 2 times to remain positive definite.
+ US matrix updates modified 2 times to remain positive definite.
+ US matrix updates modified 2 times to remain positive definite.
+US variance structures were modified in 190 instances to make them positive definite
+ US matrix updates modified 2 times to remain positive definite.
+ US matrix updates modified 2 times to remain positive definite.
+ US matrix updates modified 2 times to remain positive definite.
+ US matrix updates modified 2 times to remain positive definite.
+US variance structures were modified in 3607 instances to make them positive definite
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+US variance structures were modified in 198 instances to make them positive definite
+                                              gamma
+trait:ped(id)!trait.CPGquant:CPGquant    2.6545e-01
+trait:ped(id)!trait.CPG2cases:CPGquant   1.0156e-01
+trait:ped(id)!trait.CPG2cases:CPG2cases  3.9227e-02
+trait:sib!trait.CPGquant:CPGquant        2.9685e-04
+trait:sib!trait.CPG2cases:CPGquant      -5.6129e-05
+trait:sib!trait.CPG2cases:CPG2cases      4.2462e-05
+R!variance                               1.0000e+00
+R!trait.CPGquant:CPGquant                7.0395e-01
+R!trait.CPG2cases:CPGquant               2.3706e-01
+R!trait.CPG2cases:CPG2cases              9.6838e-02
+                                          component
+trait:ped(id)!trait.CPGquant:CPGquant    2.6545e-01
+trait:ped(id)!trait.CPG2cases:CPGquant   1.0156e-01
+trait:ped(id)!trait.CPG2cases:CPG2cases  3.9227e-02
+trait:sib!trait.CPGquant:CPGquant        2.9685e-04
+trait:sib!trait.CPG2cases:CPGquant      -5.6129e-05
+trait:sib!trait.CPG2cases:CPG2cases      4.2462e-05
+R!variance                               1.0000e+00
+R!trait.CPGquant:CPGquant                7.0395e-01
+R!trait.CPG2cases:CPGquant               2.3706e-01
+R!trait.CPG2cases:CPG2cases              9.6838e-02
+                                        std.error
+trait:ped(id)!trait.CPGquant:CPGquant   0.0224506
+trait:ped(id)!trait.CPG2cases:CPGquant  0.0082218
+trait:ped(id)!trait.CPG2cases:CPG2cases 0.0032600
+trait:sib!trait.CPGquant:CPGquant       0.0144320
+trait:sib!trait.CPG2cases:CPGquant      0.0052473
+trait:sib!trait.CPG2cases:CPG2cases     0.0020885
+R!variance                                     NA
+R!trait.CPGquant:CPGquant               0.0190298
+R!trait.CPG2cases:CPGquant              0.0069052
+R!trait.CPG2cases:CPG2cases             0.0027320
+                                          z.ratio
+trait:ped(id)!trait.CPGquant:CPGquant   11.823850
+trait:ped(id)!trait.CPG2cases:CPGquant  12.352819
+trait:ped(id)!trait.CPG2cases:CPG2cases 12.032865
+trait:sib!trait.CPGquant:CPGquant        0.020569
+trait:sib!trait.CPG2cases:CPGquant      -0.010697
+trait:sib!trait.CPG2cases:CPG2cases      0.020331
+R!variance                                     NA
+R!trait.CPGquant:CPGquant               36.991746
+R!trait.CPG2cases:CPGquant              34.330573
+R!trait.CPG2cases:CPG2cases             35.446226
+                                        constraint
+trait:ped(id)!trait.CPGquant:CPGquant     Positive
+trait:ped(id)!trait.CPG2cases:CPGquant    Positive
+trait:ped(id)!trait.CPG2cases:CPG2cases   Positive
+trait:sib!trait.CPGquant:CPGquant                ?
+trait:sib!trait.CPG2cases:CPGquant               ?
+trait:sib!trait.CPG2cases:CPG2cases              ?
+R!variance                                   Fixed
+R!trait.CPGquant:CPGquant                 Positive
+R!trait.CPG2cases:CPGquant                Positive
+R!trait.CPG2cases:CPG2cases               Positive
+[1] "Did full model converge: TRUE"
+[1] "Did null-genetic model converge: TRUE"
+[1] "Did null-environment model converge: TRUE"
+[1] "Genetic Chi2 = 41385.494554661, p = 0"
+[1] "Environment Chi2 = 36092.0061831837, p = 0"
+[1] "rg and its standard error"
+ Estimate        SE
+  0.99529 0.0065552
+[1] "re and its standard error"
+ Estimate     SE
+ -0.49994 70.043
+[1] "r and its standard error"
+ Estimate        SE
+  0.93193 0.0010819
+[1] "Correlation checks"
+[1] "Genetic correlation of  CPGquant  and  CPG2cases is =  0.995286134543958"
+[1] "Environmental correlation of  CPGquant  and  CPG2cases is =  -0.499944222820306"
+[1] "Phenotypic correlation of  CPGquant  and  CPG2cases is =  0.93193417228609"
+[1] " p =  5.2198916325584e-62"
+[1] "fixed=cbind( CPGquant , likert_total ) ~trait + trait:sex + trait:age + trait:I(age^2)"
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+US variance structures were modified in 1240 instances to make them positive definite
+                                                  gamma
+trait:ped(id)!trait.CPGquant:CPGquant          0.249883
+trait:ped(id)!trait.likert_total:CPGquant      1.457144
+trait:ped(id)!trait.likert_total:likert_total 18.321373
+trait:sib!trait.CPGquant:CPGquant              0.028070
+trait:sib!trait.likert_total:CPGquant          0.074098
+trait:sib!trait.likert_total:likert_total      1.429031
+R!variance                                     1.000000
+R!trait.CPGquant:CPGquant                      0.694921
+R!trait.likert_total:CPGquant                  1.127042
+R!trait.likert_total:likert_total             57.000274
+                                              component
+trait:ped(id)!trait.CPGquant:CPGquant          0.249883
+trait:ped(id)!trait.likert_total:CPGquant      1.457144
+trait:ped(id)!trait.likert_total:likert_total 18.321373
+trait:sib!trait.CPGquant:CPGquant              0.028070
+trait:sib!trait.likert_total:CPGquant          0.074098
+trait:sib!trait.likert_total:likert_total      1.429031
+R!variance                                     1.000000
+R!trait.CPGquant:CPGquant                      0.694921
+R!trait.likert_total:CPGquant                  1.127042
+R!trait.likert_total:likert_total             57.000274
+                                              std.error
+trait:ped(id)!trait.CPGquant:CPGquant          0.022640
+trait:ped(id)!trait.likert_total:CPGquant      0.141483
+trait:ped(id)!trait.likert_total:likert_total  1.596406
+trait:sib!trait.CPGquant:CPGquant              0.014668
+trait:sib!trait.likert_total:CPGquant          0.090168
+trait:sib!trait.likert_total:likert_total      1.026893
+R!variance                                           NA
+R!trait.CPGquant:CPGquant                      0.018784
+R!trait.likert_total:CPGquant                  0.117419
+R!trait.likert_total:likert_total              1.337526
+                                               z.ratio
+trait:ped(id)!trait.CPGquant:CPGquant         11.03735
+trait:ped(id)!trait.likert_total:CPGquant     10.29909
+trait:ped(id)!trait.likert_total:likert_total 11.47663
+trait:sib!trait.CPGquant:CPGquant              1.91365
+trait:sib!trait.likert_total:CPGquant          0.82177
+trait:sib!trait.likert_total:likert_total      1.39161
+R!variance                                          NA
+R!trait.CPGquant:CPGquant                     36.99608
+R!trait.likert_total:CPGquant                  9.59848
+R!trait.likert_total:likert_total             42.61621
+                                              constraint
+trait:ped(id)!trait.CPGquant:CPGquant           Positive
+trait:ped(id)!trait.likert_total:CPGquant       Positive
+trait:ped(id)!trait.likert_total:likert_total   Positive
+trait:sib!trait.CPGquant:CPGquant               Positive
+trait:sib!trait.likert_total:CPGquant           Positive
+trait:sib!trait.likert_total:likert_total       Positive
+R!variance                                         Fixed
+R!trait.CPGquant:CPGquant                       Positive
+R!trait.likert_total:CPGquant                   Positive
+R!trait.likert_total:likert_total               Positive
+[1] "Did full model converge: TRUE"
+[1] "Did null-genetic model converge: TRUE"
+[1] "Did null-environment model converge: TRUE"
+[1] "Genetic Chi2 = 102.534519474662, p = 0"
+[1] "Environment Chi2 = 0.650700738391606, p = 0.419862258681378"
+[1] "rg and its standard error"
+ Estimate       SE
+  0.68101 0.054752
+[1] "re and its standard error"
+ Estimate      SE
+  0.36997 0.39682
+[1] "r and its standard error"
+ Estimate        SE
+  0.30763 0.0071369
+[1] "Correlation checks"
+[1] "Genetic correlation of  CPGquant  and  likert_total is =  0.681011962904001"
+[1] "Environmental correlation of  CPGquant  and  likert_total is =  0.369966844593446"
+[1] "Phenotypic correlation of  CPGquant  and  likert_total is =  0.307632172756224"
+[1] " p =  2.62990018249922e-14"
+[1] "fixed=cbind( CPGquant , eysenck_N ) ~trait + trait:sex + trait:age + trait:I(age^2)"
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+US variance structures were modified in 1232 instances to make them positive definite
+                                            gamma
+trait:ped(id)!trait.CPGquant:CPGquant   0.2367374
+trait:ped(id)!trait.eysenck_N:CPGquant  0.4243165
+trait:ped(id)!trait.eysenck_N:eysenck_N 2.7975675
+trait:sib!trait.CPGquant:CPGquant       0.0323270
+trait:sib!trait.eysenck_N:CPGquant      0.0015044
+trait:sib!trait.eysenck_N:eysenck_N     0.0971139
+R!variance                              1.0000000
+R!trait.CPGquant:CPGquant               0.7009951
+R!trait.eysenck_N:CPGquant              0.1931918
+R!trait.eysenck_N:eysenck_N             6.7361894
+                                        component
+trait:ped(id)!trait.CPGquant:CPGquant   0.2367374
+trait:ped(id)!trait.eysenck_N:CPGquant  0.4243165
+trait:ped(id)!trait.eysenck_N:eysenck_N 2.7975675
+trait:sib!trait.CPGquant:CPGquant       0.0323270
+trait:sib!trait.eysenck_N:CPGquant      0.0015044
+trait:sib!trait.eysenck_N:eysenck_N     0.0971139
+R!variance                              1.0000000
+R!trait.CPGquant:CPGquant               0.7009951
+R!trait.eysenck_N:CPGquant              0.1931918
+R!trait.eysenck_N:eysenck_N             6.7361894
+                                        std.error
+trait:ped(id)!trait.CPGquant:CPGquant    0.022759
+trait:ped(id)!trait.eysenck_N:CPGquant   0.048289
+trait:ped(id)!trait.eysenck_N:eysenck_N  0.196959
+trait:sib!trait.CPGquant:CPGquant        0.014839
+trait:sib!trait.eysenck_N:CPGquant       0.030690
+trait:sib!trait.eysenck_N:eysenck_N      0.123310
+R!variance                                     NA
+R!trait.CPGquant:CPGquant                0.018889
+R!trait.eysenck_N:CPGquant               0.040129
+R!trait.eysenck_N:eysenck_N              0.163184
+                                          z.ratio
+trait:ped(id)!trait.CPGquant:CPGquant   10.402133
+trait:ped(id)!trait.eysenck_N:CPGquant   8.786939
+trait:ped(id)!trait.eysenck_N:eysenck_N 14.203785
+trait:sib!trait.CPGquant:CPGquant        2.178458
+trait:sib!trait.eysenck_N:CPGquant       0.049018
+trait:sib!trait.eysenck_N:eysenck_N      0.787558
+R!variance                                     NA
+R!trait.CPGquant:CPGquant               37.111369
+R!trait.eysenck_N:CPGquant               4.814274
+R!trait.eysenck_N:eysenck_N             41.279791
+                                        constraint
+trait:ped(id)!trait.CPGquant:CPGquant     Positive
+trait:ped(id)!trait.eysenck_N:CPGquant    Positive
+trait:ped(id)!trait.eysenck_N:eysenck_N   Positive
+trait:sib!trait.CPGquant:CPGquant         Positive
+trait:sib!trait.eysenck_N:CPGquant        Positive
+trait:sib!trait.eysenck_N:eysenck_N       Positive
+R!variance                                   Fixed
+R!trait.CPGquant:CPGquant                 Positive
+R!trait.eysenck_N:CPGquant                Positive
+R!trait.eysenck_N:eysenck_N               Positive
+[1] "Did full model converge: TRUE"
+[1] "Did null-genetic model converge: TRUE"
+[1] "Did null-environment model converge: TRUE"
+[1] "Genetic Chi2 = 77.7098664128571, p = 0"
+[1] "Environment Chi2 = 0.00235224518110044, p = 0.961317804035162"
+[1] "rg and its standard error"
+ Estimate       SE
+  0.52139 0.055753
+[1] "re and its standard error"
+ Estimate      SE
+ 0.026849 0.54279
+[1] "r and its standard error"
+ Estimate        SE
+  0.20252 0.0075294
+[1] "Correlation checks"
+[1] "Genetic correlation of  CPGquant  and  eysenck_N is =  0.521394112177125"
+[1] "Environmental correlation of  CPGquant  and  eysenck_N is =  0.0268491847870689"
+[1] "Phenotypic correlation of  CPGquant  and  eysenck_N is =  0.202519838473656"
+[1] " p =  2.02494356374616e-07"
+[1] "fixed=cbind( CPGquant , gfactor ) ~trait + trait:sex + trait:age + trait:I(age^2)"
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+US variance structures were modified in 1004 instances to make them positive definite
+                                          gamma
+trait:ped(id)!trait.CPGquant:CPGquant  0.246157
+trait:ped(id)!trait.gfactor:CPGquant  -0.140291
+trait:ped(id)!trait.gfactor:gfactor    0.582934
+trait:sib!trait.CPGquant:CPGquant      0.030304
+trait:sib!trait.gfactor:CPGquant      -0.029707
+trait:sib!trait.gfactor:gfactor        0.062008
+R!variance                             1.000000
+R!trait.CPGquant:CPGquant              0.693928
+R!trait.gfactor:CPGquant               0.040937
+R!trait.gfactor:gfactor                0.297406
+                                      component
+trait:ped(id)!trait.CPGquant:CPGquant  0.246157
+trait:ped(id)!trait.gfactor:CPGquant  -0.140291
+trait:ped(id)!trait.gfactor:gfactor    0.582934
+trait:sib!trait.CPGquant:CPGquant      0.030304
+trait:sib!trait.gfactor:CPGquant      -0.029707
+trait:sib!trait.gfactor:gfactor        0.062008
+R!variance                             1.000000
+R!trait.CPGquant:CPGquant              0.693928
+R!trait.gfactor:CPGquant               0.040937
+R!trait.gfactor:gfactor                0.297406
+                                      std.error
+trait:ped(id)!trait.CPGquant:CPGquant 0.0227858
+trait:ped(id)!trait.gfactor:CPGquant  0.0150940
+trait:ped(id)!trait.gfactor:gfactor   0.0195477
+trait:sib!trait.CPGquant:CPGquant     0.0147904
+trait:sib!trait.gfactor:CPGquant      0.0089031
+trait:sib!trait.gfactor:gfactor       0.0104203
+R!variance                                   NA
+R!trait.CPGquant:CPGquant             0.0188474
+R!trait.gfactor:CPGquant              0.0116059
+R!trait.gfactor:gfactor               0.0138053
+                                      z.ratio
+trait:ped(id)!trait.CPGquant:CPGquant 10.8031
+trait:ped(id)!trait.gfactor:CPGquant  -9.2945
+trait:ped(id)!trait.gfactor:gfactor   29.8211
+trait:sib!trait.CPGquant:CPGquant      2.0489
+trait:sib!trait.gfactor:CPGquant      -3.3367
+trait:sib!trait.gfactor:gfactor        5.9507
+R!variance                                 NA
+R!trait.CPGquant:CPGquant             36.8183
+R!trait.gfactor:CPGquant               3.5273
+R!trait.gfactor:gfactor               21.5429
+                                      constraint
+trait:ped(id)!trait.CPGquant:CPGquant   Positive
+trait:ped(id)!trait.gfactor:CPGquant    Positive
+trait:ped(id)!trait.gfactor:gfactor     Positive
+trait:sib!trait.CPGquant:CPGquant       Positive
+trait:sib!trait.gfactor:CPGquant        Positive
+trait:sib!trait.gfactor:gfactor         Positive
+R!variance                                 Fixed
+R!trait.CPGquant:CPGquant               Positive
+R!trait.gfactor:CPGquant                Positive
+R!trait.gfactor:gfactor                 Positive
+[1] "Did full model converge: TRUE"
+[1] "Did null-genetic model converge: TRUE"
+[1] "Did null-environment model converge: TRUE"
+[1] "Genetic Chi2 = 87.8219912061832, p = 0"
+[1] "Environment Chi2 = 10.99965942165, p = 0.00091128631415982"
+[1] "rg and its standard error"
+ Estimate       SE
+ -0.37035 0.039257
+[1] "re and its standard error"
+ Estimate      SE
+ -0.68531 0.24679
+[1] "r and its standard error"
+ Estimate        SE
+ -0.13496 0.0079568
+[1] "Correlation checks"
+[1] "Genetic correlation of  CPGquant  and  gfactor is =  -0.370351702730437"
+[1] "Environmental correlation of  CPGquant  and  gfactor is =  -0.685306967723797"
+[1] "Phenotypic correlation of  CPGquant  and  gfactor is =  -0.13496342596692"
+[1] " p =  0.000288959881921861"
+[1] "fixed=cbind( CPG2cases , likert_total ) ~trait + trait:sex + trait:age + trait:I(age^2)"
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+US variance structures were modified in 140 instances to make them positive definite
+                                                   gamma
+trait:ped(id)!trait.CPG2cases:CPG2cases        0.0467340
+trait:ped(id)!trait.likert_total:CPG2cases     0.6063611
+trait:ped(id)!trait.likert_total:likert_total 18.2415349
+trait:sib!trait.CPG2cases:CPG2cases            0.0066918
+trait:sib!trait.likert_total:CPG2cases         0.0115602
+trait:sib!trait.likert_total:likert_total      1.4252727
+R!variance                                     1.0000000
+R!trait.CPG2cases:CPG2cases                    0.1068640
+R!trait.likert_total:CPG2cases                 0.4015717
+R!trait.likert_total:likert_total             57.0368348
+                                               component
+trait:ped(id)!trait.CPG2cases:CPG2cases        0.0467340
+trait:ped(id)!trait.likert_total:CPG2cases     0.6063611
+trait:ped(id)!trait.likert_total:likert_total 18.2415349
+trait:sib!trait.CPG2cases:CPG2cases            0.0066918
+trait:sib!trait.likert_total:CPG2cases         0.0115602
+trait:sib!trait.likert_total:likert_total      1.4252727
+R!variance                                     1.0000000
+R!trait.CPG2cases:CPG2cases                    0.1068640
+R!trait.likert_total:CPG2cases                 0.4015717
+R!trait.likert_total:likert_total             57.0368348
+                                              std.error
+trait:ped(id)!trait.CPG2cases:CPG2cases       0.0045745
+trait:ped(id)!trait.likert_total:CPG2cases    0.0626124
+trait:ped(id)!trait.likert_total:likert_total 1.5975483
+trait:sib!trait.CPG2cases:CPG2cases           0.0029874
+trait:sib!trait.likert_total:CPG2cases        0.0402339
+trait:sib!trait.likert_total:likert_total     1.0277781
+R!variance                                           NA
+R!trait.CPG2cases:CPG2cases                   0.0036897
+R!trait.likert_total:CPG2cases                0.0522096
+R!trait.likert_total:likert_total             1.3380350
+                                               z.ratio
+trait:ped(id)!trait.CPG2cases:CPG2cases       10.21621
+trait:ped(id)!trait.likert_total:CPG2cases     9.68437
+trait:ped(id)!trait.likert_total:likert_total 11.41846
+trait:sib!trait.CPG2cases:CPG2cases            2.24001
+trait:sib!trait.likert_total:CPG2cases         0.28732
+trait:sib!trait.likert_total:likert_total      1.38675
+R!variance                                          NA
+R!trait.CPG2cases:CPG2cases                   28.96289
+R!trait.likert_total:CPG2cases                 7.69153
+R!trait.likert_total:likert_total             42.62731
+                                              constraint
+trait:ped(id)!trait.CPG2cases:CPG2cases         Positive
+trait:ped(id)!trait.likert_total:CPG2cases      Positive
+trait:ped(id)!trait.likert_total:likert_total   Positive
+trait:sib!trait.CPG2cases:CPG2cases             Positive
+trait:sib!trait.likert_total:CPG2cases          Positive
+trait:sib!trait.likert_total:likert_total       Positive
+R!variance                                         Fixed
+R!trait.CPG2cases:CPG2cases                     Positive
+R!trait.likert_total:CPG2cases                  Positive
+R!trait.likert_total:likert_total               Positive
+[1] "Did full model converge: TRUE"
+[1] "Did null-genetic model converge: TRUE"
+[1] "Did null-environment model converge: TRUE"
+[1] "Genetic Chi2 = 89.0798188493063, p = 0"
+[1] "Environment Chi2 = 0.0796681019419339, p = 0.777747693422946"
+[1] "rg and its standard error"
+ Estimate      SE
+  0.65673 0.05981
+[1] "re and its standard error"
+ Estimate      SE
+  0.11837 0.39386
+[1] "r and its standard error"
+ Estimate        SE
+  0.29075 0.0079312
+[1] "Correlation checks"
+[1] "Genetic correlation of  CPG2cases  and  likert_total is =  0.656726262357844"
+[1] "Environmental correlation of  CPG2cases  and  likert_total is =  0.118370423148886"
+[1] "Phenotypic correlation of  CPG2cases  and  likert_total is =  0.290752423073389"
+[1] " p =  4.86525372856241e-11"
+[1] "fixed=cbind( CPG2cases , eysenck_N ) ~trait + trait:sex + trait:age + trait:I(age^2)"
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+US variance structures were modified in 1178 instances to make them positive definite
+                                            gamma
+trait:ped(id)!trait.CPG2cases:CPG2cases 0.0458506
+trait:ped(id)!trait.eysenck_N:CPG2cases 0.1673947
+trait:ped(id)!trait.eysenck_N:eysenck_N 2.7957289
+trait:sib!trait.CPG2cases:CPG2cases     0.0079220
+trait:sib!trait.eysenck_N:CPG2cases     0.0029401
+trait:sib!trait.eysenck_N:eysenck_N     0.0962909
+R!variance                              1.0000000
+R!trait.CPG2cases:CPG2cases             0.1067992
+R!trait.eysenck_N:CPG2cases             0.0918951
+R!trait.eysenck_N:eysenck_N             6.7377707
+                                        component
+trait:ped(id)!trait.CPG2cases:CPG2cases 0.0458506
+trait:ped(id)!trait.eysenck_N:CPG2cases 0.1673947
+trait:ped(id)!trait.eysenck_N:eysenck_N 2.7957289
+trait:sib!trait.CPG2cases:CPG2cases     0.0079220
+trait:sib!trait.eysenck_N:CPG2cases     0.0029401
+trait:sib!trait.eysenck_N:eysenck_N     0.0962909
+R!variance                              1.0000000
+R!trait.CPG2cases:CPG2cases             0.1067992
+R!trait.eysenck_N:CPG2cases             0.0918951
+R!trait.eysenck_N:eysenck_N             6.7377707
+                                        std.error
+trait:ped(id)!trait.CPG2cases:CPG2cases 0.0046599
+trait:ped(id)!trait.eysenck_N:CPG2cases 0.0218729
+trait:ped(id)!trait.eysenck_N:eysenck_N 0.1971630
+trait:sib!trait.CPG2cases:CPG2cases     0.0030492
+trait:sib!trait.eysenck_N:CPG2cases     0.0139123
+trait:sib!trait.eysenck_N:eysenck_N     0.1233873
+R!variance                                     NA
+R!trait.CPG2cases:CPG2cases             0.0037284
+R!trait.eysenck_N:CPG2cases             0.0182093
+R!trait.eysenck_N:eysenck_N             0.1632990
+                                         z.ratio
+trait:ped(id)!trait.CPG2cases:CPG2cases  9.83937
+trait:ped(id)!trait.eysenck_N:CPG2cases  7.65306
+trait:ped(id)!trait.eysenck_N:eysenck_N 14.17978
+trait:sib!trait.CPG2cases:CPG2cases      2.59805
+trait:sib!trait.eysenck_N:CPG2cases      0.21133
+trait:sib!trait.eysenck_N:eysenck_N      0.78040
+R!variance                                    NA
+R!trait.CPG2cases:CPG2cases             28.64515
+R!trait.eysenck_N:CPG2cases              5.04660
+R!trait.eysenck_N:eysenck_N             41.26033
+                                        constraint
+trait:ped(id)!trait.CPG2cases:CPG2cases   Positive
+trait:ped(id)!trait.eysenck_N:CPG2cases   Positive
+trait:ped(id)!trait.eysenck_N:eysenck_N   Positive
+trait:sib!trait.CPG2cases:CPG2cases       Positive
+trait:sib!trait.eysenck_N:CPG2cases       Positive
+trait:sib!trait.eysenck_N:eysenck_N       Positive
+R!variance                                   Fixed
+R!trait.CPG2cases:CPG2cases               Positive
+R!trait.eysenck_N:CPG2cases               Positive
+R!trait.eysenck_N:eysenck_N               Positive
+[1] "Did full model converge: TRUE"
+[1] "Did null-genetic model converge: TRUE"
+[1] "Did null-environment model converge: TRUE"
+[1] "Genetic Chi2 = 58.3865865300468, p = 2.1538326677728e-14"
+[1] "Environment Chi2 = 0.0437657530856086, p = 0.834290035738708"
+[1] "rg and its standard error"
+ Estimate       SE
+  0.46754 0.057719
+[1] "re and its standard error"
+ Estimate      SE
+  0.10645 0.48921
+[1] "r and its standard error"
+ Estimate        SE
+  0.21088 0.0083409
+[1] "Correlation checks"
+[1] "Genetic correlation of  CPG2cases  and  eysenck_N is =  0.467543063457295"
+[1] "Environmental correlation of  CPG2cases  and  eysenck_N is =  0.106449775069085"
+[1] "Phenotypic correlation of  CPG2cases  and  eysenck_N is =  0.210881785488835"
+[1] " p =  1.19416131155692e-06"
+[1] "fixed=cbind( CPG2cases , gfactor ) ~trait + trait:sex + trait:age + trait:I(age^2)"
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+US variance structures were modified in 375 instances to make them positive definite
+                                             gamma
+trait:ped(id)!trait.CPG2cases:CPG2cases  0.0483342
+trait:ped(id)!trait.gfactor:CPG2cases   -0.0653069
+trait:ped(id)!trait.gfactor:gfactor      0.5818255
+trait:sib!trait.CPG2cases:CPG2cases      0.0075958
+trait:sib!trait.gfactor:CPG2cases       -0.0138668
+trait:sib!trait.gfactor:gfactor          0.0624723
+R!variance                               1.0000000
+R!trait.CPG2cases:CPG2cases              0.1047863
+R!trait.gfactor:CPG2cases                0.0199248
+R!trait.gfactor:gfactor                  0.2978403
+                                         component
+trait:ped(id)!trait.CPG2cases:CPG2cases  0.0483342
+trait:ped(id)!trait.gfactor:CPG2cases   -0.0653069
+trait:ped(id)!trait.gfactor:gfactor      0.5818255
+trait:sib!trait.CPG2cases:CPG2cases      0.0075958
+trait:sib!trait.gfactor:CPG2cases       -0.0138668
+trait:sib!trait.gfactor:gfactor          0.0624723
+R!variance                               1.0000000
+R!trait.CPG2cases:CPG2cases              0.1047863
+R!trait.gfactor:CPG2cases                0.0199248
+R!trait.gfactor:gfactor                  0.2978403
+                                        std.error
+trait:ped(id)!trait.CPG2cases:CPG2cases 0.0046698
+trait:ped(id)!trait.gfactor:CPG2cases   0.0068223
+trait:ped(id)!trait.gfactor:gfactor     0.0195492
+trait:sib!trait.CPG2cases:CPG2cases     0.0030447
+trait:sib!trait.gfactor:CPG2cases       0.0040392
+trait:sib!trait.gfactor:gfactor         0.0104247
+R!variance                                     NA
+R!trait.CPG2cases:CPG2cases             0.0037168
+R!trait.gfactor:CPG2cases               0.0052326
+R!trait.gfactor:gfactor                 0.0138065
+                                        z.ratio
+trait:ped(id)!trait.CPG2cases:CPG2cases 10.3504
+trait:ped(id)!trait.gfactor:CPG2cases   -9.5726
+trait:ped(id)!trait.gfactor:gfactor     29.7621
+trait:sib!trait.CPG2cases:CPG2cases      2.4947
+trait:sib!trait.gfactor:CPG2cases       -3.4331
+trait:sib!trait.gfactor:gfactor          5.9927
+R!variance                                   NA
+R!trait.CPG2cases:CPG2cases             28.1926
+R!trait.gfactor:CPG2cases                3.8078
+R!trait.gfactor:gfactor                 21.5725
+                                        constraint
+trait:ped(id)!trait.CPG2cases:CPG2cases   Positive
+trait:ped(id)!trait.gfactor:CPG2cases     Positive
+trait:ped(id)!trait.gfactor:gfactor       Positive
+trait:sib!trait.CPG2cases:CPG2cases       Positive
+trait:sib!trait.gfactor:CPG2cases         Positive
+trait:sib!trait.gfactor:gfactor           Positive
+R!variance                                   Fixed
+R!trait.CPG2cases:CPG2cases               Positive
+R!trait.gfactor:CPG2cases                 Positive
+R!trait.gfactor:gfactor                   Positive
+[1] "Did full model converge: TRUE"
+[1] "Did null-genetic model converge: TRUE"
+[1] "Did null-environment model converge: TRUE"
+[1] "Genetic Chi2 = 93.1204018071912, p = 0"
+[1] "Environment Chi2 = 11.6548749356261, p = 0.000640345091552308"
+[1] "rg and its standard error"
+ Estimate       SE
+ -0.38944 0.040478
+[1] "re and its standard error"
+ Estimate      SE
+ -0.63657 0.21067
+[1] "r and its standard error"
+ Estimate        SE
+ -0.15226 0.0087886
+[1] "Correlation checks"
+[1] "Genetic correlation of  CPG2cases  and  gfactor is =  -0.389435743316433"
+[1] "Environmental correlation of  CPG2cases  and  gfactor is =  -0.636567225225085"
+[1] "Phenotypic correlation of  CPG2cases  and  gfactor is =  -0.152262498052153"
+[1] " p =  0.0002319550727793"
+[1] "fixed=cbind( likert_total , eysenck_N ) ~trait + trait:sex + trait:age + trait:I(age^2)"
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+US variance structures were modified in 2141 instances to make them positive definite
+                                                 gamma
+trait:ped(id)!trait.likert_total:likert_total 18.29548
+trait:ped(id)!trait.eysenck_N:likert_total     5.66110
+trait:ped(id)!trait.eysenck_N:eysenck_N        2.82211
+trait:sib!trait.likert_total:likert_total      1.47877
+trait:sib!trait.eysenck_N:likert_total         0.39670
+trait:sib!trait.eysenck_N:eysenck_N            0.11648
+R!variance                                     1.00000
+R!trait.likert_total:likert_total             56.93493
+R!trait.eysenck_N:likert_total                 7.88351
+R!trait.eysenck_N:eysenck_N                    6.69639
+                                              component
+trait:ped(id)!trait.likert_total:likert_total  18.29548
+trait:ped(id)!trait.eysenck_N:likert_total      5.66110
+trait:ped(id)!trait.eysenck_N:eysenck_N         2.82211
+trait:sib!trait.likert_total:likert_total       1.47877
+trait:sib!trait.eysenck_N:likert_total          0.39670
+trait:sib!trait.eysenck_N:eysenck_N             0.11648
+R!variance                                      1.00000
+R!trait.likert_total:likert_total              56.93493
+R!trait.eysenck_N:likert_total                  7.88351
+R!trait.eysenck_N:eysenck_N                     6.69639
+                                              std.error
+trait:ped(id)!trait.likert_total:likert_total   1.59510
+trait:ped(id)!trait.eysenck_N:likert_total      0.44922
+trait:ped(id)!trait.eysenck_N:eysenck_N         0.19751
+trait:sib!trait.likert_total:likert_total       1.02677
+trait:sib!trait.eysenck_N:likert_total          0.28011
+trait:sib!trait.eysenck_N:eysenck_N             0.12324
+R!variance                                           NA
+R!trait.likert_total:likert_total               1.33512
+R!trait.eysenck_N:likert_total                  0.36864
+R!trait.eysenck_N:eysenck_N                     0.16300
+                                              z.ratio
+trait:ped(id)!trait.likert_total:likert_total 11.4698
+trait:ped(id)!trait.eysenck_N:likert_total    12.6020
+trait:ped(id)!trait.eysenck_N:eysenck_N       14.2881
+trait:sib!trait.likert_total:likert_total      1.4402
+trait:sib!trait.eysenck_N:likert_total         1.4163
+trait:sib!trait.eysenck_N:eysenck_N            0.9452
+R!variance                                         NA
+R!trait.likert_total:likert_total             42.6441
+R!trait.eysenck_N:likert_total                21.3855
+R!trait.eysenck_N:eysenck_N                   41.0818
+                                              constraint
+trait:ped(id)!trait.likert_total:likert_total   Positive
+trait:ped(id)!trait.eysenck_N:likert_total      Positive
+trait:ped(id)!trait.eysenck_N:eysenck_N         Positive
+trait:sib!trait.likert_total:likert_total       Positive
+trait:sib!trait.eysenck_N:likert_total          Positive
+trait:sib!trait.eysenck_N:eysenck_N             Positive
+R!variance                                         Fixed
+R!trait.likert_total:likert_total               Positive
+R!trait.eysenck_N:likert_total                  Positive
+R!trait.eysenck_N:eysenck_N                     Positive
+[1] "Did full model converge: TRUE"
+[1] "Did null-genetic model converge: TRUE"
+[1] "Did null-environment model converge: TRUE"
+[1] "Genetic Chi2 = 160.566376494913, p = 0"
+[1] "Environment Chi2 = 2.00314088843879, p = 0.156973639013895"
+[1] "rg and its standard error"
+ Estimate       SE
+  0.78785 0.035382
+[1] "re and its standard error"
+ Estimate      SE
+  0.95584 0.44338
+[1] "r and its standard error"
+ Estimate        SE
+  0.51281 0.0053985
+[1] "Correlation checks"
+[1] "Genetic correlation of  likert_total  and  eysenck_N is =  0.787846986399984"
+[1] "Environmental correlation of  likert_total  and  eysenck_N is =  0.955840567878381"
+[1] "Phenotypic correlation of  likert_total  and  eysenck_N is =  0.512807525686146"
+[1] " p =  6.11526933519013e-37"
+[1] "fixed=cbind( likert_total , gfactor ) ~trait + trait:sex + trait:age + trait:I(age^2)"
+                                                  gamma
+trait:ped(id)!trait.likert_total:likert_total 18.456941
+trait:ped(id)!trait.gfactor:likert_total      -0.750626
+trait:ped(id)!trait.gfactor:gfactor            0.583450
+trait:sib!trait.likert_total:likert_total      1.314069
+trait:sib!trait.gfactor:likert_total          -0.066520
+trait:sib!trait.gfactor:gfactor                0.061965
+R!variance                                     1.000000
+R!trait.likert_total:likert_total             56.910365
+R!trait.gfactor:likert_total                  -0.161331
+R!trait.gfactor:gfactor                        0.296927
+                                              component
+trait:ped(id)!trait.likert_total:likert_total 18.456941
+trait:ped(id)!trait.gfactor:likert_total      -0.750626
+trait:ped(id)!trait.gfactor:gfactor            0.583450
+trait:sib!trait.likert_total:likert_total      1.314069
+trait:sib!trait.gfactor:likert_total          -0.066520
+trait:sib!trait.gfactor:gfactor                0.061965
+R!variance                                     1.000000
+R!trait.likert_total:likert_total             56.910365
+R!trait.gfactor:likert_total                  -0.161331
+R!trait.gfactor:gfactor                        0.296927
+                                              std.error
+trait:ped(id)!trait.likert_total:likert_total  1.601010
+trait:ped(id)!trait.gfactor:likert_total       0.126027
+trait:ped(id)!trait.gfactor:gfactor            0.019590
+trait:sib!trait.likert_total:likert_total      1.028462
+trait:sib!trait.gfactor:likert_total           0.074221
+trait:sib!trait.gfactor:gfactor                0.010446
+R!variance                                           NA
+R!trait.likert_total:likert_total              1.339329
+R!trait.gfactor:likert_total                   0.097066
+R!trait.gfactor:gfactor                        0.013822
+                                               z.ratio
+trait:ped(id)!trait.likert_total:likert_total 11.52831
+trait:ped(id)!trait.gfactor:likert_total      -5.95606
+trait:ped(id)!trait.gfactor:gfactor           29.78268
+trait:sib!trait.likert_total:likert_total      1.27770
+trait:sib!trait.gfactor:likert_total          -0.89625
+trait:sib!trait.gfactor:gfactor                5.93191
+R!variance                                          NA
+R!trait.likert_total:likert_total             42.49169
+R!trait.gfactor:likert_total                  -1.66207
+R!trait.gfactor:gfactor                       21.48263
+                                              constraint
+trait:ped(id)!trait.likert_total:likert_total   Positive
+trait:ped(id)!trait.gfactor:likert_total        Positive
+trait:ped(id)!trait.gfactor:gfactor             Positive
+trait:sib!trait.likert_total:likert_total       Positive
+trait:sib!trait.gfactor:likert_total            Positive
+trait:sib!trait.gfactor:gfactor                 Positive
+R!variance                                         Fixed
+R!trait.likert_total:likert_total               Positive
+R!trait.gfactor:likert_total                    Positive
+R!trait.gfactor:gfactor                         Positive
+[1] "Did full model converge: TRUE"
+[1] "Did null-genetic model converge: TRUE"
+[1] "Did null-environment model converge: TRUE"
+[1] "Genetic Chi2 = 34.9420360716758, p = 3.39667860504989e-09"
+[1] "Environment Chi2 = 0.790128482447471, p = 0.374061278059479"
+[1] "rg and its standard error"
+ Estimate       SE
+ -0.22874 0.037334
+[1] "re and its standard error"
+ Estimate      SE
+ -0.23312 0.26089
+[1] "r and its standard error"
+ Estimate       SE
+ -0.11511 0.007454
+[1] "Correlation checks"
+[1] "Genetic correlation of  likert_total  and  gfactor is =  -0.228739996870718"
+[1] "Environmental correlation of  likert_total  and  gfactor is =  -0.233116123793261"
+[1] "Phenotypic correlation of  likert_total  and  gfactor is =  -0.115106956130449"
+[1] " p =  0.000998110459406984"
+[1] "fixed=cbind( eysenck_N , gfactor ) ~trait + trait:sex + trait:age + trait:I(age^2)"
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+ US matrix updates modified 1 times to remain positive definite.
+US variance structures were modified in 523 instances to make them positive definite
+                                            gamma
+trait:ped(id)!trait.eysenck_N:eysenck_N  2.808569
+trait:ped(id)!trait.gfactor:eysenck_N   -0.259094
+trait:ped(id)!trait.gfactor:gfactor      0.582080
+trait:sib!trait.eysenck_N:eysenck_N      0.094248
+trait:sib!trait.gfactor:eysenck_N       -0.053490
+trait:sib!trait.gfactor:gfactor          0.062099
+R!variance                               1.000000
+R!trait.eysenck_N:eysenck_N              6.727051
+R!trait.gfactor:eysenck_N               -0.010042
+R!trait.gfactor:gfactor                  0.297864
+                                        component
+trait:ped(id)!trait.eysenck_N:eysenck_N  2.808569
+trait:ped(id)!trait.gfactor:eysenck_N   -0.259094
+trait:ped(id)!trait.gfactor:gfactor      0.582080
+trait:sib!trait.eysenck_N:eysenck_N      0.094248
+trait:sib!trait.gfactor:eysenck_N       -0.053490
+trait:sib!trait.gfactor:gfactor          0.062099
+R!variance                               1.000000
+R!trait.eysenck_N:eysenck_N              6.727051
+R!trait.gfactor:eysenck_N               -0.010042
+R!trait.gfactor:gfactor                  0.297864
+                                        std.error
+trait:ped(id)!trait.eysenck_N:eysenck_N  0.197319
+trait:ped(id)!trait.gfactor:eysenck_N    0.044185
+trait:ped(id)!trait.gfactor:gfactor      0.019583
+trait:sib!trait.eysenck_N:eysenck_N      0.123348
+trait:sib!trait.gfactor:eysenck_N        0.025647
+trait:sib!trait.gfactor:gfactor          0.010454
+R!variance                                     NA
+R!trait.eysenck_N:eysenck_N              0.163247
+R!trait.gfactor:eysenck_N                0.033784
+R!trait.gfactor:gfactor                  0.013824
+                                         z.ratio
+trait:ped(id)!trait.eysenck_N:eysenck_N 14.23367
+trait:ped(id)!trait.gfactor:eysenck_N   -5.86391
+trait:ped(id)!trait.gfactor:gfactor     29.72372
+trait:sib!trait.eysenck_N:eysenck_N      0.76408
+trait:sib!trait.gfactor:eysenck_N       -2.08562
+trait:sib!trait.gfactor:gfactor          5.94051
+R!variance                                    NA
+R!trait.eysenck_N:eysenck_N             41.20780
+R!trait.gfactor:eysenck_N               -0.29723
+R!trait.gfactor:gfactor                 21.54701
+                                        constraint
+trait:ped(id)!trait.eysenck_N:eysenck_N   Positive
+trait:ped(id)!trait.gfactor:eysenck_N     Positive
+trait:ped(id)!trait.gfactor:gfactor       Positive
+trait:sib!trait.eysenck_N:eysenck_N       Positive
+trait:sib!trait.gfactor:eysenck_N         Positive
+trait:sib!trait.gfactor:gfactor           Positive
+R!variance                                   Fixed
+R!trait.eysenck_N:eysenck_N               Positive
+R!trait.gfactor:eysenck_N                 Positive
+R!trait.gfactor:gfactor                   Positive
+[1] "Did full model converge: TRUE"
+[1] "Did null-genetic model converge: TRUE"
+[1] "Did null-environment model converge: TRUE"
+[1] "Genetic Chi2 = 37.0853039034992, p = 1.13072706753314e-09"
+[1] "Environment Chi2 = 4.37117002879677, p = 0.0365518859844903"
+[1] "rg and its standard error"
+ Estimate       SE
+ -0.20264 0.033652
+[1] "re and its standard error"
+ Estimate     SE
+ -0.69919 0.5259
+[1] "r and its standard error"
+ Estimate        SE
+ -0.10712 0.0074881
+[1] "Correlation checks"
+[1] "Genetic correlation of  eysenck_N  and  gfactor is =  -0.202639540759998"
+[1] "Environmental correlation of  eysenck_N  and  gfactor is =  -0.699192086457249"
+[1] "Phenotypic correlation of  eysenck_N  and  gfactor is =  -0.107115997085917"
+[1] " p =  0.00184773957122654"

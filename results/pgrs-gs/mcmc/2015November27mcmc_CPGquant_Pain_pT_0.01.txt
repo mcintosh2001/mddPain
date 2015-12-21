@@ -1,0 +1,40 @@
+$formula
+CPGquant ~ sex + age + I(age^2) + C1 + C2 + C3 + C4 + Pain_pT_0.01
+
+
+ Iterations = 15001:249951
+ Thinning interval  = 50
+ Sample size  = 4700 
+
+ DIC: 31139 
+
+ G-structure:  ~animal
+
+       post.mean l-95% CI u-95% CI eff.samp
+animal      1.23    0.955     1.52      196
+
+ R-structure:  ~units
+
+      post.mean l-95% CI u-95% CI eff.samp
+units         1        1        1        0
+
+ Location effects: CPGquant ~ sex + age + I(age^2) + C1 + C2 + C3 + C4 + Pain_pT_0.01 
+
+             post.mean  l-95% CI  u-95% CI eff.samp  pMCMC
+(Intercept)  -3.10e+00 -3.42e+00 -2.79e+00     1462 <2e-04
+sexM         -3.87e-01 -4.57e-01 -3.23e-01     2790 <2e-04
+age           8.99e-02  7.70e-02  1.02e-01     2684 <2e-04
+I(age^2)     -6.46e-04 -7.72e-04 -5.13e-04     3955 <2e-04
+C1           -3.25e+00 -7.81e+00  1.62e+00     4419  0.195
+C2           -3.74e+00 -8.65e+00  1.03e+00     4700  0.129
+C3            7.81e-01 -3.99e+00  5.82e+00     4700  0.759
+C4           -6.05e+00 -1.10e+01 -1.30e+00     4401  0.017
+Pain_pT_0.01  3.53e-02  2.64e-03  7.06e-02     4700  0.042
+
+ Cutpoints: 
+                         post.mean l-95% CI u-95% CI eff.samp
+cutpoint.traitCPGquant.1      1.16     1.10     1.22      270
+cutpoint.traitCPGquant.2      2.23     2.12     2.33      237
+cutpoint.traitCPGquant.3      2.84     2.70     2.97      238
+[1] "effect of Pain_pT_0.01 on CPGquant = 0.0344459081800975"
+[1] "95%CI= 0.00263704183453228" "95%CI= 0.0705702358391136" 

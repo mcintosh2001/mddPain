@@ -1,0 +1,319 @@
+PGC polygenic prediction of psychol vars in GS
+
+zlikert_total ~ sex + age + I(age^2) + likert_total + C1 + C2 + 
+    C3 + C4 + bdldscore
+                solution std error z ratio
+bdldscore    -2.1579e-15        NA      NA
+C4            8.0846e-12        NA      NA
+C3            3.1437e-12        NA      NA
+C2            3.5730e-12        NA      NA
+C1           -5.3303e-12        NA      NA
+likert_total  1.1330e-01        NA      NA
+I(age^2)     -1.1968e-14        NA      NA
+age           1.2026e-12        NA      NA
+sex_F         0.0000e+00        NA      NA
+sex_M         1.0095e-12        NA      NA
+(Intercept)  -1.8096e+00        NA      NA
+[1] "beta for ldpred = -2.15785053167177e-15"
+Residual SS is -0.000000
+ABORT
+Fault 2130 No residual variation$Wald
+             Df denDF F.inc F.con Margin Pr
+(Intercept)   1    NA   Inf     0         0
+sex           1    NA   Inf     0         0
+age           1    NA   Inf     0         0
+I(age^2)      1    NA   Inf     0         0
+likert_total  1    NA   Inf     0         0
+C1            1    NA   NaN     0         0
+C2            1    NA   NaN     0         0
+C3            1    NA   NaN     0         0
+C4            1    NA   NaN     0         0
+bdldscore     1    NA   NaN     0         0
+
+$stratumVariances
+NULL
+
+[1] "variance explained by bdldscore in zlikert_total = 4.65588548413358e-30"
+
+
+zlikert_total ~ sex + age + I(age^2) + likert_total + C1 + C2 + 
+    C3 + C4 + sczldscore
+                solution std error z ratio
+sczldscore   -1.2758e-14        NA      NA
+C4            8.1461e-12        NA      NA
+C3            3.0903e-12        NA      NA
+C2            3.5727e-12        NA      NA
+C1           -5.2223e-12        NA      NA
+likert_total  1.1330e-01        NA      NA
+I(age^2)     -1.1968e-14        NA      NA
+age           1.2026e-12        NA      NA
+sex_F         0.0000e+00        NA      NA
+sex_M         1.0092e-12        NA      NA
+(Intercept)  -1.8096e+00        NA      NA
+[1] "beta for ldpred = -1.27576737808427e-14"
+Residual SS is -0.000000
+ABORT
+Fault 2130 No residual variation$Wald
+             Df denDF F.inc F.con Margin Pr
+(Intercept)   1    NA   Inf     0         0
+sex           1    NA   Inf     0         0
+age           1    NA   Inf     0         0
+I(age^2)      1    NA   Inf     0         0
+likert_total  1    NA   Inf     0         0
+C1            1    NA   NaN     0         0
+C2            1    NA   NaN     0         0
+C3            1    NA   NaN     0         0
+C4            1    NA   NaN     0         0
+sczldscore    1    NA   NaN     0         0
+
+$stratumVariances
+NULL
+
+[1] "variance explained by sczldscore in zlikert_total = 1.62693027384321e-28"
+
+
+zlikert_total ~ sex + age + I(age^2) + likert_total + C1 + C2 + 
+    C3 + C4 + mddldscore
+                solution std error z ratio
+mddldscore   -5.9457e-14        NA      NA
+C4            8.2613e-12        NA      NA
+C3            4.0399e-12        NA      NA
+C2            4.2631e-12        NA      NA
+C1           -3.1126e-12        NA      NA
+likert_total  1.1330e-01        NA      NA
+I(age^2)     -1.1969e-14        NA      NA
+age           1.2027e-12        NA      NA
+sex_F         0.0000e+00        NA      NA
+sex_M         1.0100e-12        NA      NA
+(Intercept)  -1.8096e+00        NA      NA
+[1] "beta for ldpred = -5.94571915732002e-14"
+Residual SS is -0.000000
+ABORT
+Fault 2130 No residual variation$Wald
+             Df denDF F.inc F.con Margin Pr
+(Intercept)   1    NA   Inf     0         0
+sex           1    NA   Inf     0         0
+age           1    NA   Inf     0         0
+I(age^2)      1    NA   Inf     0         0
+likert_total  1    NA   Inf     0         0
+C1            1    NA   NaN     0         0
+C2            1    NA   NaN     0         0
+C3            1    NA   NaN     0         0
+C4            1    NA   NaN     0         0
+mddldscore    1    NA   NaN     0         0
+
+$stratumVariances
+NULL
+
+[1] "variance explained by mddldscore in zlikert_total = 3.52607819080125e-27"
+
+
+gfactor ~ sex + age + I(age^2) + likert_total + C1 + C2 + C3 + 
+    C4 + bdldscore
+                solution  std error   z ratio
+bdldscore    -0.01306242 7.5711e-03  -1.72530
+C4            1.11264095 1.0949e+00   1.01621
+C3            2.66971103 1.0866e+00   2.45695
+C2            1.74150501 1.0986e+00   1.58520
+C1           -0.97097167 1.0721e+00  -0.90565
+likert_total -0.01090414 7.6420e-04 -14.26869
+I(age^2)     -0.00080417 2.4367e-05 -33.00252
+age           0.06860461 2.2971e-03  29.86592
+sex_F         0.00000000         NA        NA
+sex_M        -0.21137964 1.3560e-02 -15.58814
+(Intercept)  -1.00127215 5.3598e-02 -18.68115
+[1] "beta for ldpred = -0.0130624232129786"
+ 
+$Wald
+             Df   denDF     F.inc     F.con Margin          Pr
+(Intercept)   1  8884.3    0.3782  442.5000         6.6957e-96
+sex           1 18134.5  214.7000  243.0000      A  1.9771e-54
+age           1 11998.4  179.9000  892.0000      A 4.1126e-189
+I(age^2)      1 11968.3 1034.0000 1089.0000      A 1.1043e-228
+likert_total  1 17960.0  206.8000  203.6000      A  6.1147e-46
+C1            1 17113.2    1.3400    0.8202      A  3.6513e-01
+C2            1 16095.9    2.1000    2.5130      A  1.1294e-01
+C3            1 16255.2    5.9680    6.0370      A  1.4023e-02
+C4            1 16119.7    1.1280    1.0330      A  3.0954e-01
+bdldscore     1 17391.0    2.9770    2.9770      A  8.4491e-02
+
+$stratumVariances
+NULL
+
+[1] "variance explained by bdldscore in gfactor = 0.000172817178216779"
+
+
+gfactor ~ sex + age + I(age^2) + likert_total + C1 + C2 + C3 + 
+    C4 + sczldscore
+                solution  std error  z ratio
+sczldscore   -0.05683596 7.4769e-03  -7.6015
+C4            1.40766152 1.0931e+00   1.2877
+C3            2.43849090 1.0851e+00   2.2474
+C2            1.69615306 1.0913e+00   1.5542
+C1           -0.57406314 1.0621e+00  -0.5405
+likert_total -0.01066542 7.6369e-04 -13.9656
+I(age^2)     -0.00080333 2.4342e-05 -33.0019
+age           0.06852013 2.2947e-03  29.8602
+sex_F         0.00000000         NA       NA
+sex_M        -0.21270216 1.3543e-02 -15.7055
+(Intercept)  -1.00268730 5.3539e-02 -18.7281
+[1] "beta for ldpred = -0.0568359610996352"
+ 
+$Wald
+             Df   denDF     F.inc     F.con Margin          Pr
+(Intercept)   1  8869.9    0.3844  445.1000         1.9297e-96
+sex           1 18137.6  215.1000  246.7000      A  3.2058e-55
+age           1 12016.4  180.2000  891.6000      A 4.7082e-189
+I(age^2)      1 11986.1 1036.0000 1089.0000      A 1.0888e-228
+likert_total  1 17953.4  207.5000  195.0000      A  4.2993e-44
+C1            1 17089.8    1.3450    0.2921      A  5.8886e-01
+C2            1 16069.7    2.1100    2.4150      A  1.2016e-01
+C3            1 16244.4    5.9870    5.0510      A  2.4631e-02
+C4            1 16104.9    1.1370    1.6580      A  1.9786e-01
+sczldscore    1 17557.3   57.7800   57.7800      A  3.0734e-14
+
+$stratumVariances
+NULL
+
+[1] "variance explained by sczldscore in gfactor = 0.00327078658869299"
+
+
+gfactor ~ sex + age + I(age^2) + likert_total + C1 + C2 + C3 + 
+    C4 + mddldscore
+                solution  std error   z ratio
+mddldscore   -0.02602910 7.7868e-03  -3.34272
+C4            1.23452091 1.0945e+00   1.12797
+C3            3.04695950 1.0928e+00   2.78820
+C2            1.86791161 1.0969e+00   1.70295
+C1           -0.24751103 1.1012e+00  -0.22476
+likert_total -0.01080973 7.6475e-04 -14.13508
+I(age^2)     -0.00080488 2.4363e-05 -33.03711
+age           0.06867023 2.2967e-03  29.89995
+sex_F         0.00000000         NA        NA
+sex_M        -0.21117146 1.3558e-02 -15.57589
+(Intercept)  -1.00442131 5.3597e-02 -18.74026
+[1] "beta for ldpred = -0.0260291015254892"
+ 
+$Wald
+             Df   denDF     F.inc     F.con Margin          Pr
+(Intercept)   1  8886.2    0.3788 4.449e+02         2.0408e-96
+sex           1 18135.3  214.8000 2.426e+02      A  2.3885e-54
+age           1 12001.4  180.0000 8.940e+02      A 1.5883e-189
+I(age^2)      1 11971.0 1034.0000 1.091e+03      A 3.8521e-229
+likert_total  1 17945.6  206.9000 1.998e+02      A  4.0321e-45
+C1            1 17077.5    1.3410 5.052e-02      A  8.2217e-01
+C2            1 16079.0    2.1010 2.900e+00      A  8.8597e-02
+C3            1 16270.1    5.9710 7.774e+00      A  5.3064e-03
+C4            1 16120.6    1.1290 1.272e+00      A  2.5935e-01
+mddldscore    1 17552.4   11.1700 1.117e+01      A  8.3135e-04
+
+$stratumVariances
+NULL
+
+[1] "variance explained by mddldscore in gfactor = 0.000684512442338061"
+
+
+zeysenck_N ~ sex + age + I(age^2) + likert_total + C1 + C2 + 
+    C3 + C4 + bdldscore
+                solution  std error   z ratio
+bdldscore     1.1095e-02 6.4108e-03   1.73070
+C4           -6.7865e-01 9.0657e-01  -0.74859
+C3           -1.4779e-01 9.0248e-01  -0.16376
+C2           -2.4506e+00 9.0855e-01  -2.69729
+C1           -1.3418e-01 9.0337e-01  -0.14853
+likert_total  5.6360e-02 6.9545e-04  81.04134
+I(age^2)      2.4037e-05 2.3284e-05   1.03233
+age          -8.1555e-03 2.2038e-03  -3.70071
+sex_F         0.0000e+00         NA        NA
+sex_M        -2.3625e-01 1.2376e-02 -19.08951
+(Intercept)  -4.7687e-01 5.0927e-02  -9.36375
+[1] "beta for ldpred = 0.01109512865954"
+ 
+$Wald
+             Df   denDF     F.inc     F.con Margin         Pr
+(Intercept)   1  6557.9 1.122e-01 1.462e+02        2.6961e-33
+sex           1 19150.9 7.508e+02 3.644e+02      A 1.7257e-80
+age           1 17106.9 3.663e+02 1.370e+01      A 2.1567e-04
+I(age^2)      1 17070.9 1.559e+01 1.066e+00      A 3.0193e-01
+likert_total  1 19140.7 6.594e+03 6.568e+03      A 0.0000e+00
+C1            1 13674.6 1.097e-02 2.206e-02      A 8.8193e-01
+C2            1 12046.3 6.434e+00 7.275e+00      A 7.0003e-03
+C3            1 12318.1 2.392e-02 2.682e-02      A 8.6992e-01
+C4            1 11831.5 6.333e-01 5.604e-01      A 4.5412e-01
+bdldscore     1 14371.9 2.995e+00 2.995e+00      A 8.3526e-02
+
+$stratumVariances
+NULL
+
+[1] "variance explained by bdldscore in zeysenck_N = 0.000123090421047628"
+
+
+zeysenck_N ~ sex + age + I(age^2) + likert_total + C1 + C2 + 
+    C3 + C4 + sczldscore
+                solution  std error    z ratio
+sczldscore    1.8127e-02 0.00634867   2.855274
+C4           -7.9688e-01 0.90657353  -0.879005
+C3           -6.6383e-02 0.90273141  -0.073536
+C2           -2.3247e+00 0.90383764  -2.572082
+C1           -1.2306e-01 0.89639496  -0.137281
+likert_total  5.6290e-02 0.00069601  80.875229
+I(age^2)      2.4156e-05 0.00002328   1.037641
+age          -8.1675e-03 0.00220335  -3.706859
+sex_F         0.0000e+00         NA         NA
+sex_M        -2.3576e-01 0.01237518 -19.051314
+(Intercept)  -4.7566e-01 0.05092066  -9.341116
+[1] "beta for ldpred = 0.0181271801588991"
+ 
+$Wald
+             Df   denDF     F.inc     F.con Margin         Pr
+(Intercept)   1  6561.3 1.123e-01 1.454e+02        3.8890e-33
+sex           1 19150.8 7.510e+02 3.630e+02      A 3.5342e-80
+age           1 17106.1 3.664e+02 1.374e+01      A 2.1051e-04
+I(age^2)      1 17070.0 1.559e+01 1.077e+00      A 2.9945e-01
+likert_total  1 19142.7 6.595e+03 6.541e+03      A 0.0000e+00
+C1            1 13677.1 1.099e-02 1.885e-02      A 8.9081e-01
+C2            1 12052.7 6.434e+00 6.616e+00      A 1.0121e-02
+C3            1 12323.8 2.379e-02 5.408e-03      A 9.4138e-01
+C4            1 11842.6 6.342e-01 7.727e-01      A 3.7942e-01
+sczldscore    1 14385.1 8.153e+00 8.153e+00      A 4.3061e-03
+
+$stratumVariances
+NULL
+
+[1] "variance explained by sczldscore in zeysenck_N = 0.0003284630013399"
+
+
+zeysenck_N ~ sex + age + I(age^2) + likert_total + C1 + C2 + 
+    C3 + C4 + mddldscore
+                solution  std error   z ratio
+mddldscore    3.0036e-02 0.00661472   4.54082
+C4           -8.0802e-01 0.90634082  -0.89152
+C3           -5.8306e-01 0.90772989  -0.64233
+C2           -2.6411e+00 0.90701755  -2.91190
+C1           -1.0316e+00 0.92711916  -1.11273
+likert_total  5.6208e-02 0.00069597  80.76095
+I(age^2)      2.4896e-05 0.00002327   1.06988
+age          -8.2283e-03 0.00220238  -3.73610
+sex_F         0.0000e+00         NA        NA
+sex_M        -2.3646e-01 0.01237004 -19.11539
+(Intercept)  -4.7286e-01 0.05090497  -9.28915
+[1] "beta for ldpred = 0.0300362355688927"
+ 
+$Wald
+             Df   denDF     F.inc     F.con Margin         Pr
+(Intercept)   1  6565.5 1.126e-01  144.5000        6.2450e-33
+sex           1 19150.4 7.514e+02  365.4000      A 1.0611e-80
+age           1 17093.6 3.668e+02   13.9600      A 1.8751e-04
+I(age^2)      1 17057.1 1.558e+01    1.1450      A 2.8469e-01
+likert_total  1 19144.5 6.598e+03 6522.0000      A 0.0000e+00
+C1            1 13652.2 1.107e-02    1.2380      A 2.6584e-01
+C2            1 12048.5 6.432e+00    8.4790      A 3.5990e-03
+C3            1 12339.2 2.334e-02    0.4126      A 5.2067e-01
+C4            1 11852.5 6.373e-01    0.7948      A 3.7267e-01
+mddldscore    1 14651.6 2.062e+01   20.6200      A 5.6482e-06
+
+$stratumVariances
+NULL
+
+[1] "variance explained by mddldscore in zeysenck_N = 0.000899858366054525"
+

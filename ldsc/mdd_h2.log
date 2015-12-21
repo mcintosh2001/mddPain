@@ -1,0 +1,34 @@
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 mdd_ldsc.sumstats.gz \
+--ref-ld-chr /home/orkney_01/mcintosh/ldscore/ldsc/refFiles/eur_w_ld_chr/ \
+--out mdd_h2 \
+--pop-prev 0.12 \
+--samp-prev 0.5 \
+--w-ld-chr /home/orkney_01/mcintosh/ldscore/ldsc/refFiles/eur_w_ld_chr/ 
+
+Beginning analysis at Thu Nov 12 15:41:28 2015
+Reading summary statistics from mdd_ldsc.sumstats.gz ...
+Read summary statistics for 893935 SNPs.
+Reading reference panel LD Score from /home/orkney_01/mcintosh/ldscore/ldsc/refFiles/eur_w_ld_chr/[1-22] ...
+Read reference panel LD Scores for 1293150 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /home/orkney_01/mcintosh/ldscore/ldsc/refFiles/eur_w_ld_chr/[1-22] ...
+Read regression weight LD Scores for 1293150 SNPs.
+After merging with reference panel LD, 891172 SNPs remain.
+After merging with regression SNP LD, 891172 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Liability scale h2: 0.1788 (0.0333)
+Lambda GC: 1.0741
+Mean Chi^2: 1.078
+Intercept: 1.0121 (0.0081)
+Ratio: 0.1547 (0.1035)
+Analysis finished at Thu Nov 12 15:41:35 2015
+Total time elapsed: 7.16s

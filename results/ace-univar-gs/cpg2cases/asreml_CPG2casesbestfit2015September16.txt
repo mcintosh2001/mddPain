@@ -1,0 +1,38 @@
+$call
+asreml(fixed = CPGquant ~ sex + age + I(age^2), random = ~ped(id), 
+    data = dataframe, na.method.Y = "omit", na.method.X = "omit", 
+    ginverse = list(id = ainv), maxiter = 15000, trace = FALSE, 
+    workspace = 8e+08)
+
+$loglik
+[1] -8098.5
+
+$nedf
+[1] 16914
+
+$sigma
+[1] 0.8377
+
+$varcomp
+              gamma component std.error z.ratio
+ped(id)!ped 0.38208   0.26812  0.019321  13.877
+R!variance  1.00000   0.70174  0.018776  37.374
+            constraint
+ped(id)!ped   Positive
+R!variance    Positive
+
+attr(,"class")
+[1] "summary.asreml"
+[1] "Did no.e model converge: TRUE"
+[1] "Did sib only model converge: TRUE"
+[1] "Did spouse model converge: TRUE"
+[1] "Did sib and spouse model converge: TRUE"
+[1] "Did sib spouse and old model converge: TRUE"
+[1] "Did sib spouse and young model converge: TRUE"
+[1] "Significance of sib effect compared to null model = 4.58976245467784, p = 0.0321634715879261"
+[1] "Significance of spouse effect compared to null model = 27.2352079952598, p = 1.80148088779752e-07"
+[1] "Significance of sib+spouse effect compared to sib model = 23.1428129897795, p = 1.5040430210167e-06"
+[1] "Significance of sib+spouse effect compared to spouse model = 0.497367449197554, p = 0.480659131617834"
+[1] "Significance of young+spouse effect compared to spouse model = 4.26354788810931, p = 0.0389385161780847"
+[1] "Significance of old+spouse effect compared to spouse model = -3.16632213070989e-05, p = 1"
+[1] "Significance of spouse+old+young effect compared to spouse model = 4.2635313966075, p = 0.1186276481842"

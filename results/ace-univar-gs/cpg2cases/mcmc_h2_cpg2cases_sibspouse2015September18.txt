@@ -1,0 +1,4 @@
+[1] "h2CPG2cases= 0.619700546448981"
+[1] "95%CI=0.513082673343497" "95%CI=0.703120780757423"
+[1] "c2CPG2casessibspouse= 0.234616830881659"
+[1] "model DIC for CPG2cases with animal sib spouse  =7694.39134628723"

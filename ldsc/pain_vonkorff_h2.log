@@ -1,0 +1,32 @@
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 pain_vonkorff_ldsc.sumstats.gz \
+--ref-ld-chr /home/orkney_01/mcintosh/ldscore/ldsc/refFiles/eur_w_ld_chr/ \
+--out pain_vonkorff_h2 \
+--w-ld-chr /home/orkney_01/mcintosh/ldscore/ldsc/refFiles/eur_w_ld_chr/ 
+
+Beginning analysis at Thu Nov 12 15:41:19 2015
+Reading summary statistics from pain_vonkorff_ldsc.sumstats.gz ...
+Read summary statistics for 1180313 SNPs.
+Reading reference panel LD Score from /home/orkney_01/mcintosh/ldscore/ldsc/refFiles/eur_w_ld_chr/[1-22] ...
+Read reference panel LD Scores for 1293150 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /home/orkney_01/mcintosh/ldscore/ldsc/refFiles/eur_w_ld_chr/[1-22] ...
+Read regression weight LD Scores for 1293150 SNPs.
+After merging with reference panel LD, 1162536 SNPs remain.
+After merging with regression SNP LD, 1162536 SNPs remain.
+Using two-step estimator with cutoff at 30.
+Total Observed scale h2: 0.0601 (0.0149)
+Lambda GC: 1.0375
+Mean Chi^2: 1.036
+Intercept: 1.0004 (0.0062)
+Ratio: 0.0116 (0.1731)
+Analysis finished at Thu Nov 12 15:41:26 2015
+Total time elapsed: 7.39s

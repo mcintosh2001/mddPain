@@ -1,0 +1,272 @@
+
+ Iterations = 12001:511901
+ Thinning interval  = 100
+ Sample size  = 5000 
+
+ DIC: 6792.5 
+
+ G-structure:  ~animal
+
+       post.mean l-95% CI
+animal        25      3.6
+       u-95% CI eff.samp
+animal     44.3     4.73
+
+               ~sib
+
+    post.mean l-95% CI
+sib      1.32   0.0756
+    u-95% CI eff.samp
+sib     3.91     47.8
+
+               ~spouse
+
+       post.mean l-95% CI
+spouse      10.8    0.324
+       u-95% CI eff.samp
+spouse     21.7     7.97
+
+               ~old_household
+
+              post.mean
+old_household     0.787
+              l-95% CI
+old_household   0.0639
+              u-95% CI
+old_household     2.19
+              eff.samp
+old_household     55.4
+
+               ~young_household
+
+                post.mean
+young_household      1.03
+                l-95% CI
+young_household    0.113
+                u-95% CI
+young_household     2.85
+                eff.samp
+young_household     55.1
+
+ R-structure:  ~units
+
+      post.mean l-95% CI
+units         2        2
+      u-95% CI eff.samp
+units        2        0
+
+ Location effects: CPG2cases ~ sex + age + I(age^2) 
+
+            post.mean
+(Intercept) -1.26e+01
+sexM        -2.03e+00
+age          2.76e-01
+I(age^2)    -1.86e-03
+             l-95% CI
+(Intercept) -1.80e+01
+sexM        -2.95e+00
+age          1.23e-01
+I(age^2)    -2.94e-03
+             u-95% CI
+(Intercept) -5.98e+00
+sexM        -9.39e-01
+age          4.09e-01
+I(age^2)    -7.67e-04
+            eff.samp  pMCMC
+(Intercept)     4.00 <2e-04
+sexM            5.12 <2e-04
+age             4.53 <2e-04
+I(age^2)        6.48 <2e-04
+[1] "DIC for sib spouse household = 6792.49713184231"
+, , animal
+
+          animal     sib
+Lag 0    1.00000 0.38715
+Lag 100  0.99678 0.38674
+Lag 500  0.98664 0.38560
+Lag 1000 0.97568 0.38366
+Lag 5000 0.91327 0.37912
+          spouse
+Lag 0    0.92570
+Lag 100  0.92720
+Lag 500  0.92954
+Lag 1000 0.92805
+Lag 5000 0.87586
+         old_household
+Lag 0          0.30351
+Lag 100        0.30482
+Lag 500        0.30982
+Lag 1000       0.31398
+Lag 5000       0.32957
+         young_household
+Lag 0            0.12796
+Lag 100          0.12819
+Lag 500          0.12876
+Lag 1000         0.12979
+Lag 5000         0.13858
+         units
+Lag 0      NaN
+Lag 100    NaN
+Lag 500    NaN
+Lag 1000   NaN
+Lag 5000   NaN
+
+, , sib
+
+          animal     sib
+Lag 0    0.38715 1.00000
+Lag 100  0.38789 0.97281
+Lag 500  0.39298 0.88012
+Lag 1000 0.40088 0.78016
+Lag 5000 0.38301 0.40249
+          spouse
+Lag 0    0.41525
+Lag 100  0.41857
+Lag 500  0.42859
+Lag 1000 0.43233
+Lag 5000 0.43601
+         old_household
+Lag 0          0.36722
+Lag 100        0.36849
+Lag 500        0.37400
+Lag 1000       0.37377
+Lag 5000       0.29128
+         young_household
+Lag 0           0.114306
+Lag 100         0.115634
+Lag 500         0.119370
+Lag 1000        0.126553
+Lag 5000        0.079401
+         units
+Lag 0      NaN
+Lag 100    NaN
+Lag 500    NaN
+Lag 1000   NaN
+Lag 5000   NaN
+
+, , spouse
+
+          animal     sib
+Lag 0    0.92570 0.41525
+Lag 100  0.92730 0.41529
+Lag 500  0.92990 0.41439
+Lag 1000 0.92652 0.41270
+Lag 5000 0.87446 0.41981
+          spouse
+Lag 0    1.00000
+Lag 100  0.98621
+Lag 500  0.95133
+Lag 1000 0.92853
+Lag 5000 0.85151
+         old_household
+Lag 0          0.34098
+Lag 100        0.34382
+Lag 500        0.35059
+Lag 1000       0.35791
+Lag 5000       0.38000
+         young_household
+Lag 0            0.10800
+Lag 100          0.11109
+Lag 500          0.12038
+Lag 1000         0.12947
+Lag 5000         0.19508
+         units
+Lag 0      NaN
+Lag 100    NaN
+Lag 500    NaN
+Lag 1000   NaN
+Lag 5000   NaN
+
+, , old_household
+
+          animal     sib
+Lag 0    0.30351 0.36722
+Lag 100  0.30252 0.36662
+Lag 500  0.29828 0.36365
+Lag 1000 0.29350 0.36424
+Lag 5000 0.25470 0.37576
+          spouse
+Lag 0    0.34098
+Lag 100  0.34067
+Lag 500  0.33574
+Lag 1000 0.32140
+Lag 5000 0.27179
+         old_household
+Lag 0          1.00000
+Lag 100        0.97116
+Lag 500        0.87531
+Lag 1000       0.77836
+Lag 5000       0.33698
+         young_household
+Lag 0           0.061089
+Lag 100         0.065135
+Lag 500         0.082048
+Lag 1000        0.113919
+Lag 5000        0.175881
+         units
+Lag 0      NaN
+Lag 100    NaN
+Lag 500    NaN
+Lag 1000   NaN
+Lag 5000   NaN
+
+, , young_household
+
+          animal     sib
+Lag 0    0.12796 0.11431
+Lag 100  0.12858 0.11508
+Lag 500  0.13072 0.11057
+Lag 1000 0.13544 0.10136
+Lag 5000 0.17055 0.04385
+          spouse
+Lag 0    0.10800
+Lag 100  0.10800
+Lag 500  0.10992
+Lag 1000 0.10767
+Lag 5000 0.13821
+         old_household
+Lag 0         0.061089
+Lag 100       0.056054
+Lag 500       0.036980
+Lag 1000      0.019051
+Lag 5000     -0.050039
+         young_household
+Lag 0            1.00000
+Lag 100          0.97427
+Lag 500          0.88114
+Lag 1000         0.77874
+Lag 5000         0.27523
+         units
+Lag 0      NaN
+Lag 100    NaN
+Lag 500    NaN
+Lag 1000   NaN
+Lag 5000   NaN
+
+, , units
+
+         animal sib spouse
+Lag 0       NaN NaN    NaN
+Lag 100     NaN NaN    NaN
+Lag 500     NaN NaN    NaN
+Lag 1000    NaN NaN    NaN
+Lag 5000    NaN NaN    NaN
+         old_household
+Lag 0              NaN
+Lag 100            NaN
+Lag 500            NaN
+Lag 1000           NaN
+Lag 5000           NaN
+         young_household
+Lag 0                NaN
+Lag 100              NaN
+Lag 500              NaN
+Lag 1000             NaN
+Lag 5000             NaN
+         units
+Lag 0      NaN
+Lag 100    NaN
+Lag 500    NaN
+Lag 1000   NaN
+Lag 5000   NaN
+

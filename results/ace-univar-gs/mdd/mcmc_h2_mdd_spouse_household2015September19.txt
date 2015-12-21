@@ -1,0 +1,1 @@
+[1] "model DIC for MDD with spouse+ household =10927.5782488194"

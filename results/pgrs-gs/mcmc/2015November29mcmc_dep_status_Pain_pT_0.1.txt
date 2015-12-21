@@ -1,0 +1,34 @@
+$formula
+dep_status ~ sex + age + I(age^2) + C1 + C2 + C3 + C4 + Pain_pT_0.1
+
+
+ Iterations = 15001:249951
+ Thinning interval  = 50
+ Sample size  = 4700 
+
+ DIC: 12175 
+
+ G-structure:  ~animal
+
+       post.mean l-95% CI u-95% CI eff.samp
+animal      1.66      1.2     2.15     79.8
+
+ R-structure:  ~units
+
+      post.mean l-95% CI u-95% CI eff.samp
+units         1        1        1        0
+
+ Location effects: dep_status ~ sex + age + I(age^2) + C1 + C2 + C3 + C4 + Pain_pT_0.1 
+
+            post.mean  l-95% CI  u-95% CI eff.samp  pMCMC
+(Intercept)  -4.03456  -4.52877  -3.58523      393 <2e-04
+sexM         -0.62023  -0.71944  -0.52227      536 <2e-04
+age           0.11149   0.09248   0.13097      991 <2e-04
+I(age^2)     -0.00128  -0.00149  -0.00107      775 <2e-04
+C1           -1.77703  -7.91747   4.55911     3882  0.601
+C2           -6.14410 -12.19630   0.67695     3923  0.061
+C3           -4.16752 -10.18387   2.21955     4197  0.194
+C4           -1.57421  -7.93830   5.09042     3968  0.630
+Pain_pT_0.1   0.02314  -0.02227   0.06618     3759  0.312
+[1] "effect of Pain_pT_0.1 on dep_status = 0.0262847482945223"
+[1] "95%CI= -0.0222666836780263" "95%CI= 0.0661769788130186" 

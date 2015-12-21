@@ -1,0 +1,73 @@
+Bivariate correlations with CPG2cases
+[1] "fixed=cbind(CPG2cases, dep_status ) ~trait + trait:sex + trait:age + trait:I(age^2)"
+
+[1] "Did full model converge: TRUE"
+[1] "Did null-genetic model converge: TRUE"
+[1] "Did null-environment model converge: TRUE"
+
+[1] "Genetic Chi2 = 67.1616338446256, p = 2.50134861457222e-16"
+
+[1] "rg = 0.475218581922963 SE = 0.0546076621432494"
+
+[1] "Environment Chi2 = 3.08114555700013, p = 0.0792047210608629"
+
+[1] "re = 0.500683794864429 SE = 0.293558656677919"
+
+[1] "rp= 0.139075700608579 SE = 0.00857786871418335"
+[1] "significance of phenotypic correlation =  4.06052048481718e-59"
+
+
+[1] "fixed=cbind(CPG2cases, likert_total ) ~trait + trait:sex + trait:age + trait:I(age^2)"
+
+[1] "Did full model converge: TRUE"
+[1] "Did null-genetic model converge: TRUE"
+[1] "Did null-environment model converge: TRUE"
+
+[1] "Genetic Chi2 = 140.601399279549, p = 1.96654353291047e-32"
+
+[1] "rg = 0.614887528521775 SE = 0.0438081530841559"
+
+[1] "Environment Chi2 = 17.6271131396206, p = 2.68729701539137e-05"
+
+[1] "re = 0.698271110094073 SE = 0.157940462906429"
+
+[1] "rp= 0.291119970990628 SE = 0.00794140941162464"
+[1] "significance of phenotypic correlation =  3.35310128810813e-294"
+
+
+[1] "fixed=cbind(CPG2cases, eysenck_N ) ~trait + trait:sex + trait:age + trait:I(age^2)"
+
+[1] "Did full model converge: TRUE"
+[1] "Did null-genetic model converge: TRUE"
+[1] "Did null-environment model converge: TRUE"
+
+[1] "Genetic Chi2 = 87.3865243479231, p = 8.92565522164774e-21"
+
+[1] "rg = 0.442832236045065 SE = 0.0434618774225028"
+
+[1] "Environment Chi2 = 13.9452014290291, p = 0.000188217487926146"
+
+[1] "re = 0.800967100463232 SE = 0.260949510858067"
+
+[1] "rp= 0.210679264572088 SE = 0.0083529669520723"
+[1] "significance of phenotypic correlation =  2.29328004170581e-140"
+
+
+[1] "fixed=cbind(CPG2cases, gfactor ) ~trait + trait:sex + trait:age + trait:I(age^2)"
+
+[1] "Did full model converge: TRUE"
+[1] "Did null-genetic model converge: TRUE"
+[1] "Did null-environment model converge: TRUE"
+
+[1] "Genetic Chi2 = 170.144571814781, p = 6.88003484909044e-39"
+
+[1] "rg = -0.424080058870953 SE = 0.0317031792085506"
+
+[1] "Environment Chi2 = 22.9438986446839, p = 1.66798783971073e-06"
+
+[1] "re = -0.49646604575199 SE = 0.121557629433582"
+
+[1] "rp= -0.153379743168477 SE = 0.00882003178618605"
+[1] "significance of phenotypic correlation =  9.83527730329613e-68"
+
+

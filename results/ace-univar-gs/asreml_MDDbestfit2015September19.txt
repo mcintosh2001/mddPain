@@ -1,0 +1,41 @@
+$call
+asreml(fixed = dep_status ~ sex + age + I(age^2), random = ~ped(id), 
+    data = dataframe, na.method.Y = "omit", na.method.X = "omit", 
+    ginverse = list(id = ainv), maxiter = 15000, trace = FALSE, 
+    workspace = 8e+08)
+
+$loglik
+[1] 11420
+
+$nedf
+[1] 19378
+
+$sigma
+[1] 0.30231
+
+$varcomp
+              gamma component std.error
+ped(id)!ped 0.24597  0.022479 0.0019326
+R!variance  1.00000  0.091391 0.0019873
+            z.ratio constraint
+ped(id)!ped  11.632   Positive
+R!variance   45.987   Positive
+
+attr(,"class")
+[1] "summary.asreml"
+[1] "Did no.e model converge: TRUE"
+[1] "Did sib only model converge: TRUE"
+[1] "Did spouse model converge: TRUE"
+[1] "Did old model converge: TRUE"
+[1] "Did young model converge: TRUE"
+[1] "Did sib and spouse model converge: TRUE"
+[1] "Did sib spouse and old model converge: TRUE"
+[1] "Did sib spouse and young model converge: TRUE"
+[1] "Significance of sib effect compared to null model = -2.2955922759138e-05, p = 1"
+[1] "Significance of spouse effect compared to null model = 2.95974686073168, p = 0.085361303808715"
+[1] "Significance of young effect compared to null model = 0.87304033775581, p = 0.350114987517053"
+[1] "Significance of old effect compared to null model = 0.420752318415907, p = 0.516561890546489"
+[1] "Significance of sib+spouse effect compared to sib model = 2.95974539338931, p = 0.085361381275153"
+[1] "Significance of sib+spouse effect compared to spouse model = -2.44232651311904e-05, p = 1"
+[1] "Significance of old+young houseld effect compared to null.e model = 2.06186659225204, p = 0.356673922791493"
+[1] "Significance of old+young spouse effect compared to spouse model = 0.803185832715826, p = 0.669253132247083"

@@ -1,0 +1,40 @@
+[1] "h2CPGquant= 0.38386414617149"
+[1] "95%CI=0.330606445633714" "95%CI=0.44031432751136" 
+[1] "c2CPGquantspouse= 0.186647933451698"
+[1] "95%CI=0.108284260864766" "95%CI=0.250629635064227"
+[1] "model DIC for CPGquant  with animal spouse  =28839.7267291188"
+
+ Iterations = 15001:514951
+ Thinning interval  = 50
+ Sample size  = 10000 
+
+ DIC: 28840 
+
+ G-structure:  ~animal
+
+       post.mean l-95% CI u-95% CI eff.samp
+animal      1.81     1.26     2.38      104
+
+               ~spouse
+
+       post.mean l-95% CI u-95% CI eff.samp
+spouse     0.845    0.372     1.33      109
+
+ R-structure:  ~units
+
+      post.mean l-95% CI u-95% CI eff.samp
+units         1        1        1        0
+
+ Location effects: CPGquant ~ sex + age + I(age^2) 
+
+            post.mean  l-95% CI  u-95% CI eff.samp  pMCMC
+(Intercept) -3.712473 -4.241016 -3.212326      146 <1e-04
+sexM        -0.467026 -0.558723 -0.377770      326 <1e-04
+age          0.108014  0.089076  0.126607      242 <1e-04
+I(age^2)    -0.000782 -0.000961 -0.000609      479 <1e-04
+
+ Cutpoints: 
+                         post.mean l-95% CI u-95% CI eff.samp
+cutpoint.traitCPGquant.1      1.39     1.24     1.54     80.1
+cutpoint.traitCPGquant.2      2.67     2.40     2.96     77.7
+cutpoint.traitCPGquant.3      3.40     3.05     3.76     74.3

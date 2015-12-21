@@ -1,0 +1,34 @@
+[1] "h2MDD= 0.470731894882957"
+[1] "95%CI=0.380271730968877" "95%CI=0.523922441946928"
+"c2MDD= 0.00607678087242923"
+[1] "95%CI=0.00142022215221079" "95%CI=0.223242525391633"  
+[1] "model DIC for MDD with animal and spouse =11304.8461231453"
+
+ Iterations = 15001:514951
+ Thinning interval  = 50
+ Sample size  = 10000 
+
+ DIC: 11305 
+
+ G-structure:  ~animal
+
+       post.mean l-95% CI u-95% CI eff.samp
+animal      2.15     1.29     3.17     53.9
+
+               ~spouse
+
+       post.mean l-95% CI u-95% CI eff.samp
+spouse     0.562  0.00421     1.41     25.2
+
+ R-structure:  ~units
+
+      post.mean l-95% CI u-95% CI eff.samp
+units         1        1        1        0
+
+ Location effects: dep_status ~ sex + age + I(age^2) 
+
+            post.mean l-95% CI u-95% CI eff.samp  pMCMC
+(Intercept)  -4.56535 -5.52947 -3.75457     41.2 <1e-04
+sexM         -0.69686 -0.85223 -0.54840     53.7 <1e-04
+age           0.12637  0.09758  0.15683     70.2 <1e-04
+I(age^2)     -0.00146 -0.00180 -0.00114     63.6 <1e-04

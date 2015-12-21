@@ -1,0 +1,90 @@
+[1] "Chronic pain scores at  pT_0.1"
+[1] "Summary of results for thtreshold pT_0.1on MDD narrow phenotype"
+
+ Iterations = 12001:211951
+ Thinning interval  = 50
+ Sample size  = 4000 
+
+ DIC: 34135 
+
+ R-structure:  ~units
+
+      post.mean l-95% CI u-95% CI eff.samp
+units         1        1        1        0
+
+ Location effects: mdd_narrow ~ sex + age + I(age^2) + pc1 + pc2 + pc3 + pc4 + pc5 + pc6 + pc7 + pc8 + pc9 + pc10 + gen_batch + array + assessment_centre + score 
+
+                                   post.mean  l-95% CI  u-95% CI
+(Intercept)                        -3.45e+00 -4.52e+00 -2.28e+00
+sexMale                            -4.24e-01 -4.67e-01 -3.83e-01
+age                                 1.13e-01  7.42e-02  1.49e-01
+I(age^2)                           -1.17e-03 -1.49e-03 -8.17e-04
+pc1                                 8.05e-03 -5.61e-03  2.03e-02
+pc2                                -1.43e-03 -1.54e-02  1.14e-02
+pc3                                -6.14e-03 -1.93e-02  6.54e-03
+pc4                                -3.13e-03 -1.30e-02  7.13e-03
+pc5                                -3.76e-03 -8.88e-03  1.86e-03
+pc6                                -8.47e-03 -1.92e-02  2.19e-03
+pc7                                -2.66e-03 -1.40e-02  7.37e-03
+pc8                                -3.77e-03 -9.92e-03  2.12e-03
+pc9                                 1.96e-03 -9.47e-03  1.33e-02
+pc10                                1.06e-02  3.55e-03  1.82e-02
+gen_batch                           1.11e-03 -2.57e-03  5.01e-03
+array                              -8.02e-02 -1.61e-01 -3.17e-03
+assessment_centreManchester        -1.72e-01 -6.64e-01  2.72e-01
+assessment_centreOxford            -1.66e+01 -2.70e+01 -6.36e+00
+assessment_centreCardiff           -1.57e+01 -2.34e+01 -5.21e+00
+assessment_centreGlasgow           -1.01e+00 -6.86e+00  2.87e+00
+assessment_centreStoke             -2.42e-01 -7.63e-01  2.35e-01
+assessment_centreReading            1.11e+00 -1.32e+00  3.09e+00
+assessment_centreBury              -2.46e-01 -6.84e-01  2.38e-01
+assessment_centreLeeds             -2.03e-01 -6.94e-01  2.69e-01
+assessment_centreBristol           -1.12e-01 -5.70e-01  3.35e-01
+assessment_centreNottingham        -2.91e-01 -7.48e-01  1.65e-01
+assessment_centreSheffield         -1.03e-01 -5.73e-01  3.28e-01
+assessment_centreLiverpool         -1.82e-01 -6.41e-01  2.60e-01
+assessment_centreMiddlesborough    -1.42e-01 -5.85e-01  3.13e-01
+assessment_centreHounslow          -1.80e-01 -6.19e-01  2.80e-01
+assessment_centreCroydon           -1.34e-01 -5.86e-01  3.14e-01
+assessment_centreBirmingham        -7.42e-02 -5.49e-01  3.51e-01
+assessment_centreSwansea            1.70e-01 -3.11e-01  6.58e-01
+assessment_centreWrexham            8.82e-02 -4.56e-01  6.36e-01
+assessment_centreCheadle (revisit) -1.26e-01 -5.58e-01  3.43e-01
+score                               1.61e-03 -1.85e-02  2.23e-02
+                                   eff.samp  pMCMC
+(Intercept)                          787.91 <3e-04
+sexMale                             3339.33 <3e-04
+age                                 3342.54 <3e-04
+I(age^2)                            3313.60 <3e-04
+pc1                                 3580.68  0.222
+pc2                                 3452.07  0.830
+pc3                                 3474.05  0.347
+pc4                                 3352.32  0.535
+pc5                                 3510.88  0.171
+pc6                                 3394.15  0.119
+pc7                                 3299.55  0.643
+pc8                                 3453.03  0.209
+pc9                                 3399.89  0.738
+pc10                                3353.97  0.003
+gen_batch                           3361.32  0.577
+array                               3325.54  0.045
+assessment_centreManchester          152.14  0.475
+assessment_centreOxford                3.06 <3e-04
+assessment_centreCardiff               2.51 <3e-04
+assessment_centreGlasgow               5.47  0.929
+assessment_centreStoke               172.08  0.350
+assessment_centreReading              17.88  0.335
+assessment_centreBury                144.77  0.311
+assessment_centreLeeds               168.80  0.429
+assessment_centreBristol             134.81  0.638
+assessment_centreNottingham          149.17  0.228
+assessment_centreSheffield           133.31  0.660
+assessment_centreLiverpool           131.72  0.432
+assessment_centreMiddlesborough      135.21  0.544
+assessment_centreHounslow            132.89  0.452
+assessment_centreCroydon             137.01  0.572
+assessment_centreBirmingham          134.58  0.753
+assessment_centreSwansea             152.87  0.498
+assessment_centreWrexham             207.33  0.754
+assessment_centreCheadle (revisit)   133.54  0.587
+score                               3369.70  0.893

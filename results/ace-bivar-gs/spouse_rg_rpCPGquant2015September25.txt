@@ -1,0 +1,73 @@
+Bivariate correlations with CPGquant
+[1] "fixed=cbind(CPGquant, dep_status ) ~trait + trait:sex + trait:age + trait:I(age^2)"
+
+[1] "Did full model converge: TRUE"
+[1] "Did null-genetic model converge: TRUE"
+[1] "Did null-environment model converge: TRUE"
+
+[1] "Genetic Chi2 = 78.4407218350316, p = 8.24351854107717e-19"
+
+[1] "rg = 0.506172143210355 SE = 0.0537270776547751"
+
+[1] "Environment Chi2 = 5.27978071246616, p = 0.0215744649996208"
+
+[1] "re = 0.533409943235445 SE = 0.24283849726664"
+
+[1] "rp= 0.133884704888166 SE = 0.00766658421833356"
+[1] "significance of phenotypic correlation =  2.72178253812548e-68"
+
+
+[1] "fixed=cbind(CPGquant, likert_total ) ~trait + trait:sex + trait:age + trait:I(age^2)"
+
+[1] "Did full model converge: TRUE"
+[1] "Did null-genetic model converge: TRUE"
+[1] "Did null-environment model converge: TRUE"
+
+[1] "Genetic Chi2 = 169.602454891705, p = 9.03638832164125e-39"
+
+[1] "rg = 0.66524842404061 SE = 0.0406779485349913"
+
+[1] "Environment Chi2 = 25.8243783083599, p = 3.73935572915453e-07"
+
+[1] "re = 0.705885858633117 SE = 0.114210975139193"
+
+[1] "rp= 0.308138249266584 SE = 0.00715084548859445"
+[1] "significance of phenotypic correlation =  0"
+
+
+[1] "fixed=cbind(CPGquant, eysenck_N ) ~trait + trait:sex + trait:age + trait:I(age^2)"
+
+[1] "Did full model converge: TRUE"
+[1] "Did null-genetic model converge: TRUE"
+[1] "Did null-environment model converge: TRUE"
+
+[1] "Genetic Chi2 = 109.768848350141, p = 1.10110263743401e-25"
+
+[1] "rg = 0.496987928186932 SE = 0.0423282738492127"
+
+[1] "Environment Chi2 = 16.0635921435314, p = 6.12503812276299e-05"
+
+[1] "re = 0.691794569410802 SE = 0.181441909984473"
+
+[1] "rp= 0.202852486315735 SE = 0.00754416226295095"
+[1] "significance of phenotypic correlation =  2.97986883489259e-159"
+
+
+[1] "fixed=cbind(CPGquant, gfactor ) ~trait + trait:sex + trait:age + trait:I(age^2)"
+
+[1] "Did full model converge: TRUE"
+[1] "Did null-genetic model converge: TRUE"
+[1] "Did null-environment model converge: TRUE"
+
+[1] "Genetic Chi2 = 156.124231803726, p = 7.95280246669704e-36"
+
+[1] "rg = -0.406677989710242 SE = 0.0315515822002958"
+
+[1] "Environment Chi2 = 16.8438101907814, p = 4.05854800718042e-05"
+
+[1] "re = -0.355098334793909 SE = 0.0908417616212851"
+
+[1] "rp= -0.135904347121272 SE = 0.00799300623374612"
+[1] "significance of phenotypic correlation =  7.81457697600728e-65"
+
+

@@ -1,0 +1,34 @@
+$formula
+dep_status ~ sex + age + I(age^2) + C1 + C2 + C3 + C4 + MDD_pT_0.05
+
+
+ Iterations = 15001:249951
+ Thinning interval  = 50
+ Sample size  = 4700 
+
+ DIC: 12198 
+
+ G-structure:  ~animal
+
+       post.mean l-95% CI u-95% CI eff.samp
+animal      1.63     1.11     2.18     64.9
+
+ R-structure:  ~units
+
+      post.mean l-95% CI u-95% CI eff.samp
+units         1        1        1        0
+
+ Location effects: dep_status ~ sex + age + I(age^2) + C1 + C2 + C3 + C4 + MDD_pT_0.05 
+
+            post.mean  l-95% CI  u-95% CI eff.samp  pMCMC
+(Intercept)  -4.01860  -4.51411  -3.53804      215 <2e-04
+sexM         -0.62028  -0.72067  -0.52275      426 <2e-04
+age           0.11088   0.09077   0.13009      458 <2e-04
+I(age^2)     -0.00128  -0.00149  -0.00106      385 <2e-04
+C1           -2.67445  -8.92883   3.81865     4059 0.3949
+C2           -6.08066 -12.36778   0.28157     4299 0.0604
+C3           -4.40301 -10.68607   1.92629     4170 0.1672
+C4           -1.53699  -8.23990   4.47985     3797 0.6319
+MDD_pT_0.05   0.07228   0.02714   0.11808     4096 0.0021
+[1] "effect of MDD_pT_0.05 on dep_status = 0.0744456692207225"
+[1] "95%CI= 0.0271402589205536" "95%CI= 0.11808040534379"  

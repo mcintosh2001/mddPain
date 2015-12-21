@@ -1,0 +1,44 @@
+[1] "Chronic pain group at  pT_0.1"
+[1] "Summary of results for thtreshold pT_0.1"
+
+ Iterations = 12001:211951
+ Thinning interval  = 50
+ Sample size  = 4000 
+
+ DIC: 227104 
+
+ R-structure:  ~units
+
+      post.mean l-95% CI u-95% CI eff.samp
+units         1        1        1        0
+
+ Location effects: chronic_group ~ sex + age + I(age^2) + pc1 + pc2 + pc3 + pc4 + pc5 + pc6 + pc7 + pc8 + pc9 + pc10 + gen_batch + array + assessment_centre + score 
+
+                                   post.mean  l-95% CI
+(Intercept)                        -3.09e-01 -8.85e-01
+sexMale                            -2.35e-01 -2.54e-01
+age                                 2.18e-02  4.34e-03
+I(age^2)                           -1.78e-04 -3.28e-04
+score                               2.56e-02  1.62e-02
+                                    u-95% CI eff.samp
+(Intercept)                         2.69e-01     4000
+sexMale                            -2.15e-01     4000
+age                                 3.95e-02     4000
+I(age^2)                           -1.16e-05     4000
+
+score                               3.63e-02     4000
+                                    pMCMC
+(Intercept)                         0.291
+sexMale                            <3e-04
+age                                 0.012
+I(age^2)                            0.029
+
+score                              <3e-04
+
+ Cutpoints: 
+                              post.mean l-95% CI
+cutpoint.traitchronic_group.1      1.05     1.04
+cutpoint.traitchronic_group.2      2.41     2.39
+                              u-95% CI eff.samp
+cutpoint.traitchronic_group.1     1.06     4000
+cutpoint.traitchronic_group.2     2.43     3638

@@ -1,0 +1,312 @@
+[1] "Summary of results for thtreshold pT_0.01"
+[1] "Chronic pain yes/no"
+
+Call:
+glm(formula = I(allData$chronic_group != "No chronic pain") ~ 
+    age + sex + pc1 + pc2 + pc3 + pc4 + pc5 + pc6 + pc7 + pc8 + 
+        pc9 + pc10 + gen_batch + array + assessment_centre + 
+        score, family = binomial(link = "logit"), data = allData)
+
+Deviance Residuals: 
+   Min      1Q  Median      3Q     Max  
+-1.286  -1.068  -0.967   1.271   1.566  
+
+Coefficients:
+                                    Estimate
+(Intercept)                        -0.622168
+age                                 0.007620
+sexMale                            -0.245804
+gen_batch                          -0.001645
+array                              -0.076375
+score                               0.016908
+                                   Std. Error
+(Intercept)                          0.175474
+age                                  0.000747
+sexMale                              0.011719
+gen_batch                            0.001070
+array                                0.022296
+score                                0.005846
+                                   z value
+(Intercept)                          -3.55
+age                                  10.21
+sexMale                             -20.98
+gen_batch                            -1.54
+array                                -3.43
+score                                 2.89
+                                   Pr(>|z|)
+(Intercept)                         0.00039
+age                                 < 2e-16
+sexMale                             < 2e-16
+gen_batch                           0.12404
+array                               0.00061
+score                               0.00383
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 165511  on 121052  degrees of freedom
+Residual deviance: 164529  on 121015  degrees of freedom
+  (1355 observations deleted due to missingness)
+AIC: 164605
+
+Number of Fisher Scoring iterations: 4
+
+[1] "variance explained by  pT_0.01  in pain is  5.08450206709865e-05"
+[1] "Chronic pain quantitative"
+
+Call:
+glm(formula = chronic_group12 ~ age + sex + pc1 + pc2 + pc3 + 
+    pc4 + pc5 + pc6 + pc7 + pc8 + pc9 + pc10 + gen_batch + array + 
+    assessment_centre + score, family = gaussian(link = "identity"), 
+    data = allData)
+
+Deviance Residuals: 
+   Min      1Q  Median      3Q     Max  
+-0.979  -0.684  -0.546   0.406   2.566  
+
+Coefficients:
+                                    Estimate
+(Intercept)                         1.57e+00
+age                                 3.59e-03
+sexMale                            -1.39e-01
+gen_batch                          -6.09e-04
+array                              -4.55e-02
+score                               5.75e-03
+                                   Std. Error
+(Intercept)                          7.54e-02
+age                                  3.25e-04
+sexMale                              5.11e-03
+gen_batch                            4.67e-04
+array                                9.73e-03
+score                                2.55e-03
+                                   t value
+(Intercept)                          20.79
+age                                  11.05
+sexMale                             -27.15
+gen_batch                            -1.31
+array                                -4.67
+score                                 2.25
+                                   Pr(>|t|)
+(Intercept)                         < 2e-16
+age                                 < 2e-16
+sexMale                             < 2e-16
+gen_batch                             0.192
+array                               2.9e-06
+score                                 0.024
+
+(Dispersion parameter for gaussian family taken to be 0.78376)
+
+    Null deviance: 96034  on 121052  degrees of freedom
+Residual deviance: 94846  on 121015  degrees of freedom
+  (1355 observations deleted due to missingness)
+AIC: 314078
+
+Number of Fisher Scoring iterations: 2
+
+[1] "variance explained by  pT_0.01  in painq is  1.61464533537936e-05"
+[1] "MDD broad yes/no"
+
+Call:
+glm(formula = allData$mdd_broad ~ age + sex + pc1 + pc2 + pc3 + 
+    pc4 + pc5 + pc6 + pc7 + pc8 + pc9 + pc10 + gen_batch + array + 
+    assessment_centre + score, family = binomial(link = "logit"), 
+    data = allData)
+
+Deviance Residuals: 
+   Min      1Q  Median      3Q     Max  
+-1.455  -1.060  -0.861   1.235   1.648  
+
+Coefficients:
+                                    Estimate
+(Intercept)                          0.89913
+age                                 -0.01503
+sexMale                             -0.60333
+gen_batch                            0.00163
+array                               -0.06211
+score                                0.02788
+                                   Std. Error
+(Intercept)                           0.25530
+age                                   0.00127
+sexMale                               0.01991
+gen_batch                             0.00182
+array                                 0.03775
+score                                 0.00992
+                                   z value
+(Intercept)                           3.52
+age                                 -11.84
+sexMale                             -30.31
+gen_batch                             0.89
+array                                -1.65
+score                                 2.81
+                                   Pr(>|z|)
+(Intercept)                         0.00043
+age                                 < 2e-16
+sexMale                             < 2e-16
+gen_batch                           0.37183
+array                               0.09991
+score                               0.00494
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 58885  on 43532  degrees of freedom
+Residual deviance: 57681  on 43497  degrees of freedom
+  (78875 observations deleted due to missingness)
+AIC: 57753
+
+Number of Fisher Scoring iterations: 10
+
+[1] "variance explained by  pT_0.01  in mdd_broad is  0.000137030001076788"
+[1] "MDD narrow yes/no"
+
+Call:
+glm(formula = allData$mdd_narrow ~ age + sex + pc1 + pc2 + pc3 + 
+    pc4 + pc5 + pc6 + pc7 + pc8 + pc9 + pc10 + gen_batch + array + 
+    assessment_centre + score, family = binomial(link = "logit"), 
+    data = allData)
+
+Deviance Residuals: 
+   Min      1Q  Median      3Q     Max  
+-1.225  -0.656  -0.568  -0.486   2.199  
+
+Coefficients:
+                                    Estimate
+(Intercept)                         2.08e-01
+age                                -2.10e-02
+sexMale                            -5.32e-01
+gen_batch                           8.14e-04
+array                              -9.14e-02
+score                               4.90e-02
+                                   Std. Error
+(Intercept)                          3.26e-01
+age                                  1.69e-03
+sexMale                              2.74e-02
+gen_batch                            2.47e-03
+array                                5.10e-02
+score                                1.34e-02
+                                   z value
+(Intercept)                           0.64
+age                                 -12.45
+sexMale                             -19.45
+gen_batch                             0.33
+array                                -1.79
+score                                 3.65
+                                   Pr(>|z|)
+(Intercept)                         0.52257
+age                                 < 2e-16
+sexMale                             < 2e-16
+gen_batch                           0.74124
+array                               0.07327
+score                               0.00026
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 36760  on 40079  degrees of freedom
+Residual deviance: 36124  on 40045  degrees of freedom
+  (82328 observations deleted due to missingness)
+AIC: 36194
+
+Number of Fisher Scoring iterations: 9
+
+[1] "variance explained by  pT_0.01  in mdd_narrow is  0.000369809347311123"
+[1] "MDD strict yes/no"
+
+Call:
+glm(formula = mdd_strict ~ age + sex + pc1 + pc2 + pc3 + pc4 + 
+    pc5 + pc6 + pc7 + pc8 + pc9 + pc10 + gen_batch + array + 
+    assessment_centre + score, family = binomial(link = "logit"), 
+    data = allData)
+
+Deviance Residuals: 
+   Min      1Q  Median      3Q     Max  
+-1.337  -0.882  -0.693   1.338   1.968  
+
+Coefficients:
+                                    Estimate
+(Intercept)                         8.58e-01
+age                                -2.20e-02
+sexMale                            -7.03e-01
+gen_batch                          -4.49e-04
+array                              -4.95e-02
+score                               4.60e-02
+                                   Std. Error
+(Intercept)                          3.27e-01
+age                                  1.61e-03
+sexMale                              2.56e-02
+gen_batch                            2.32e-03
+array                                4.81e-02
+score                                1.27e-02
+                                   z value
+(Intercept)                           2.63
+age                                 -13.70
+sexMale                             -27.49
+gen_batch                            -0.19
+array                                -1.03
+score                                 3.62
+                                   Pr(>|z|)
+(Intercept)                         0.00859
+age                                 < 2e-16
+sexMale                             < 2e-16
+gen_batch                           0.84658
+array                               0.30432
+score                               0.00029
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 37978  on 31465  degrees of freedom
+Residual deviance: 36897  on 31431  degrees of freedom
+  (90942 observations deleted due to missingness)
+AIC: 36967
+
+Number of Fisher Scoring iterations: 10
+
+[1] "variance explained by  pT_0.01  in mdd_strict is  0.000356114322706547"
+[1] "MDD self yes/no"
+
+Call:
+glm(formula = depr_self ~ age + sex + pc1 + pc2 + pc3 + pc4 + 
+    pc5 + pc6 + pc7 + pc8 + pc9 + pc10 + gen_batch + array + 
+    assessment_centre + score, family = binomial(link = "logit"), 
+    data = allData)
+
+Deviance Residuals: 
+   Min      1Q  Median      3Q     Max  
+-0.587  -0.395  -0.341  -0.294   2.751  
+
+Coefficients:
+                                   Estimate
+(Intercept)                        -1.07273
+age                                -0.02117
+sexMale                            -0.54223
+gen_batch                           0.00185
+array                              -0.14899
+score                               0.03398
+                                   Std. Error
+(Intercept)                           0.34451
+age                                   0.00149
+sexMale                               0.02481
+gen_batch                             0.00220
+array                                 0.04567
+score                                 0.01193
+                                   z value
+(Intercept)                          -3.11
+age                                 -14.18
+sexMale                             -21.85
+gen_batch                             0.84
+array                                -3.26
+score                                 2.85
+                                   Pr(>|z|)
+(Intercept)                          0.0018
+age                                  <2e-16
+sexMale                              <2e-16
+gen_batch                            0.3984
+array                                0.0011
+score                                0.0044
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 57103  on 122407  degrees of freedom
+Residual deviance: 56128  on 122370  degrees of freedom
+AIC: 56204
+
+Number of Fisher Scoring iterations: 5
+
+[1] "variance explained by  pT_0.01  in mdd_self is  0.000144719683713102"

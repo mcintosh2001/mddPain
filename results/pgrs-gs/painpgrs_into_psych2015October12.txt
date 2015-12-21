@@ -1,0 +1,425 @@
+pain polygenic prediction of psychol vars in GS
+
+dep_status ~ sex + age + I(age^2) + C1 + C2 + C3 + C4 + painvonkorffldpred
+                      solution  std error   z ratio
+painvonkorffldpred  0.00751198 2.6858e-03   2.79695
+C4                 -0.26694469 3.6343e-01  -0.73451
+C3                 -0.58730490 3.6156e-01  -1.62436
+C2                 -0.87717831 3.6583e-01  -2.39775
+C1                 -0.49708644 3.7476e-01  -1.32640
+I(age^2)           -0.00011229 9.1707e-06 -12.24400
+age                 0.00978818 8.7100e-04  11.23783
+sex_F               0.00000000         NA        NA
+sex_M              -0.06649470 4.9147e-03 -13.52984
+(Intercept)        -0.02465977 1.9835e-02  -1.24327
+[1] "beta for painvonkorffldpred = 0.00751198328507777"
+ 
+$Wald
+                   Df   denDF     F.inc    F.con Margin
+(Intercept)         1  6445.3 2569.0000   8.3360       
+sex                 1 19361.3  188.2000 183.1000      A
+age                 1 17185.7   19.1200 126.3000      A
+I(age^2)            1 17161.3  151.3000 149.9000      A
+C1                  1 13717.1    0.2609   1.7590      A
+C2                  1 12078.8    3.9590   5.7490      A
+C3                  1 12306.0    2.0480   2.6390      A
+C4                  1 11723.9    0.2289   0.5395      A
+painvonkorffldpred  1 14854.0    7.8230   7.8230      A
+                           Pr
+(Intercept)        3.9002e-03
+sex                1.6102e-41
+age                3.3608e-29
+I(age^2)           2.5159e-34
+C1                 1.8473e-01
+C2                 1.6511e-02
+C3                 1.0432e-01
+C4                 4.6265e-01
+painvonkorffldpred 5.1653e-03
+
+$stratumVariances
+NULL
+
+[1] "variance explained by painvonkorffldpred in dep_status = 0.000485996336718861"
+
+
+dep_status ~ sex + age + I(age^2) + C1 + C2 + C3 + C4 + pain34ldpred
+                solution  std error   z ratio
+pain34ldpred  0.00607289 2.7058e-03   2.24444
+C4           -0.20161997 3.6211e-01  -0.55679
+C3           -0.57881774 3.6176e-01  -1.60001
+C2           -0.87516310 3.6818e-01  -2.37697
+C1           -0.44716059 3.7654e-01  -1.18756
+I(age^2)     -0.00011247 9.1712e-06 -12.26329
+age           0.00980598 8.7104e-04  11.25775
+sex_F         0.00000000         NA        NA
+sex_M        -0.06647477 4.9151e-03 -13.52447
+(Intercept)  -0.02505986 1.9836e-02  -1.26338
+[1] "beta for pain34ldpred = 0.00607289328909511"
+ 
+$Wald
+             Df   denDF     F.inc   F.con Margin         Pr
+(Intercept)   1  6443.9 2569.0000   8.452        3.6593e-03
+sex           1 19361.4  188.2000 182.900      A 1.7309e-41
+age           1 17188.1   19.1200 126.700      A 2.6861e-29
+I(age^2)      1 17163.7  151.2000 150.400      A 1.9870e-34
+C1            1 13742.2    0.2611   1.410      A 2.3503e-01
+C2            1 12090.2    3.9580   5.650      A 1.7471e-02
+C3            1 12304.2    2.0480   2.560      A 1.0962e-01
+C4            1 11715.8    0.2286   0.310      A 5.7768e-01
+pain34ldpred  1 14945.9    5.0370   5.037      A 2.4819e-02
+
+$stratumVariances
+NULL
+
+[1] "variance explained by pain34ldpred in dep_status = 0.000317423521037622"
+
+
+dep_status ~ sex + age + I(age^2) + C1 + C2 + C3 + C4 + pain234ldpred
+                 solution  std error   z ratio
+pain234ldpred  0.00522099 2.6616e-03   1.96161
+C4            -0.19980326 3.6216e-01  -0.55169
+C3            -0.57059626 3.6177e-01  -1.57725
+C2            -0.79808260 3.6371e-01  -2.19428
+C1            -0.40121228 3.7463e-01  -1.07095
+I(age^2)      -0.00011238 9.1718e-06 -12.25237
+age            0.00979794 8.7109e-04  11.24787
+sex_F          0.00000000         NA        NA
+sex_M         -0.06650347 4.9152e-03 -13.53009
+(Intercept)   -0.02491756 1.9836e-02  -1.25615
+[1] "beta for pain234ldpred = 0.00522099473932294"
+ 
+$Wald
+              Df   denDF     F.inc    F.con Margin         Pr
+(Intercept)    1  6444.2 2569.0000   8.4110        3.7412e-03
+sex            1 19361.3  188.2000 183.1000      A 1.6047e-41
+age            1 17185.6   19.1200 126.5000      A 3.0021e-29
+I(age^2)       1 17161.0  151.2000 150.1000      A 2.2712e-34
+C1             1 13730.5    0.2610   1.1470      A 2.8421e-01
+C2             1 12054.3    3.9580   4.8150      A 2.8234e-02
+C3             1 12291.1    2.0480   2.4880      A 1.1476e-01
+C4             1 11727.0    0.2287   0.3044      A 5.8117e-01
+pain234ldpred  1 14901.6    3.8480   3.8480      A 4.9827e-02
+
+$stratumVariances
+NULL
+
+[1] "variance explained by pain234ldpred in dep_status = 0.00023493551625735"
+
+
+zlikert_total ~ sex + age + I(age^2) + C1 + C2 + C3 + C4 + painvonkorffldpred
+                      solution  std error   z ratio
+painvonkorffldpred  0.02389861 7.9824e-03   2.99392
+C4                 -0.19238285 1.0851e+00  -0.17730
+C3                 -0.99077211 1.0780e+00  -0.91907
+C2                 -2.64731072 1.0910e+00  -2.42657
+C1                  0.99236772 1.1145e+00   0.89043
+I(age^2)           -0.00022823 2.7162e-05  -8.40268
+age                 0.01777951 2.5724e-03   6.91174
+sex_F               0.00000000         NA        NA
+sex_M              -0.20486121 1.4476e-02 -14.15168
+(Intercept)        -0.19148316 5.8469e-02  -3.27498
+[1] "beta for painvonkorffldpred = 0.0238986080142252"
+ 
+$Wald
+                   Df   denDF     F.inc     F.con Margin
+(Intercept)         1  6662.8 1.242e-01  25.04000       
+sex                 1 19140.5 2.031e+02 200.30000      A
+age                 1 16486.2 5.518e+01  47.77000      A
+I(age^2)            1 16449.4 7.175e+01  70.61000      A
+C1                  1 14130.4 3.526e+00   0.79290      A
+C2                  1 12546.8 3.941e+00   5.88800      A
+C3                  1 12768.3 5.011e-01   0.84470      A
+C4                  1 12296.0 9.872e-03   0.03144      A
+painvonkorffldpred  1 15212.5 8.964e+00   8.96400      A
+                           Pr
+(Intercept)        5.7577e-07
+sex                3.0839e-45
+age                4.9629e-12
+I(age^2)           4.7165e-17
+C1                 3.7325e-01
+C2                 1.5257e-02
+C3                 3.5808e-01
+C4                 8.5928e-01
+painvonkorffldpred 2.7586e-03
+
+$stratumVariances
+NULL
+
+[1] "variance explained by painvonkorffldpred in zlikert_total = 0.000570061297510709"
+
+
+zlikert_total ~ sex + age + I(age^2) + C1 + C2 + C3 + C4 + pain34ldpred
+                solution  std error     z ratio
+pain34ldpred  0.02499903 0.00804273   3.1082749
+C4           -0.00932698 1.08107242  -0.0086275
+C3           -1.02595185 1.07862749  -0.9511642
+C2           -2.79070947 1.09791208  -2.5418333
+C1            0.90133519 1.11968568   0.8049895
+I(age^2)     -0.00022872 0.00002716  -8.4214202
+age           0.01782975 0.00257219   6.9317332
+sex_F         0.00000000         NA          NA
+sex_M        -0.20467779 0.01447622 -14.1388969
+(Intercept)  -0.19268847 0.05846504  -3.2957893
+[1] "beta for pain34ldpred = 0.0249990264170321"
+ 
+$Wald
+             Df   denDF     F.inc     F.con Margin         Pr
+(Intercept)   1  6662.5 1.242e-01 2.524e+01        5.1973e-07
+sex           1 19140.5 2.031e+02 1.999e+02      A 3.6915e-45
+age           1 16487.3 5.519e+01 4.805e+01      A 4.3112e-12
+I(age^2)      1 16450.4 7.175e+01 7.092e+01      A 4.0226e-17
+C1            1 14162.0 3.526e+00 6.480e-01      A 4.2084e-01
+C2            1 12566.5 3.941e+00 6.461e+00      A 1.1039e-02
+C3            1 12772.5 5.012e-01 9.047e-01      A 3.4154e-01
+C4            1 12293.3 9.877e-03 7.444e-05      A 9.9312e-01
+pain34ldpred  1 15335.0 9.661e+00 9.661e+00      A 1.8853e-03
+
+$stratumVariances
+NULL
+
+[1] "variance explained by pain34ldpred in zlikert_total = 0.00062337096627851"
+
+
+zlikert_total ~ sex + age + I(age^2) + C1 + C2 + C3 + C4 + pain234ldpred
+                 solution  std error    z ratio
+pain234ldpred  0.01668214 7.9171e-03   2.107106
+C4             0.02134899 1.0813e+00   0.019743
+C3            -0.93933212 1.0787e+00  -0.870787
+C2            -2.39771004 1.0848e+00  -2.210322
+C1             1.29414024 1.1143e+00   1.161406
+I(age^2)      -0.00022852 2.7165e-05  -8.412298
+age            0.01780960 2.5727e-03   6.922663
+sex_F          0.00000000         NA         NA
+sex_M         -0.20486632 1.4478e-02 -14.150220
+(Intercept)   -0.19226823 5.8474e-02  -3.288071
+[1] "beta for pain234ldpred = 0.0166821407353221"
+ 
+$Wald
+              Df denDF     F.inc     F.con Margin         Pr
+(Intercept)    1  6661 1.242e-01 2.517e+01        5.3836e-07
+sex            1 19140 2.031e+02 2.002e+02      A 3.1479e-45
+age            1 16485 5.517e+01 4.792e+01      A 4.5957e-12
+I(age^2)       1 16448 7.173e+01 7.077e+01      A 4.3469e-17
+C1             1 14142 3.525e+00 1.349e+00      A 2.4550e-01
+C2             1 12527 3.940e+00 4.886e+00      A 2.7101e-02
+C3             1 12754 5.010e-01 7.583e-01      A 3.8389e-01
+C4             1 12302 9.875e-03 3.898e-04      A 9.8425e-01
+pain234ldpred  1 15260 4.440e+00 4.440e+00      A 3.5125e-02
+
+$stratumVariances
+NULL
+
+[1] "variance explained by pain234ldpred in zlikert_total = 0.000277970239497101"
+
+
+gfactor ~ sex + age + I(age^2) + C1 + C2 + C3 + C4 + painvonkorffldpred
+                      solution  std error   z ratio
+painvonkorffldpred -0.02532134 7.9118e-03  -3.20046
+C4                  1.51259215 1.1017e+00   1.37295
+C3                  2.92089395 1.0918e+00   2.67519
+C2                  2.14666249 1.1093e+00   1.93508
+C1                 -0.43791426 1.1152e+00  -0.39267
+I(age^2)           -0.00078203 2.4344e-05 -32.12385
+age                 0.06686181 2.2966e-03  29.11329
+sex_F               0.00000000         NA        NA
+sex_M              -0.19360873 1.3516e-02 -14.32408
+(Intercept)        -1.15643679 5.2519e-02 -22.01949
+[1] "beta for painvonkorffldpred = -0.0253213376437747"
+ 
+$Wald
+                   Df   denDF     F.inc     F.con Margin
+(Intercept)         1  8937.5    0.1907  571.3000       
+sex                 1 18292.7  216.5000  205.2000      A
+age                 1 12066.5  182.4000  847.6000      A
+I(age^2)            1 12044.9 1028.0000 1032.0000      A
+C1                  1 17246.2    1.9650    0.1542      A
+C2                  1 16250.9    2.2070    3.7450      A
+C3                  1 16381.3    6.0990    7.1570      A
+C4                  1 16229.8    1.1780    1.8850      A
+painvonkorffldpred  1 17875.1   10.2400   10.2400      A
+                            Pr
+(Intercept)        1.9627e-122
+sex                 2.7550e-46
+age                3.7888e-180
+I(age^2)           2.5890e-217
+C1                  6.9456e-01
+C2                  5.2998e-02
+C3                  7.4761e-03
+C4                  1.6979e-01
+painvonkorffldpred  1.3745e-03
+
+$stratumVariances
+NULL
+
+[1] "variance explained by painvonkorffldpred in gfactor = 0.000648230513703785"
+
+
+gfactor ~ sex + age + I(age^2) + C1 + C2 + C3 + C4 + pain34ldpred
+                solution  std error   z ratio
+pain34ldpred -0.02250073 7.9645e-03  -2.82514
+C4            1.30298226 1.0979e+00   1.18680
+C3            2.91511149 1.0925e+00   2.66838
+C2            2.19731427 1.1165e+00   1.96805
+C1           -0.51664184 1.1204e+00  -0.46111
+I(age^2)     -0.00078145 2.4344e-05 -32.09983
+age           0.06680579 2.2966e-03  29.08867
+sex_F         0.00000000         NA        NA
+sex_M        -0.19372437 1.3517e-02 -14.33154
+(Intercept)  -1.15519451 5.2519e-02 -21.99554
+[1] "beta for pain34ldpred = -0.0225007260258902"
+ 
+$Wald
+             Df   denDF     F.inc     F.con Margin          Pr
+(Intercept)   1  8936.7    0.1907  570.2000        3.2863e-122
+sex           1 18292.3  216.5000  205.4000      A  2.4776e-46
+age           1 12066.5  182.4000  846.2000      A 7.3964e-180
+I(age^2)      1 12044.9 1028.0000 1030.0000      A 5.2714e-217
+C1            1 17253.4    1.9650    0.2126      A  6.4472e-01
+C2            1 16266.0    2.2070    3.8730      A  4.9079e-02
+C3            1 16385.0    6.0980    7.1200      A  7.6293e-03
+C4            1 16225.2    1.1780    1.4080      A  2.3532e-01
+pain34ldpred  1 17934.2    7.9810    7.9810      A  4.7312e-03
+
+$stratumVariances
+NULL
+
+[1] "variance explained by pain34ldpred in gfactor = 0.000511532557079025"
+
+
+gfactor ~ sex + age + I(age^2) + C1 + C2 + C3 + C4 + pain234ldpred
+                 solution  std error  z ratio
+pain234ldpred -0.02301683 7.8439e-03  -2.9344
+C4             1.30552264 1.0978e+00   1.1892
+C3             2.92769179 1.0925e+00   2.6797
+C2             1.96711017 1.1032e+00   1.7831
+C1            -0.53121719 1.1148e+00  -0.4765
+I(age^2)      -0.00078189 2.4346e-05 -32.1163
+age            0.06684317 2.2967e-03  29.1037
+sex_F          0.00000000         NA       NA
+sex_M         -0.19358798 1.3517e-02 -14.3219
+(Intercept)   -1.15578240 5.2521e-02 -22.0062
+[1] "beta for pain234ldpred = -0.0230168270492217"
+ 
+$Wald
+              Df   denDF     F.inc     F.con Margin          Pr
+(Intercept)    1  8936.4    0.1909  570.6000        2.6534e-122
+sex            1 18292.6  216.5000  205.1000      A  2.8436e-46
+age            1 12067.4  182.4000  847.0000      A 4.9083e-180
+I(age^2)       1 12045.9 1028.0000 1031.0000      A 3.2360e-217
+C1             1 17248.0    1.9650    0.2271      A  6.3373e-01
+C2             1 16235.0    2.2070    3.1790      A  7.4591e-02
+C3             1 16377.6    6.0990    7.1810      A  7.3752e-03
+C4             1 16230.2    1.1780    1.4140      A  2.3439e-01
+pain234ldpred  1 17932.3    8.6100    8.6100      A  3.3466e-03
+
+$stratumVariances
+NULL
+
+[1] "variance explained by pain234ldpred in gfactor = 0.000536000858696329"
+
+
+zeysenck_N ~ sex + age + I(age^2) + C1 + C2 + C3 + C4 + painvonkorffldpred
+                      solution  std error   z ratio
+painvonkorffldpred  1.7787e-02 7.8846e-03   2.25587
+C4                 -9.9701e-01 1.0743e+00  -0.92803
+C3                 -6.8495e-01 1.0669e+00  -0.64199
+C2                 -3.7979e+00 1.0806e+00  -3.51465
+C1                  6.8112e-01 1.1025e+00   0.61782
+I(age^2)           -8.8165e-05 2.6346e-05  -3.34648
+age                 4.7840e-04 2.4981e-03   0.19151
+sex_F               0.0000e+00         NA        NA
+sex_M              -3.3443e-01 1.4173e-02 -23.59607
+(Intercept)         3.3679e-01 5.6925e-02   5.91641
+[1] "beta for painvonkorffldpred = 0.0177866510564644"
+ 
+$Wald
+                   Df denDF     F.inc     F.con Margin
+(Intercept)         1  7017 1.476e-04   9.80600       
+sex                 1 19276 5.544e+02 556.80000      A
+age                 1 16207 2.876e+02   0.03667      A
+I(age^2)            1 16173 1.167e+01  11.20000      A
+C1                  1 14765 1.816e+00   0.38170      A
+C2                  1 13236 1.028e+01  12.35000      A
+C3                  1 13432 2.375e-01   0.41220      A
+C4                  1 12998 5.227e-01   0.86120      A
+painvonkorffldpred  1 15814 5.089e+00   5.08900      A
+                            Pr
+(Intercept)         1.7470e-03
+sex                2.2162e-121
+age                 8.4813e-01
+I(age^2)            8.2031e-04
+C1                  5.3671e-01
+C2                  4.4180e-04
+C3                  5.2089e-01
+C4                  3.5341e-01
+painvonkorffldpred  2.4092e-02
+
+$stratumVariances
+NULL
+
+[1] "variance explained by painvonkorffldpred in zeysenck_N = 0.000315765526945556"
+
+
+zeysenck_N ~ sex + age + I(age^2) + C1 + C2 + C3 + C4 + pain34ldpred
+                solution  std error   z ratio
+pain34ldpred  1.6928e-02 7.9406e-03   2.13183
+C4           -8.5301e-01 1.0704e+00  -0.79690
+C3           -6.9232e-01 1.0675e+00  -0.64852
+C2           -3.8611e+00 1.0875e+00  -3.55044
+C1            6.8796e-01 1.1075e+00   0.62119
+I(age^2)     -8.8558e-05 2.6345e-05  -3.36155
+age           5.1756e-04 2.4980e-03   0.20719
+sex_F         0.0000e+00         NA        NA
+sex_M        -3.3431e-01 1.4174e-02 -23.58677
+(Intercept)   3.3588e-01 5.6923e-02   5.90049
+[1] "beta for pain34ldpred = 0.0169281442151912"
+ 
+$Wald
+             Df   denDF     F.inc     F.con Margin          Pr
+(Intercept)   1  7018.4 1.485e-04   9.71000         1.8404e-03
+sex           1 19276.2 5.544e+02 556.30000      A 2.7438e-121
+age           1 16208.4 2.876e+02   0.04293      A  8.3587e-01
+I(age^2)      1 16173.6 1.166e+01  11.30000      A  7.7687e-04
+C1            1 14787.2 1.816e+00   0.38590      A  5.3448e-01
+C2            1 13257.9 1.028e+01  12.61000      A  3.8592e-04
+C3            1 13436.4 2.375e-01   0.42060      A  5.1666e-01
+C4            1 12995.5 5.228e-01   0.63500      A  4.2553e-01
+pain34ldpred  1 15920.6 4.545e+00   4.54500      A  3.3036e-02
+
+$stratumVariances
+NULL
+
+[1] "variance explained by pain34ldpred in zeysenck_N = 0.000285837418220584"
+
+
+zeysenck_N ~ sex + age + I(age^2) + C1 + C2 + C3 + C4 + pain234ldpred
+                 solution  std error   z ratio
+pain234ldpred  0.01581381 7.8130e-03   2.02405
+C4            -0.85505455 1.0705e+00  -0.79873
+C3            -0.68358272 1.0675e+00  -0.64035
+C2            -3.66503578 1.0743e+00  -3.41148
+C1             0.76113901 1.1021e+00   0.69066
+I(age^2)      -0.00008827 2.6346e-05  -3.35038
+age            0.00049217 2.4982e-03   0.19701
+sex_F          0.00000000         NA        NA
+sex_M         -0.33439797 1.4173e-02 -23.59321
+(Intercept)    0.33633737 5.6926e-02   5.90835
+[1] "beta for pain234ldpred = 0.0158138130003065"
+ 
+$Wald
+              Df   denDF     F.inc     F.con Margin          Pr
+(Intercept)    1  7016.6 1.465e-04   9.75700         1.7941e-03
+sex            1 19276.2 5.544e+02 556.60000      A 2.3670e-121
+age            1 16206.9 2.876e+02   0.03881      A  8.4382e-01
+I(age^2)       1 16172.2 1.166e+01  11.23000      A  8.0884e-04
+C1             1 14775.4 1.816e+00   0.47700      A  4.8979e-01
+C2             1 13216.7 1.028e+01  11.64000      A  6.4804e-04
+C3             1 13421.0 2.376e-01   0.41000      A  5.2196e-01
+C4             1 13003.3 5.225e-01   0.63800      A  4.2446e-01
+pain234ldpred  1 15852.4 4.097e+00   4.09700      A  4.2982e-02
+
+$stratumVariances
+NULL
+
+[1] "variance explained by pain234ldpred in zeysenck_N = 0.000249785910448975"
+

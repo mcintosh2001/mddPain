@@ -1,0 +1,48 @@
+[1] "h2CPG2cases= 0.652511208480973"
+[1] "95%CI=0.579300905937394"
+[2] "95%CI=0.736886226055854"
+[1] "1.5M burnin with 4M itterations"
+[1] "e2CPG2casesspouse= 0.272097760973972"
+[1] "95%CI=0.144016078148652"
+[2] "95%CI=0.36278551192125" 
+
+ Iterations = 1500001:3999901
+ Thinning interval  = 150
+ Sample size  = 16667 
+
+ DIC: 5277.4 
+
+ G-structure:  ~animal
+
+       post.mean l-95% CI u-95% CI
+animal      22.1     3.02     45.1
+       eff.samp
+animal     5.95
+
+               ~spouse
+
+       post.mean l-95% CI u-95% CI
+spouse      9.16    0.383     19.9
+       eff.samp
+spouse     11.8
+
+ R-structure:  ~units
+
+      post.mean l-95% CI u-95% CI
+units         1        1        1
+      eff.samp
+units        0
+
+ Location effects: CPG2cases ~ sex + age + I(age^2) 
+
+            post.mean  l-95% CI  u-95% CI
+(Intercept) -1.14e+01 -1.70e+01 -5.13e+00
+sexM        -1.84e+00 -2.79e+00 -8.60e-01
+age          2.49e-01  1.10e-01  3.82e-01
+I(age^2)    -1.68e-03 -2.72e-03 -7.27e-04
+            eff.samp  pMCMC
+(Intercept)     6.92 <6e-05
+sexM            7.89 <6e-05
+age             9.26 <6e-05
+I(age^2)       16.30 <6e-05
+[1] "model DIC for CPG2cases  with animal spouse  =5277.41215177133"

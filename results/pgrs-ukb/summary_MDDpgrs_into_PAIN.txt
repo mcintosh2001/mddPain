@@ -1,0 +1,10 @@
+Cohort	pT	Beta
+GS:SFHS	0.01	2.81e-02
+GS:SFHS	0.05	5.49e-02
+GS:SFHS	0.1	6.62e-02
+GS:SFHS	0.5	5.07e-02
+UK Biobank	0.01	1.56e-02
+UK Biobank	0.05	2.27e-02
+UK Biobank	0.1	2.56e-02
+UK Biobank	0.5	2.35e-02
+

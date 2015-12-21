@@ -1,0 +1,48 @@
+$formula
+eysenck_N ~ sex + age + I(age^2) + C1 + C2 + C3 + C4 + MDD_pT_0.05
+
+
+ Iterations = 15001:249951
+ Thinning interval  = 50
+ Sample size  = 4700 
+
+ DIC: 84523 
+
+ G-structure:  ~animal
+
+       post.mean l-95% CI u-95% CI eff.samp
+animal     0.875    0.356     1.15     6.62
+
+ R-structure:  ~units
+
+      post.mean l-95% CI u-95% CI eff.samp
+units         1        1        1        0
+
+ Location effects: eysenck_N ~ sex + age + I(age^2) + C1 + C2 + C3 + C4 + MDD_pT_0.05 
+
+            post.mean  l-95% CI  u-95% CI eff.samp  pMCMC
+(Intercept)  2.45e+00  2.11e+00  2.75e+00     16.6 <2e-04
+sexM        -6.21e-01 -6.81e-01 -5.38e-01     23.8 <2e-04
+age         -1.97e-03 -1.01e-02  7.24e-03   2940.9 0.6587
+I(age^2)    -1.34e-04 -2.26e-04 -4.41e-05   4700.0 0.0068
+C1           1.64e+00 -2.13e+00  5.07e+00   4700.0 0.3715
+C2          -6.10e+00 -9.61e+00 -2.17e+00   4700.0 0.0017
+C3          -1.38e+00 -5.20e+00  2.31e+00   4700.0 0.4609
+C4          -1.32e+00 -5.07e+00  2.31e+00   3229.1 0.4996
+MDD_pT_0.05  6.65e-02  4.13e-02  9.33e-02    598.5 <2e-04
+
+ Cutpoints: 
+                           post.mean l-95% CI u-95% CI eff.samp
+cutpoint.traiteysenck_N.1      0.796     0.69    0.849    10.25
+cutpoint.traiteysenck_N.2      1.391     1.21    1.470     8.72
+cutpoint.traiteysenck_N.3      1.893     1.68    1.996     8.30
+cutpoint.traiteysenck_N.4      2.345     2.09    2.468     6.86
+cutpoint.traiteysenck_N.5      2.767     2.45    2.908     7.35
+cutpoint.traiteysenck_N.6      3.168     2.82    3.326     7.47
+cutpoint.traiteysenck_N.7      3.571     3.17    3.745     7.09
+cutpoint.traiteysenck_N.8      3.961     3.50    4.142     6.21
+cutpoint.traiteysenck_N.9      4.379     3.87    4.579     7.07
+cutpoint.traiteysenck_N.10     4.812     4.25    5.038     6.79
+cutpoint.traiteysenck_N.11     5.491     4.84    5.755     7.93
+[1] "effect of MDD_pT_0.05 on eysenck_N = 0.0663503273009316"
+[1] "95%CI= 0.0412609806226101" "95%CI= 0.0933315203510574"

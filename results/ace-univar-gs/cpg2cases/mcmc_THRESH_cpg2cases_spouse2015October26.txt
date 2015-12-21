@@ -1,0 +1,62 @@
+
+ Iterations = 12001:511901
+ Thinning interval  = 100
+ Sample size  = 5000 
+
+ DIC: 11722 
+
+ G-structure:  ~animal
+
+       post.mean l-95% CI u-95% CI eff.samp
+animal      3.46     2.16      4.9      128
+
+               ~sib
+
+    post.mean l-95% CI u-95% CI eff.samp
+sib     0.413    0.111    0.752      233
+
+ R-structure:  ~units
+
+      post.mean l-95% CI u-95% CI eff.samp
+units         2        2        2        0
+
+ Location effects: CPG2cases ~ sex + age + I(age^2) 
+
+            post.mean  l-95% CI  u-95% CI eff.samp
+(Intercept) -4.956771 -5.717841 -4.185161      231
+sexM        -0.796507 -0.950084 -0.647053      449
+age          0.109111  0.083949  0.134274      489
+I(age^2)    -0.000741 -0.000989 -0.000509     1060
+             pMCMC
+(Intercept) <2e-04
+sexM        <2e-04
+age         <2e-04
+I(age^2)    <2e-04
+[1] "DIC for sib  = 11722.1448519339"
+, , animal
+
+           animal       sib units
+Lag 0    1.000000  0.028202   NaN
+Lag 100  0.947030  0.031695   NaN
+Lag 500  0.771198  0.036282   NaN
+Lag 1000 0.595191  0.046404   NaN
+Lag 5000 0.046363 -0.025047   NaN
+
+, , sib
+
+            animal      sib units
+Lag 0     0.028202 1.000000   NaN
+Lag 100   0.030202 0.905202   NaN
+Lag 500   0.029095 0.640934   NaN
+Lag 1000  0.025985 0.413700   NaN
+Lag 5000 -0.030480 0.036583   NaN
+
+, , units
+
+         animal sib units
+Lag 0       NaN NaN   NaN
+Lag 100     NaN NaN   NaN
+Lag 500     NaN NaN   NaN
+Lag 1000    NaN NaN   NaN
+Lag 5000    NaN NaN   NaN
+

@@ -1,0 +1,3 @@
+$formula
+CPGquant ~ sex + age + I(age^2) + pain234ldpred
+

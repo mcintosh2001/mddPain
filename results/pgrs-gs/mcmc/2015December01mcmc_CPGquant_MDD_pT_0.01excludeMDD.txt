@@ -1,0 +1,40 @@
+$formula
+CPGquant ~ sex + age + I(age^2) + C1 + C2 + C3 + C4 + MDD_pT_0.01
+
+
+ Iterations = 15001:249951
+ Thinning interval  = 50
+ Sample size  = 4700 
+
+ DIC: 26029 
+
+ G-structure:  ~animal
+
+       post.mean l-95% CI u-95% CI eff.samp
+animal      1.05    0.806     1.33      172
+
+ R-structure:  ~units
+
+      post.mean l-95% CI u-95% CI eff.samp
+units         1        1        1        0
+
+ Location effects: CPGquant ~ sex + age + I(age^2) + C1 + C2 + C3 + C4 + MDD_pT_0.01 
+
+            post.mean  l-95% CI  u-95% CI eff.samp  pMCMC
+(Intercept) -3.02e+00 -3.33e+00 -2.69e+00     1176 <2e-04
+sexM        -3.29e-01 -3.98e-01 -2.58e-01     4225 <2e-04
+age          8.13e-02  6.78e-02  9.42e-02     2437 <2e-04
+I(age^2)    -5.59e-04 -6.95e-04 -4.27e-04     3584 <2e-04
+C1          -3.38e+00 -8.65e+00  1.71e+00     4496  0.197
+C2          -3.59e+00 -8.87e+00  1.25e+00     4700  0.158
+C3           8.95e-01 -4.06e+00  6.00e+00     4700  0.728
+C4          -6.83e+00 -1.20e+01 -1.83e+00     4700  0.012
+MDD_pT_0.01  1.61e-02 -2.00e-02  5.14e-02     4700  0.394
+
+ Cutpoints: 
+                         post.mean l-95% CI u-95% CI eff.samp
+cutpoint.traitCPGquant.1      1.15     1.09     1.21      272
+cutpoint.traitCPGquant.2      2.21     2.11     2.33      229
+cutpoint.traitCPGquant.3      2.79     2.66     2.94      254
+[1] "effect of MDD_pT_0.01 on CPGquant excluding MDD cases = 0.022952876123879"
+[1] "95%CI= -0.0200483481457923" "95%CI= 0.0514451192284469" 
